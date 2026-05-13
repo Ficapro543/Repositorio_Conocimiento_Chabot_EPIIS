@@ -1,0 +1,124 @@
+{
+  "version": "1.0.0",
+  "fuente_normativa": "Reglamento de Tutoría Académica UNSAAC",
+  "resolucion": "N° CU-0220-2017-UNSAAC",
+  "fecha_aprobacion": "2017-05-24",
+  "base_legal": {
+    "ley_universitaria": "Ley N° 30220, Art. 87.5",
+    "estatuto_unsaac": "Art. 195.5"
+  },
+  "definicion": {
+    "art": "Art. 3°",
+    "texto": "La Tutoría Académica es un proceso permanente de acompañamiento durante la formación de los estudiantes, que se concreta mediante la atención personalizada o grupal por parte de docentes, orientándolos y proporcionándoles seguimiento en los aspectos psicosociales, cognitivos y afectivos del aprendizaje."
+  },
+  "fines": {
+    "art": "Art. 4°",
+    "descripcion": "Constituirse como medio para hacer auténticos los fines de la Ley Universitaria, asegurar la excelencia integral y sostenible en la formación profesional.",
+    "nota_especial": "Es obligatorio asignar un tutor al estudiante con matrícula condicionada."
+  },
+  "sujetos": {
+    "art": "Art. 6°",
+    "tutor": "Docente universitario con régimen de tiempo completo o dedicación exclusiva, acreditado para promover la formación integral.",
+    "tutorado": "El estudiante universitario."
+  },
+  "dimensiones": {
+    "art": "Art. 7°",
+    "academica": [
+      "Conocer las exigencias de las diversas opciones académicas",
+      "Aprender habilidades de estudio eficaces",
+      "Fomentar habilidades de pensamiento crítico",
+      "Identificar los estilos de aprendizaje individuales",
+      "Promover habilidades de toma de decisiones"
+    ],
+    "personal": [
+      "Fomentar el conocimiento y aceptación de sí mismo",
+      "Desarrollar el sentido de la responsabilidad personal",
+      "Promover habilidades interpersonales y de comunicación",
+      "Promover el trabajo en grupo",
+      "Fomentar la comprensión y el respeto hacia los demás"
+    ],
+    "profesional": [
+      "Conocer características, intereses, aptitudes y habilidades propias",
+      "Fomentar el conocimiento del mundo del trabajo",
+      "Comprender la relación entre rendimiento académico y elecciones de futuro",
+      "Desarrollar actitud positiva hacia el mundo del trabajo",
+      "Examinar la influencia de los cambios en el mundo del trabajo"
+    ]
+  },
+  "estructura_tutorial": {
+    "art": "Art. 8°",
+    "comite_tutorial": {
+      "integrantes": ["Decano", "Director de Escuela Profesional", "Docente elegido por Consejo de Facultad"],
+      "funciones_art": "Art. 9°"
+    },
+    "tutores": "Conjunto de docentes de la Escuela Profesional adscritos al departamento académico."
+  },
+  "periodicidad": {
+    "art": "Art. 12°",
+    "modalidades": "Entrevistas programadas, comentarios de trabajos u otras actividades.",
+    "momentos_clave_semestre": [
+      "Al comienzo del curso académico",
+      "Después de la primera evaluación parcial",
+      "Una semana antes de la finalización del semestre"
+    ],
+    "sesiones_adicionales": "El tutor valorará más reuniones según necesidades; el estudiante puede solicitarlas."
+  },
+  "funciones_tutor": {
+    "art": "Art. 13°",
+    "principales": [
+      "Recibir información de docentes sobre sus tutorados (13.1)",
+      "Contactar a estudiantes con inasistencias frecuentes (13.2)",
+      "Comunicar aspectos relevantes al Comité Tutorial (13.3)",
+      "Orientar individualmente en procesos de aprendizaje (13.6)",
+      "Mantener registro de visitas, reuniones y seguimiento (13.7)",
+      "Derivar al estudiante a servicios especializados cuando sea necesario (13.9)"
+    ],
+    "atencion_especial": {
+      "ingresantes": "Art. 13.5 - especial atención en el primer semestre de Estudios Generales",
+      "egresantes": "Art. 13.6 - preparación ante la futura salida a la vida profesional",
+      "discapacidad": "Art. 13.6 - atiende especificidades de estudiantes con discapacidad"
+    }
+  },
+  "asignacion_tutores": {
+    "art": "Art. 14°",
+    "desde": "Primer semestre de estudios",
+    "hasta": "Culminación del plan curricular",
+    "maximo_tutorados": 25,
+    "cambio_tutor": "El estudiante puede solicitar cambio razonadamente al Comité Tutorial; resuelve el Vicerrectorado Académico en última instancia."
+  },
+  "confidencialidad": {
+    "art": "Art. 15°",
+    "deber": "Los tutores tienen deber de confidencialidad sobre la información de los estudiantes.",
+    "excepcion": "En casos graves, puede informar a padres/representantes legales solo en circunstancias excepcionales (Art. 13.8).",
+    "normativa": "Respeta la normativa de Protección de Datos de Carácter Personal."
+  },
+  "evaluacion_programa": {
+    "art": "Art. 16°",
+    "frecuencia": "Al finalizar el año académico",
+    "indicadores": [
+      "Cantidad y calidad de profesores participantes",
+      "Cantidad de estudiantes participantes",
+      "Cumplimiento de objetivos",
+      "Tasa de deserción y permanencia",
+      "Nivel de satisfacción de estudiantes y docentes"
+    ],
+    "reporte": "El Comité Tutorial informa al Vicerrectorado Académico."
+  },
+  "qa_entries": [
+    {
+      "id": "TUT-001", "intent": "consulta_tutoria_definicion",
+      "pregunta": "¿Qué es la tutoría académica en la UNSAAC?",
+      "respuesta": "La Tutoría Académica es un proceso permanente de acompañamiento que se concreta mediante atención personalizada o grupal por docentes, orientando al estudiante en aspectos psicosociales, cognitivos y afectivos del aprendizaje (Art. 3°, Res. N° CU-0220-2017-UNSAAC)."
+    },
+    {
+      "id": "TUT-005", "intent": "consulta_tutoria_obligatoriedad",
+      "pregunta": "¿La asistencia a tutoría es obligatoria?",
+      "respuesta": "Sí. El Comité Tutorial determina la frecuencia mínima obligatoria de entrevistas (Art. 12.2). Para estudiantes con matrícula condicionada, la asignación de tutor es mandatoria (Art. 4°)."
+    },
+    {
+      "id": "TUT-010", "intent": "consulta_tutoria_confidencialidad",
+      "pregunta": "¿Las sesiones de tutoría son confidenciales?",
+      "respuesta": "Sí. El tutor tiene deber de confidencialidad (Art. 15.1). Solo en circunstancias graves y excepcionales puede informar a padres o representantes, procurando que sea el propio estudiante quien tome la iniciativa (Art. 13.8)."
+    }
+  ]
+}

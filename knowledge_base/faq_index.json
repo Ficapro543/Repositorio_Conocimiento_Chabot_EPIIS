@@ -1,0 +1,114 @@
+{
+  "version": "1.0.0",
+  "descripcion": "Índice rápido de preguntas frecuentes para el chatbot académico EPIIS-UNSAAC. Permite recuperación directa por categoría o por intent_id sin cargar el corpus completo.",
+  "total_preguntas": 100,
+  "total_categorias": 10,
+  "indice": {
+    "TUT": {
+      "nombre": "Proceso de Tutorías",
+      "preguntas_count": 10,
+      "preguntas_top": [
+        {"id":"TUT-001","intent":"consulta_tutoria_definicion","pregunta_corta":"¿Qué es la tutoría académica?","prioridad":"alta"},
+        {"id":"TUT-002","intent":"consulta_tutoria_frecuencia","pregunta_corta":"¿Con qué frecuencia debo ir a tutoría?","prioridad":"alta"},
+        {"id":"TUT-005","intent":"consulta_tutoria_obligatoriedad","pregunta_corta":"¿Es obligatoria la asistencia a tutoría?","prioridad":"alta"},
+        {"id":"TUT-007","intent":"consulta_tutoria_cambio_tutor","pregunta_corta":"¿Puedo cambiar de tutor?","prioridad":"media"},
+        {"id":"TUT-010","intent":"consulta_tutoria_confidencialidad","pregunta_corta":"¿La tutoría es confidencial?","prioridad":"media"}
+      ]
+    },
+    "TTUT": {
+      "nombre": "Tipos de Tutoría",
+      "preguntas_count": 10,
+      "preguntas_top": [
+        {"id":"TTUT-001","intent":"consulta_tipos_tutoria_general","pregunta_corta":"¿Qué tipos de tutoría existen?","prioridad":"alta"},
+        {"id":"TTUT-007","intent":"consulta_tipos_tutoria_ingresantes","pregunta_corta":"¿Hay tutoría especial para ingresantes?","prioridad":"alta"},
+        {"id":"TTUT-008","intent":"consulta_tipos_tutoria_riesgo_academico","pregunta_corta":"¿Hay tutoría para bajo rendimiento?","prioridad":"alta"}
+      ]
+    },
+    "MAT": {
+      "nombre": "Matrícula",
+      "preguntas_count": 10,
+      "preguntas_top": [
+        {"id":"MAT-001","intent":"consulta_mat_fechas_matricula","pregunta_corta":"¿Cuándo es la matrícula?","prioridad":"muy_alta"},
+        {"id":"MAT-002","intent":"consulta_mat_proceso_serunsa","pregunta_corta":"¿Cómo me matriculo en SERUNSA?","prioridad":"muy_alta"},
+        {"id":"MAT-003","intent":"consulta_mat_requisitos","pregunta_corta":"¿Qué requisitos necesito para matricularme?","prioridad":"alta"},
+        {"id":"MAT-006","intent":"consulta_mat_creditos_maximo","pregunta_corta":"¿Cuántos créditos máximos puedo llevar?","prioridad":"alta"},
+        {"id":"MAT-008","intent":"consulta_mat_condicional","pregunta_corta":"¿Qué es la matrícula condicional?","prioridad":"media"}
+      ]
+    },
+    "TIT": {
+      "nombre": "Titulación",
+      "preguntas_count": 10,
+      "preguntas_top": [
+        {"id":"TIT-001","intent":"consulta_tit_modalidades","pregunta_corta":"¿Cuáles son las modalidades de titulación?","prioridad":"muy_alta"},
+        {"id":"TIT-002","intent":"consulta_tit_requisitos_inicio","pregunta_corta":"¿Qué requisitos necesito para titularme?","prioridad":"muy_alta"},
+        {"id":"TIT-003","intent":"consulta_tit_grado_bachiller","pregunta_corta":"¿Cómo obtengo el grado de bachiller?","prioridad":"alta"}
+      ]
+    },
+    "PPP": {
+      "nombre": "Prácticas Pre-Profesionales",
+      "preguntas_count": 10,
+      "preguntas_top": [
+        {"id":"PPP-001","intent":"consulta_ppp_requisitos_inicio","pregunta_corta":"¿Qué requisitos necesito para las prácticas?","prioridad":"muy_alta"},
+        {"id":"PPP-002","intent":"consulta_ppp_horas_acumuladas","pregunta_corta":"¿Cuántas horas de prácticas debo hacer?","prioridad":"alta"},
+        {"id":"PPP-006","intent":"consulta_ppp_remuneracion","pregunta_corta":"¿Las prácticas son remuneradas?","prioridad":"alta"},
+        {"id":"PPP-010","intent":"consulta_ppp_requisito_titulacion","pregunta_corta":"¿Las prácticas son requisito para titularme?","prioridad":"alta"}
+      ]
+    },
+    "BIE": {
+      "nombre": "Bienestar Universitario",
+      "preguntas_count": 10,
+      "preguntas_top": [
+        {"id":"BIE-001","intent":"consulta_bie_servicios_generales","pregunta_corta":"¿Qué servicios de bienestar ofrece la UNSAAC?","prioridad":"alta"},
+        {"id":"BIE-002","intent":"consulta_bie_atencion_psicologica","pregunta_corta":"¿Cómo accedo a psicología gratuita?","prioridad":"alta"},
+        {"id":"BIE-003","intent":"consulta_bie_beca_alimentacion","pregunta_corta":"¿Cómo solicito beca de alimentación?","prioridad":"alta"}
+      ]
+    },
+    "MOV": {
+      "nombre": "Movilidad Estudiantil",
+      "preguntas_count": 10,
+      "preguntas_top": [
+        {"id":"MOV-001","intent":"consulta_mov_programas_disponibles","pregunta_corta":"¿Qué programas de movilidad hay?","prioridad":"media"},
+        {"id":"MOV-002","intent":"consulta_mov_requisitos_intercambio","pregunta_corta":"¿Qué requisitos necesito para intercambio?","prioridad":"media"}
+      ]
+    },
+    "CUR": {
+      "nombre": "Cursos y Semestres",
+      "preguntas_count": 10,
+      "preguntas_top": [
+        {"id":"CUR-001","intent":"consulta_cursos_duracion_carrera","pregunta_corta":"¿Cuántos semestres tiene la carrera?","prioridad":"alta"},
+        {"id":"CUR-002","intent":"consulta_cursos_total_creditos","pregunta_corta":"¿Cuántos créditos necesito para graduarme?","prioridad":"alta"},
+        {"id":"CUR-005","intent":"consulta_cursos_desaprobacion","pregunta_corta":"¿Qué pasa si desapruebo un curso?","prioridad":"alta"}
+      ]
+    },
+    "ESP": {
+      "nombre": "Especialidades de la Escuela",
+      "preguntas_count": 10,
+      "preguntas_top": [
+        {"id":"ESP-001","intent":"consulta_esp_listado_especialidades","pregunta_corta":"¿Qué especialidades ofrece la EPIIS?","prioridad":"alta"},
+        {"id":"ESP-002","intent":"consulta_esp_cuando_elegir","pregunta_corta":"¿Cuándo debo elegir mi especialidad?","prioridad":"alta"}
+      ]
+    },
+    "SER": {
+      "nombre": "Servicios Universitarios",
+      "preguntas_count": 10,
+      "preguntas_top": [
+        {"id":"SER-001","intent":"consulta_ser_biblioteca","pregunta_corta":"¿Cómo accedo a la biblioteca?","prioridad":"alta"},
+        {"id":"SER-004","intent":"consulta_ser_aula_virtual","pregunta_corta":"¿Cómo accedo al aula virtual?","prioridad":"muy_alta"},
+        {"id":"SER-009","intent":"consulta_ser_tupa","pregunta_corta":"¿Qué es el TUPA y dónde lo consulto?","prioridad":"media"}
+      ]
+    }
+  },
+  "busqueda_rapida": {
+    "descripcion": "Mapa directo intent_id → id de entrada para recuperación O(1)",
+    "mapa_muestra": {
+      "consulta_tutoria_definicion": "TUT-001",
+      "consulta_tutoria_frecuencia": "TUT-002",
+      "consulta_mat_fechas_matricula": "MAT-001",
+      "consulta_tit_modalidades": "TIT-001",
+      "consulta_ppp_requisitos_inicio": "PPP-001",
+      "consulta_bie_servicios_generales": "BIE-001",
+      "consulta_ser_aula_virtual": "SER-004"
+    },
+    "nota": "Mapa completo de 100 intents disponible en intents.json"
+  }
+}

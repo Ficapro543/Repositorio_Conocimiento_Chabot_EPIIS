@@ -1,0 +1,142 @@
+[
+  {
+    "id": "TUT-001",
+    "categoria": "TUT - Proceso de Tutorías",
+    "pregunta": "¿Qué es la tutoría académica en la UNSAAC?",
+    "respuesta": "La Tutoría Académica es un proceso permanente de acompañamiento durante la formación de los estudiantes, concretado mediante la atención personalizada o grupal por parte de docentes, orientándolos en los aspectos psicosociales, cognitivos y afectivos del aprendizaje (Art. 3.°, Reglamento de Tutoría Académica UNSAAC, 2017).",
+    "intent": "consulta_tutoria_definicion",
+    "variaciones": [
+      "¿En qué consiste la tutoría?",
+      "¿Cómo funciona la tutoría universitaria?",
+      "¿Qué significa tutoría en la universidad?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC (Res. N.° CU-0220-2017-UNSAAC)",
+    "tags": ["definicion", "tutoría", "unsaac"]
+  },
+  {
+    "id": "TUT-002",
+    "categoria": "TUT - Proceso de Tutorías",
+    "pregunta": "¿Con qué frecuencia debo asistir a las sesiones de tutoría?",
+    "respuesta": "El reglamento establece un mínimo de tres encuentros por semestre: al inicio del curso académico, después de la primera evaluación parcial y una semana antes de la finalización del semestre (Art. 12.3). El tutor puede proponer sesiones adicionales según las necesidades del tutorado (Art. 12.4).",
+    "intent": "consulta_tutoria_frecuencia",
+    "variaciones": [
+      "¿Cuántas veces al mes es la tutoría?",
+      "¿Cada cuánto tiempo son las reuniones con el tutor?",
+      "¿Qué tan seguido hay sesiones de tutoría?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC (Res. N.° CU-0220-2017-UNSAAC)",
+    "tags": ["frecuencia", "sesiones", "reglamento"]
+  },
+  {
+    "id": "TTUT-001",
+    "categoria": "TTUT - Tipos de Tutoría",
+    "pregunta": "¿Cuáles son los tipos de tutoría que ofrece la escuela?",
+    "respuesta": "La tutoría académica en la UNSAAC se realiza de manera personalizada y grupal (Art. 7.°), comprendiendo: (1) Tutoría Individual, (2) Tutoría Grupal y (3) Tutoría entre Pares.",
+    "intent": "consulta_tipos_tutoria_general",
+    "variaciones": [
+      "¿Qué modalidades de tutoría existen?",
+      "¿Cuántas clases de tutoría hay?",
+      "¿De qué tipos es la tutoría en la UNSAAC?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC (Res. N.° CU-0220-2017-UNSAAC)",
+    "tags": ["modalidades", "tipos", "tutoría"]
+  },
+  {
+    "id": "CUR-001",
+    "categoria": "CUR - Cursos y Semestres",
+    "pregunta": "¿Cuántos semestres tiene la carrera de Ingeniería Informática y de Sistemas?",
+    "respuesta": "La carrera de Ingeniería Informática y de Sistemas de la UNSAAC tiene una duración de 10 semestres académicos, equivalentes a 5 años de estudios. El plan de estudios vigente corresponde al currículo 2022.",
+    "intent": "consulta_cursos_duracion_carrera",
+    "variaciones": [
+      "¿Cuántos ciclos tiene la carrera?",
+      "¿Cuántos años dura la carrera?",
+      "¿Qué duración tiene la carrera de sistemas?"
+    ],
+    "fuente": "Plan de Estudios EPIIS 2022, Reglamento Académico UNSAAC",
+    "tags": ["duracion", "semestres", "carrera"]
+  },
+  {
+    "id": "ESP-001",
+    "categoria": "ESP - Especialidades de la Escuela",
+    "pregunta": "¿Cuáles son las especialidades que ofrece la Escuela de Ingeniería Informática y de Sistemas?",
+    "respuesta": "La EPIIS ofrece cuatro líneas de especialización en los semestres superiores: (1) Ingeniería de Software, (2) Redes y Telecomunicaciones, (3) Inteligencia Artificial y Ciencia de Datos, y (4) Seguridad Informática. La elección se realiza a partir del VII semestre.",
+    "intent": "consulta_esp_listado_especialidades",
+    "variaciones": [
+      "¿Qué especializaciones hay en la carrera?",
+      "¿En qué áreas me puedo especializar?",
+      "¿Cuántas especialidades tiene la carrera de sistemas?"
+    ],
+    "fuente": "Plan de Estudios EPIIS 2022, Dirección de la Escuela Profesional",
+    "tags": ["especialidades", "software", "redes", "IA", "seguridad"]
+  },
+  {
+    "id": "PPP-001",
+    "categoria": "PPP - Prácticas Pre-Profesionales",
+    "pregunta": "¿Cuáles son los requisitos para iniciar las prácticas pre-profesionales?",
+    "respuesta": "Los requisitos incluyen haber aprobado una cantidad mínima de créditos (generalmente a partir del VIII semestre) y contar con una empresa aceptante. Se debe tramitar la carta de presentación ante la escuela.",
+    "intent": "consulta_ppp_requisitos_inicio",
+    "variaciones": [
+      "¿Qué necesito para empezar mis prácticas?",
+      "¿Cuándo puedo iniciar mis PPP?",
+      "¿Cuáles son los pasos para hacer prácticas?"
+    ],
+    "fuente": "Reglamento de Prácticas Pre-Profesionales UNSAAC",
+    "tags": ["prácticas", "requisitos", "PPP"]
+  },
+  {
+    "id": "MAT-001",
+    "categoria": "MAT - Matrícula",
+    "pregunta": "¿Cuándo se realizan las matrículas en la UNSAAC?",
+    "respuesta": "Las fechas de matrícula son establecidas en el calendario académico semestral aprobado por el Consejo Universitario. Generalmente ocurren dos semanas antes del inicio de clases y se publican en el portal SERUNSA.",
+    "intent": "consulta_mat_fechas_matricula",
+    "variaciones": [
+      "¿En qué fechas son las inscripciones?",
+      "¿Cuándo es la matrícula del próximo semestre?",
+      "¿Cronograma de matrícula UNSAAC?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC, Portal SERUNSA",
+    "tags": ["matrícula", "fechas", "cronograma"]
+  },
+  {
+    "id": "TIT-001",
+    "categoria": "TIT - Titulación",
+    "pregunta": "¿Cuáles son las modalidades de titulación disponibles en la EPIIS?",
+    "respuesta": "Las modalidades incluyen: Tesis, Trabajo de Suficiencia Profesional y Examen de Suficiencia Profesional. Cada una tiene requisitos específicos detallados en el reglamento de grados y títulos.",
+    "intent": "consulta_tit_modalidades",
+    "variaciones": [
+      "¿Cómo me puedo titular?",
+      "¿Qué opciones de titulación hay?",
+      "¿Formas de obtener el título profesional?"
+    ],
+    "fuente": "Reglamento de Grados y Títulos UNSAAC",
+    "tags": ["titulación", "modalidades", "tesis"]
+  },
+  {
+    "id": "BIE-001",
+    "categoria": "BIE - Bienestar Universitario",
+    "pregunta": "¿Qué servicios de bienestar ofrece la UNSAAC a sus estudiantes?",
+    "respuesta": "Ofrece servicios de salud, comedor universitario, apoyo social, orientación psicológica y becas de alimentación, gestionados por la Dirección de Bienestar.",
+    "intent": "consulta_bie_servicios_generales",
+    "variaciones": [
+      "¿Qué beneficios tiene el estudiante en bienestar?",
+      "¿Qué servicios hay en bienestar universitario?",
+      "¿Cómo me ayuda la oficina de bienestar?"
+    ],
+    "fuente": "Reglamento de Bienestar Universitario UNSAAC",
+    "tags": ["bienestar", "servicios", "comedor", "salud"]
+  },
+  {
+    "id": "SER-002",
+    "categoria": "SER - Servicios Universitarios",
+    "pregunta": "¿Cómo obtengo mi correo institucional de la UNSAAC?",
+    "respuesta": "El correo institucional se solicita a través del centro de cómputo o el portal SERUNSA al momento del primer ingreso o matrícula. Es fundamental para comunicaciones oficiales y acceso a herramientas académicas.",
+    "intent": "consulta_ser_correo_institucional",
+    "variaciones": [
+      "¿Cómo activo mi correo de la universidad?",
+      "¿Dónde pido mi correo institucional?",
+      "¿Cuál es el proceso para el correo de alumno?"
+    ],
+    "fuente": "Dirección de Tecnologías de Información (DTI) UNSAAC",
+    "tags": ["correo", "institucional", "TIC"]
+  }
+]
