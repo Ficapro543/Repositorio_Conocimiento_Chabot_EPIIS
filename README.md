@@ -1,5 +1,10 @@
-Repositorio de Conocimientos para el Chatbot EPIIS
+# Repositorio de Conocimientos para el Chatbot EPIIS
 
+## Descripcion
+Repositorio con archivos de conocimiento, corpus, fuentes y scripts del chatbot.
+
+## Estructura del repositorio
+```
 REPOSITORIO_CONOCIMIENTO_CHATBOT_EPIIS/
 ├── corpus/
 │   └── corpus_general.json
@@ -28,3 +33,4 @@ REPOSITORIO_CONOCIMIENTO_CHATBOT_EPIIS/
     ├── arquitectura_repositorio.docx
     ├── corpus_chatbot_epiis.docx
     └── manual_actualizacion.md
+```
