@@ -1,0 +1,82 @@
+{
+  "version": "1.0.0",
+  "categoria_id": "PPP",
+  "nombre": "Prácticas Pre-Profesionales",
+  "fuentes_normativas": [
+    "Reglamento de Prácticas Pre-Profesionales UNSAAC",
+    "Ley N° 28518 - Ley de Modalidades Formativas Laborales",
+    "Decreto Legislativo N° 1401 - Régimen de formación laboral en el sector público"
+  ],
+  "requisitos_inicio": {
+    "descripcion": "Para iniciar las prácticas pre-profesionales el estudiante debe cumplir:",
+    "condiciones": [
+      "Haber cursado y aprobado el IX semestre",
+      "Tener un promedio ponderado mínimo de 11 sobre 20",
+      "Contar con carta de presentación emitida por la Dirección de la Escuela",
+      "Tener acuerdo firmado con una empresa o institución convenio",
+      "Estar matriculado en el curso de Prácticas Pre-Profesionales"
+    ]
+  },
+  "duracion": {
+    "horas_minimas": 300,
+    "equivalencia": "Aproximadamente tres meses a tiempo completo",
+    "observacion": "Este mínimo es exigido para la validación académica y trámites de titulación."
+  },
+  "empresa_centro_practicas": {
+    "prioridad": "Empresas con convenio vigente con la UNSAAC",
+    "sin_convenio": "Posible con carta de autorización de la Dirección de Escuela, si la institución está formalmente constituida y las actividades corresponden al perfil de la carrera.",
+    "sector_publico": {
+      "permitido": true,
+      "norma": "Decreto Legislativo N° 1401",
+      "ejemplos": ["Municipalidades", "Gobiernos regionales", "Ministerios", "Empresas estatales"]
+    },
+    "trabajo_actual": "Es posible si las actividades corresponden al perfil de la carrera y se cuenta con supervisor técnico interno. Requiere autorización de la Dirección de Escuela."
+  },
+  "carta_presentacion": {
+    "emisor": "Dirección de la Escuela Profesional",
+    "documentos_requeridos": [
+      "Solicitud en secretaría de la escuela",
+      "Comprobante de matrícula vigente",
+      "Constancia de notas actualizada",
+      "Datos de la empresa receptora"
+    ],
+    "plazo_emision": "Tres días hábiles"
+  },
+  "remuneracion": {
+    "norma": "Ley N° 28518",
+    "subvencion_minima": "50% de la Remuneración Mínima Vital vigente",
+    "seguro_salud": true,
+    "nota": "Condiciones deben estar estipuladas en el convenio de prácticas."
+  },
+  "supervision_universitaria": {
+    "responsable": "Asesor de Prácticas (docente designado por la Dirección de Escuela)",
+    "actividades": [
+      "Realiza visitas o reuniones de seguimiento",
+      "Evalúa el informe final",
+      "Recibe la calificación del supervisor de la empresa",
+      "Emite la nota definitiva"
+    ]
+  },
+  "informe_final": {
+    "descripcion": "Documento técnico que describe actividades realizadas, aprendizajes obtenidos y aportes a la organización.",
+    "presentacion": "Unidad de Prácticas de la Escuela al finalizar las prácticas",
+    "formato": "Formato oficial disponible en secretaría de la escuela"
+  },
+  "relacion_titulacion": {
+    "es_requisito": true,
+    "descripcion": "La aprobación del curso de Prácticas Pre-Profesionales y la presentación del informe son requisitos obligatorios para iniciar el trámite de titulación.",
+    "expediente": "El certificado de prácticas debe adjuntarse al expediente de titulación."
+  },
+  "qa_entries": [
+    {
+      "id": "PPP-001", "intent": "consulta_ppp_requisitos_inicio",
+      "pregunta": "¿Cuáles son los requisitos para iniciar las prácticas pre-profesionales?",
+      "respuesta": "Debes: (1) haber aprobado el IX semestre, (2) tener promedio mínimo de 11, (3) contar con carta de presentación, (4) tener acuerdo firmado con empresa o institución y (5) estar matriculado en el curso de PPP."
+    },
+    {
+      "id": "PPP-006", "intent": "consulta_ppp_remuneracion",
+      "pregunta": "¿Las prácticas pre-profesionales son remuneradas?",
+      "respuesta": "Sí. Según la Ley N° 28518, el practicante debe recibir subvención económica no menor al 50% de la RMV vigente, además de seguro de salud. Estas condiciones deben constar en el convenio de prácticas."
+    }
+  ]
+}
