@@ -73,7 +73,7 @@
     "id": "PPP-001",
     "categoria": "PPP - Prácticas Pre-Profesionales",
     "pregunta": "¿Cuáles son los requisitos para iniciar las prácticas pre-profesionales?",
-    "respuesta": "Los requisitos incluyen haber aprobado una cantidad mínima de créditos (generalmente a partir del VIII semestre) y contar con una empresa aceptante. Se debe tramitar la carta de presentación ante la escuela.",
+    "respuesta": "Los requisitos incluyen haber aprobado 200 créditos y contar con una empresa aceptante. Se debe tramitar la carta de presentación ante la escuela.",
     "intent": "consulta_ppp_requisitos_inicio",
     "variaciones": [
       "¿Qué necesito para empezar mis prácticas?",
