@@ -45,39 +45,13 @@
       "Examinar la influencia de los cambios en el mundo del trabajo"
     ]
   },
-  "estructura_tutorial": {
-    "art": "Art. 8°",
-    "comite_tutorial": {
-      "integrantes": ["Decano", "Director de Escuela Profesional", "Docente elegido por Consejo de Facultad"],
-      "funciones_art": "Art. 9°"
-    },
-    "tutores": "Conjunto de docentes de la Escuela Profesional adscritos al departamento académico."
-  },
   "periodicidad": {
     "art": "Art. 12°",
-    "modalidades": "Entrevistas programadas, comentarios de trabajos u otras actividades.",
     "momentos_clave_semestre": [
       "Al comienzo del curso académico",
       "Después de la primera evaluación parcial",
       "Una semana antes de la finalización del semestre"
-    ],
-    "sesiones_adicionales": "El tutor valorará más reuniones según necesidades; el estudiante puede solicitarlas."
-  },
-  "funciones_tutor": {
-    "art": "Art. 13°",
-    "principales": [
-      "Recibir información de docentes sobre sus tutorados (13.1)",
-      "Contactar a estudiantes con inasistencias frecuentes (13.2)",
-      "Comunicar aspectos relevantes al Comité Tutorial (13.3)",
-      "Orientar individualmente en procesos de aprendizaje (13.6)",
-      "Mantener registro de visitas, reuniones y seguimiento (13.7)",
-      "Derivar al estudiante a servicios especializados cuando sea necesario (13.9)"
-    ],
-    "atencion_especial": {
-      "ingresantes": "Art. 13.5 - especial atención en el primer semestre de Estudios Generales",
-      "egresantes": "Art. 13.6 - preparación ante la futura salida a la vida profesional",
-      "discapacidad": "Art. 13.6 - atiende especificidades de estudiantes con discapacidad"
-    }
+    ]
   },
   "asignacion_tutores": {
     "art": "Art. 14°",
@@ -89,36 +63,6 @@
   "confidencialidad": {
     "art": "Art. 15°",
     "deber": "Los tutores tienen deber de confidencialidad sobre la información de los estudiantes.",
-    "excepcion": "En casos graves, puede informar a padres/representantes legales solo en circunstancias excepcionales (Art. 13.8).",
-    "normativa": "Respeta la normativa de Protección de Datos de Carácter Personal."
-  },
-  "evaluacion_programa": {
-    "art": "Art. 16°",
-    "frecuencia": "Al finalizar el año académico",
-    "indicadores": [
-      "Cantidad y calidad de profesores participantes",
-      "Cantidad de estudiantes participantes",
-      "Cumplimiento de objetivos",
-      "Tasa de deserción y permanencia",
-      "Nivel de satisfacción de estudiantes y docentes"
-    ],
-    "reporte": "El Comité Tutorial informa al Vicerrectorado Académico."
-  },
-  "qa_entries": [
-    {
-      "id": "TUT-001", "intent": "consulta_tutoria_definicion",
-      "pregunta": "¿Qué es la tutoría académica en la UNSAAC?",
-      "respuesta": "La Tutoría Académica es un proceso permanente de acompañamiento que se concreta mediante atención personalizada o grupal por docentes, orientando al estudiante en aspectos psicosociales, cognitivos y afectivos del aprendizaje (Art. 3°, Res. N° CU-0220-2017-UNSAAC)."
-    },
-    {
-      "id": "TUT-005", "intent": "consulta_tutoria_obligatoriedad",
-      "pregunta": "¿La asistencia a tutoría es obligatoria?",
-      "respuesta": "Sí. El Comité Tutorial determina la frecuencia mínima obligatoria de entrevistas (Art. 12.2). Para estudiantes con matrícula condicionada, la asignación de tutor es mandatoria (Art. 4°)."
-    },
-    {
-      "id": "TUT-010", "intent": "consulta_tutoria_confidencialidad",
-      "pregunta": "¿Las sesiones de tutoría son confidenciales?",
-      "respuesta": "Sí. El tutor tiene deber de confidencialidad (Art. 15.1). Solo en circunstancias graves y excepcionales puede informar a padres o representantes, procurando que sea el propio estudiante quien tome la iniciativa (Art. 13.8)."
-    }
-  ]
+    "excepcion": "En casos graves, puede informar a padres/representantes solo en circunstancias excepcionales (Art. 13.8)."
+  }
 }
