@@ -34,3 +34,6 @@ REPOSITORIO_CONOCIMIENTO_CHATBOT_EPIIS/
     ├── corpus_chatbot_epiis.docx
     └── manual_actualizacion.md
 ```
+
+Link del repositorio:
+https://github.com/Ficapro543/Repositorio_Conocimiento_Chabot_EPIIS
