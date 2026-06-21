@@ -44,19 +44,25 @@
     "categoria": "TUT",
     "categoria_nombre": "Proceso de Tutorías",
     "pregunta": "¿Quién es mi tutor asignado y cómo puedo contactarlo?",
-    "respuesta": "El tutor es un docente universitario con régimen de tiempo completo o dedicación exclusiva (Art. 6°), asignado desde el inicio de los estudios hasta la culminación del plan curricular (Art. 14°). El contacto se realiza mediante entrevistas programadas, comentarios de trabajos u otras actividades acordadas con el tutor (Art. 12.1).",
+    "respuesta": "El tutor es un docente universitario con regimen de tiempo completo o dedicacion exclusiva (Art. 6), asignado desde el inicio de los estudios hasta la culminacion del plan curricular (Art. 14). El Comite Tutorial de cada Escuela Profesional propone los tutores, y son nombrados mediante resolucion de decanato (Art. 9). El contacto se realiza mediante entrevistas programadas, comentarios de trabajos u otras actividades acordadas con el tutor (Art. 12.1). Si deseas saber quien es tu tutor asignado: revisa la resolucion de decanato o la relacion oficial de tutores publicada por tu Escuela Profesional, consulta en la Direccion de la EPIIS, escribe al Director o a la Secretaria de la Escuela, o acude al Comite Tutorial.",
     "intent": "consulta_tutoria_contacto_tutor",
     "variaciones": [
       "¿Cómo sé quién es mi tutor?",
       "¿Dónde encuentro el nombre de mi tutor?",
-      "¿Cómo contacto a mi tutor académico?"
+      "¿Cómo contacto a mi tutor académico?",
+      "¿Quién es mi tutor?",
+      "¿Quién me corresponde como tutor?",
+      "¿Cuál es mi tutor asignado?"
     ],
-    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 6°, 14° y 12.1",
+    "fuente": "Reglamento de Tutoria Academica UNSAAC, Art. 6, 9, 14 y 12.1",
     "tags": [
       "tutor",
       "asignado",
       "contacto",
-      "portal_estudiantil"
+      "portal_estudiantil",
+      "quien",
+      "mi tutor",
+      "director escuela"
     ]
   },
   {
@@ -164,13 +170,13 @@
     "id": "TUT-009",
     "categoria": "TUT",
     "categoria_nombre": "Proceso de Tutorías",
-    "pregunta": "¿Qué debo llevar a una sesión de tutoría?",
+    "pregunta": "¿Qué documentación maneja el tutor en las sesiones de tutoría?",
     "respuesta": "El tutor elabora un expediente del tutorado que incluye: diagnóstico inicial del estudiante en base a su desempeño académico, implementación de estrategias de atención tutorial y verificación de la mejora del rendimiento académico del estudiante hasta la finalización de sus estudios (Art. 10°).",
     "intent": "consulta_tutoria_materiales_sesion",
     "variaciones": [
-      "¿Qué necesito para la reunión con mi tutor?",
-      "¿Tengo que preparar algo para la tutoría?",
-      "¿Qué documentos piden en tutoría?"
+      "¿Qué registros lleva el tutor sobre el estudiante?",
+      "¿Qué incluye el expediente del tutorado?",
+      "¿Cómo se documenta la tutoría?"
     ],
     "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 10°",
     "tags": [
@@ -198,30 +204,6 @@
       "privado",
       "datos",
       "secreto"
-    ]
-  },
-  {
-    "id":"TUT-011",
-    "categoria":"TUT",
-    "categoria_nombre":"Proceso de Tutorías",
-    "pregunta":"¿Quién es mi tutor académico asignado?",
-    "respuesta":"Lo siento, no tengo acceso a la información personal de tu asignación tutorial. El reglamento (Art. 9°) establece que el Comité Tutorial de cada Escuela Profesional propone los tutores, y son nombrados mediante resolución de decanato. Para conocer quién es tu tutor asignado te recomiendo: (1) revisar la resolución de decanato o la relación oficial de tutores publicada por tu Escuela Profesional; (2) consultar directamente en la Dirección de la Escuela Profesional de Ingeniería Informática y de Sistemas (EPIIS); (3) escribir al Director de la EPIIS o a la Secretaría de la Escuela; o (4) acudir al Comité Tutorial de la Escuela. El Director de Escuela Profesional articula el trabajo de los tutores con el Comité (Art. 9°).",
-    "intent":"consulta_tutoria_quien_es_mi_tutor",
-    "variaciones":[
-      "¿Quién es mi tutor?",
-      "¿Cómo sé quién es mi tutor?",
-      "¿Dónde encuentro el nombre de mi tutor?",
-      "¿Cómo contacto a mi tutor académico?",
-      "¿Quién me corresponde como tutor?",
-      "¿Cuál es mi tutor asignado?"
-    ],
-    "fuente":"Reglamento de Tutoría Académica UNSAAC, Art. 9° y 14° (información personal no disponible)",
-    "tags":[
-      "quien",
-      "mi tutor",
-      "asignado",
-      "contacto",
-      "director escuela"
     ]
   },
   {
@@ -290,14 +272,14 @@
     "categoria": "TTUT",
     "categoria_nombre": "Tipos de Tutoría",
     "pregunta": "¿Qué es la tutoría entre pares?",
-    "respuesta": "La tutoría entre pares es una modalidad en la que estudiantes de semestres avanzados orientan a compañeros de semestres iniciales en temas académicos y de adaptación universitaria. Es voluntaria y complementa la tutoría docente. Los tutores pares actúan bajo supervisión de un docente ordinario.",
+    "respuesta": "La tutoría entre pares es una modalidad complementaria en la que estudiantes de semestres avanzados orientan a compañeros de semestres iniciales en temas académicos y de adaptación universitaria. Es voluntaria y actúa bajo supervisión de un docente ordinario. Cada Comité Tutorial de Escuela puede aprobar una directiva de funcionamiento para esta actividad según la naturaleza de la Escuela Profesional (Art. 9°, Reglamento de Tutoría Académica).",
     "intent": "consulta_tipos_tutoria_pares",
     "variaciones": [
       "¿Qué es el tutoreo entre compañeros?",
       "¿Cómo funciona la tutoría entre estudiantes?",
       "¿Quiénes son los tutores pares?"
     ],
-    "fuente": "Coordinación de Tutoría EPIIS",
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 9° (directiva del Comité Tutorial)",
     "tags": [
       "pares",
       "companeros",
@@ -452,14 +434,14 @@
     "categoria": "CUR",
     "categoria_nombre": "Cursos y Semestres",
     "pregunta": "¿Cuántos créditos son necesarios para culminar la carrera?",
-    "respuesta": "El plan de estudios de la EPIIS establece un total de 219 créditos académicos distribuidos en los 10 semestres, comprendiendo 35 créditos de Estudios Generales, 124 créditos de Estudios Específicos, 45 créditos de Estudios de Especialidad, 6 créditos de Actividades Extracurriculares y 9 créditos de Prácticas Pre-Profesionales.",
+    "respuesta": "El Plan de Estudios 2024 de la EPIIS establece un total de 220 créditos académicos distribuidos en los 10 semestres, comprendiendo 37 créditos de Estudios Generales, 94 créditos de Estudios Específicos, 75 créditos de Estudios de Especialidad (50 obligatorios y 25 electivos), 6 créditos de Actividades Extracurriculares y 8 créditos de Prácticas Pre-Profesionales.",
     "intent": "consulta_cursos_total_creditos",
     "variaciones": [
       "¿Cuántos créditos necesito para acabar la carrera?",
       "¿Cuál es el total de créditos del plan de estudios?",
       "¿Cuántos créditos tiene el currículo?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 y Malla Curricular 2025 EPIIS - UNSAAC",
     "tags": [
       "creditos",
       "total",
@@ -472,14 +454,14 @@
     "categoria": "CUR",
     "categoria_nombre": "Cursos y Semestres",
     "pregunta": "¿Cuáles son los cursos del primer semestre?",
-    "respuesta": "El primer semestre comprende: Redacción de Textos (4 créditos), Matemática I (4 créditos), Estrategias de Aprendizaje Autónomo (4 créditos), Filosofía y Ética (3 créditos), Sociedad y Cultura (3 créditos), y Constitución Política y Derechos Humanos (3 créditos). La carga total es de 21 créditos.",
+    "respuesta": "El primer semestre comprende: Química General (4 créditos), Álgebra y Geometría Analítica (4 créditos), Historia Crítica del Perú e Identidad Nacional (3 créditos), Física I (4 créditos), Ecología y Medio Ambiente (3 créditos) y Cálculo I (4 créditos). La carga total es de 22 créditos.",
     "intent": "consulta_cursos_primer_semestre",
     "variaciones": [
       "¿Qué cursos llevo en el primer ciclo?",
       "¿Cuáles son las materias de inicio de carrera?",
       "¿Qué se estudia en el primer semestre de sistemas?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 EPIIS - UNSAAC",
     "tags": [
       "primer semestre",
       "cursos",
@@ -493,14 +475,14 @@
     "categoria": "CUR",
     "categoria_nombre": "Cursos y Semestres",
     "pregunta": "¿Puedo llevar cursos de otro semestre si aprobé los prerrequisitos?",
-    "respuesta": "Sí, siempre que hayas aprobado los prerrequisitos establecidos en el plan de estudios y cuentes con autorización de la Dirección de la Escuela. La carga máxima permitida es de 24 créditos por semestre, salvo casos excepcionales aprobados por la Dirección.",
+    "respuesta": "Sí, siempre que hayas aprobado los prerrequisitos establecidos en el plan de estudios y cuentes con autorización de la Dirección de la Escuela. La carga máxima regular es de 22 créditos por semestre. Si tienes promedio ponderado ≥ 16, puedes llevar hasta 26 créditos. Si eres egresado, máximo 30 créditos y mínimo 1 asignatura (solo una vez).",
     "intent": "consulta_cursos_adelanto_semestres",
     "variaciones": [
       "¿Puedo adelantar cursos?",
       "¿Es posible llevar materias de ciclos superiores?",
       "¿Puedo llevar cursos de semestres más avanzados?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC / Reglamento Académico UNSAAC",
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Arts. 8° y 9°",
     "tags": [
       "adelantar",
       "prerrequisitos",
@@ -534,14 +516,14 @@
     "categoria": "CUR",
     "categoria_nombre": "Cursos y Semestres",
     "pregunta": "¿Cómo está organizado el plan de estudios por áreas?",
-    "respuesta": "El plan de estudios se organiza en cinco áreas: (1) Estudios Generales (35 créditos, cursos de formación humanística y ciencias básicas), (2) Estudios Específicos (124 créditos, fundamentos de ingeniería y computación), (3) Estudios de Especialidad (45 créditos, líneas de especialización), (4) Actividades Extracurriculares (6 créditos) y (5) Prácticas Pre-Profesionales (9 créditos).",
+    "respuesta": "El Plan de Estudios 2024 se organiza en cinco áreas: (1) Estudios Generales (37 créditos, cursos de formación humanística y ciencias básicas), (2) Estudios Específicos (94 créditos, fundamentos de ingeniería y computación), (3) Estudios de Especialidad (75 créditos: 50 obligatorios y 25 electivos), (4) Actividades Extracurriculares (6 créditos) y (5) Prácticas Pre-Profesionales (8 créditos).",
     "intent": "consulta_cursos_areas_plan_estudios",
     "variaciones": [
       "¿Qué áreas tiene el currículo de la carrera?",
       "¿En qué grupos se dividen los cursos?",
       "¿Cómo se clasifican las materias de la carrera?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 y Malla 2025 EPIIS - UNSAAC",
     "tags": [
       "areas",
       "plan de estudios",
@@ -554,14 +536,14 @@
     "categoria": "CUR",
     "categoria_nombre": "Cursos y Semestres",
     "pregunta": "¿Cuántos cursos electivos debo llevar durante la carrera?",
-    "respuesta": "El Plan de Estudios de la EPIIS incluye 13 cursos de Estudios de Especialidad (45 créditos), de los cuales varios son electivos que el estudiante elige en los semestres VIII, IX y X. El número exacto de créditos electivos depende de la oferta de la Escuela Profesional.",
+    "respuesta": "El Plan de Estudios 2024 de la EPIIS incluye 20 cursos de Estudios de Especialidad (75 créditos), de los cuales 13 son obligatorios (50 créditos) y el resto son electivos que el estudiante elige en los semestres VI, VIII, IX y X según la oferta de la Escuela Profesional.",
     "intent": "consulta_cursos_electivos",
     "variaciones": [
       "¿Cuántas materias optativas son obligatorias?",
       "¿Cuántos electivos exige el plan de estudios?",
       "¿Puedo elegir mis cursos libremente?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 EPIIS - UNSAAC",
     "tags": [
       "electivos",
       "optativas",
@@ -633,16 +615,16 @@
   {
     "id": "ESP-001",
     "categoria": "ESP",
-    "categoria_nombre": "Especialidades de la Escuela",
-    "pregunta": "¿Cuáles son las especialidades que ofrece la Escuela de Ingeniería Informática y de Sistemas?",
-    "respuesta": "El Plan de Estudios de la EPIIS organiza los Estudios de Especialidad (13 cursos, 45 créditos) como asignaturas electivas que se cursan en los semestres VIII, IX y X. No establece líneas de especialización con denominaciones fijas; el estudiante elige asignaturas electivas de especialidad según la oferta de la Escuela Profesional.",
+    "categoria_nombre": "Estudios de Especialidad",
+    "pregunta": "¿Cómo están organizados los Estudios de Especialidad en la EPIIS?",
+    "respuesta": "El Plan de Estudios 2024 de la EPIIS organiza los Estudios de Especialidad (20 cursos, 75 créditos: 13 obligatorios y el resto electivos) que se cursan desde el V semestre (obligatorios) y electivos desde el VI semestre. No establece líneas de especialización con denominaciones fijas; el estudiante elige asignaturas electivas según la oferta de la Escuela Profesional.",
     "intent": "consulta_esp_listado_especialidades",
     "variaciones": [
-      "¿Qué especializaciones hay en la carrera?",
-      "¿En qué áreas me puedo especializar?",
-      "¿Cuántas especialidades tiene la carrera de sistemas?"
+      "¿Qué son los Estudios de Especialidad?",
+      "¿Cómo se estructuran los cursos de especialidad?",
+      "¿Existen líneas de especialización definidas?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 EPIIS - UNSAAC",
     "tags": [
       "especialidades",
       "lineas",
@@ -655,16 +637,16 @@
   {
     "id": "ESP-002",
     "categoria": "ESP",
-    "categoria_nombre": "Especialidades de la Escuela",
-    "pregunta": "¿Cuándo debo elegir mi especialidad?",
-    "respuesta": "El Plan de Estudios de la EPIIS no especifica un semestre de elección de especialidad ni un proceso de selección. Las asignaturas de especialidad (electivas) se ofrecen a partir del VIII semestre.",
+    "categoria_nombre": "Estudios de Especialidad",
+    "pregunta": "¿A partir de qué semestre se cursan los Estudios de Especialidad?",
+    "respuesta": "Los cursos obligatorios de especialidad comienzan en el V semestre (Teoría de la Computación, Modelado y Simulación) y los electivos desde el VI semestre. En total son 20 cursos: 13 obligatorios distribuidos del V al X semestre y 7 electivos del VI al X semestre.",
     "intent": "consulta_esp_cuando_elegir",
     "variaciones": [
-      "¿En qué semestre escojo especialidad?",
-      "¿A partir de qué ciclo elijo especialización?",
-      "¿Cuándo me especializo en la carrera?"
+      "¿En qué semestres se cursan los cursos de especialidad?",
+      "¿Cuándo empiezan los cursos de especialidad?",
+      "¿En qué semestre hay electivos de especialidad?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 EPIIS - UNSAAC",
     "tags": [
       "elegir",
       "especialidad",
@@ -676,16 +658,16 @@
   {
     "id": "ESP-003",
     "categoria": "ESP",
-    "categoria_nombre": "Especialidades de la Escuela",
-    "pregunta": "¿Qué especialidad tiene más demanda laboral en la región?",
-    "respuesta": "El Plan de Estudios de la EPIIS no contiene información sobre demanda laboral de especialidades.",
+    "categoria_nombre": "Estudios de Especialidad",
+    "pregunta": "¿Cuántos cursos de especialidad obligatorios y electivos incluye el plan?",
+    "respuesta": "El Plan de Estudios 2024 incluye 20 cursos de Estudios de Especialidad (75 créditos): 13 obligatorios (50 créditos) y 7 electivos (25 créditos). Los obligatorios se cursan del V al X semestre; los electivos del VI al X semestre.",
     "intent": "consulta_esp_demanda_laboral",
     "variaciones": [
-      "¿Cuál especialidad tiene más trabajo?",
-      "¿Qué especialización es más solicitada en el mercado?",
-      "¿Qué especialidad conviene más elegir?"
+      "¿Cuántos cursos obligatorios de especialidad hay?",
+      "¿Cuántos créditos electivos debo cursar?",
+      "¿Cuál es la proporción de obligatorios y electivos?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 EPIIS - UNSAAC",
     "tags": [
       "demanda",
       "laboral",
@@ -697,16 +679,16 @@
   {
     "id": "ESP-004",
     "categoria": "ESP",
-    "categoria_nombre": "Especialidades de la Escuela",
-    "pregunta": "¿Cuáles son los cursos de la especialidad de Ingeniería de Software?",
-    "respuesta": "El Plan de Estudios de la EPIIS incluye la asignatura obligatoria Ingeniería de Software I (código IF614, 4 créditos) en el VIII semestre como parte de los estudios específicos. Las asignaturas electivas de especialidad se cursan en los semestres VIII, IX y X sin agruparse en líneas de especialización con nombre propio.",
+    "categoria_nombre": "Estudios de Especialidad",
+    "pregunta": "¿Qué cursos de Ingeniería de Software incluye el Plan de Estudios?",
+    "respuesta": "El Plan de Estudios 2024 de la EPIIS incluye la asignatura obligatoria Ingeniería de Software I (código IFI26, 4 créditos) en el VIII semestre, Ingeniería de Software II (IFI30, 4 créditos) en el IX semestre, y Desarrollo de Proyectos de Ingeniería de Software (IFI34, 4 créditos) en el X semestre. Existen electivos relacionados como Desarrollo de Aplicaciones Web (IFI40) y Móviles (IFI41).",
     "intent": "consulta_esp_cursos_ingenieria_software",
     "variaciones": [
-      "¿Qué materias llevo en software?",
-      "¿Qué cursos tiene la especialidad de software?",
+      "¿Qué cursos obligatorios de software existen?",
+      "¿Qué cursos relacionados a software hay en el plan?",
       "¿Qué se aprende en Ingeniería de Software?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 EPIIS - UNSAAC",
     "tags": [
       "software",
       "ingenieria de software",
@@ -718,16 +700,16 @@
   {
     "id": "ESP-005",
     "categoria": "ESP",
-    "categoria_nombre": "Especialidades de la Escuela",
-    "pregunta": "¿Puedo cambiar de especialidad una vez que la elegí?",
-    "respuesta": "El Plan de Estudios de la EPIIS no contempla disposiciones sobre cambio de especialidad.",
+    "categoria_nombre": "Estudios de Especialidad",
+    "pregunta": "¿Puedo elegir mis cursos electivos de especialidad libremente?",
+    "respuesta": "Sí, los 7 cursos electivos de especialidad (25 créditos) se eligen de la oferta disponible de la Escuela Profesional en los semestres VI, VIII, IX y X. No hay líneas de especialización fijas ni restricción de área temática.",
     "intent": "consulta_esp_cambio_especialidad",
     "variaciones": [
-      "¿Es posible cambiar de especialización?",
-      "¿Qué pasa si quiero otra especialidad?",
-      "¿Puedo arrepentirme de la especialidad que elegí?"
+      "¿Tengo libertad para elegir cualquier electivo?",
+      "¿Puedo armar mi propia ruta de electivos?",
+      "¿Hay restricciones para elegir electivos de especialidad?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 EPIIS - UNSAAC",
     "tags": [
       "cambio",
       "especialidad",
@@ -738,16 +720,16 @@
   {
     "id": "ESP-006",
     "categoria": "ESP",
-    "categoria_nombre": "Especialidades de la Escuela",
-    "pregunta": "¿Qué cursos incluye la especialidad de Redes y Telecomunicaciones?",
-    "respuesta": "El Plan de Estudios de la EPIIS no incluye una línea de especialización denominada 'Redes y Telecomunicaciones'. Las asignaturas electivas de especialidad se cursan en los semestres VIII, IX y X sin agruparse en líneas predefinidas.",
+    "categoria_nombre": "Estudios de Especialidad",
+    "pregunta": "¿Qué cursos de redes y telecomunicaciones incluye el Plan de Estudios?",
+    "respuesta": "El Plan de Estudios 2024 incluye Redes de Computadoras I (IFI21, 4 créditos) en el VII semestre, Redes de Computadoras II (IFI27, 4 créditos) en el VIII semestre, y electivos como Sistemas Internet de la Cosas (IFI31, 4 créditos), Redes Complejas (IFI42) y Tópicos Avanzados en Redes (IFI46).",
     "intent": "consulta_esp_cursos_redes_telecom",
     "variaciones": [
-      "¿Qué materias son de redes?",
-      "¿Qué se estudia en telecomunicaciones?",
-      "¿Qué aprendo en la especialidad de redes?"
+      "¿Qué cursos de redes existen?",
+      "¿Qué se estudia en la parte de redes?",
+      "¿Qué cursos de telecomunicaciones hay?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 EPIIS - UNSAAC",
     "tags": [
       "redes",
       "telecomunicaciones",
@@ -759,16 +741,16 @@
   {
     "id": "ESP-007",
     "categoria": "ESP",
-    "categoria_nombre": "Especialidades de la Escuela",
-    "pregunta": "¿Qué es la especialidad de Inteligencia Artificial y Ciencia de Datos?",
-    "respuesta": "El Plan de Estudios de la EPIIS incluye la asignatura obligatoria Aprendizaje Automático (código IF652, 4 créditos) en el VIII semestre, relacionada con inteligencia artificial. No define una línea de especialización denominada 'Inteligencia Artificial y Ciencia de Datos'; las electivas de especialidad se seleccionan de la oferta general de la Escuela.",
+    "categoria_nombre": "Estudios de Especialidad",
+    "pregunta": "¿Qué cursos de Inteligencia Artificial y Ciencia de Datos incluye el Plan de Estudios?",
+    "respuesta": "El Plan de Estudios 2024 incluye Inteligencia Artificial (IFI14, 4 créditos) en el VI semestre, Aprendizaje Automático (IFI19, 4 créditos) y Ciencia de Datos (IFI22, 3 créditos) en el VII semestre, y Aprendizaje Profundo (IFI25, 4 créditos) en el VIII semestre. Como electivos avanzados: Procesamiento de Lenguaje Natural (IFI43), Visión Computacional (IFI48) e Inteligencia Artificial Robótica (IFI49).",
     "intent": "consulta_esp_ia_ciencia_datos",
     "variaciones": [
-      "¿Qué es la especialidad de IA?",
-      "¿Qué cubro en ciencia de datos?",
-      "¿Qué se estudia en la especialidad de machine learning?"
+      "¿Qué cursos de IA hay en el plan?",
+      "¿Qué cursos de ciencia de datos existen?",
+      "¿Qué cursos de machine learning hay?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 EPIIS - UNSAAC",
     "tags": [
       "inteligencia artificial",
       "ciencia de datos",
@@ -780,16 +762,16 @@
   {
     "id": "ESP-008",
     "categoria": "ESP",
-    "categoria_nombre": "Especialidades de la Escuela",
-    "pregunta": "¿La especialidad de Seguridad Informática tiene certificaciones asociadas?",
-    "respuesta": "El Plan de Estudios de la EPIIS no incluye información sobre certificaciones profesionales asociadas.",
+    "categoria_nombre": "Estudios de Especialidad",
+    "pregunta": "¿Qué cursos de seguridad informática y ciberseguridad incluye el Plan de Estudios?",
+    "respuesta": "El Plan de Estudios 2024 incluye el curso obligatorio Ciberseguridad (IFI32, 4 créditos) en el IX semestre. Como electivos relacionados: Control y Auditoría Informática (IFI54) y Blockchain (IFI55).",
     "intent": "consulta_esp_seguridad_certificaciones",
     "variaciones": [
-      "¿En seguridad informática hay certificados?",
-      "¿La especialidad de ciberseguridad prepara para certificaciones?",
-      "¿Puedo obtener certificados en la especialidad de seguridad?"
+      "¿Hay cursos de ciberseguridad en el plan?",
+      "¿Qué cursos de seguridad informática existen?",
+      "¿El plan incluye cursos de seguridad?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 EPIIS - UNSAAC",
     "tags": [
       "seguridad",
       "certificaciones",
@@ -801,16 +783,16 @@
   {
     "id": "ESP-009",
     "categoria": "ESP",
-    "categoria_nombre": "Especialidades de la Escuela",
-    "pregunta": "¿Las especialidades tienen convenios con empresas para prácticas?",
-    "respuesta": "El Plan de Estudios de la EPIIS no incluye información sobre convenios con empresas.",
+    "categoria_nombre": "Estudios de Especialidad",
+    "pregunta": "¿Cuántos créditos de especialidad electivos debo cursar?",
+    "respuesta": "Debes cursar 25 créditos de electivos de especialidad (7 cursos), distribuidos en los semestres VI, VIII, IX y X. Los 13 cursos obligatorios suman 50 créditos, para un total de 75 créditos de Estudios de Especialidad.",
     "intent": "consulta_esp_convenios_practicas",
     "variaciones": [
-      "¿Las especialidades tienen empresas colaboradoras?",
-      "¿Hay convenios de prácticas por especialidad?",
-      "¿Las empresas contratan según mi especialidad?"
+      "¿Cuántos créditos electivos necesito?",
+      "¿Cuántos cursos electivos debo llevar?",
+      "¿Cuál es el mínimo de créditos electivos?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 EPIIS - UNSAAC",
     "tags": [
       "convenios",
       "empresas",
@@ -822,16 +804,16 @@
   {
     "id": "ESP-010",
     "categoria": "ESP",
-    "categoria_nombre": "Especialidades de la Escuela",
-    "pregunta": "¿Puedo llevar cursos de otras especialidades como electivos?",
-    "respuesta": "El Plan de Estudios de la EPIIS contempla asignaturas electivas de especialidad en los semestres VIII, IX y X. No especifica disposiciones sobre cursar electivos de otras áreas.",
+    "categoria_nombre": "Estudios de Especialidad",
+    "pregunta": "¿Puedo elegir cualquier electivo de especialidad ofertado por la Escuela?",
+    "respuesta": "Sí, los 7 electivos de especialidad (25 créditos) se eligen libremente de la oferta disponible de la Escuela Profesional en los semestres VI, VIII, IX y X. No hay líneas de especialización ni restricciones temáticas.",
     "intent": "consulta_esp_electivos_cruzados",
     "variaciones": [
-      "¿Puedo tomar materias de otra especialidad?",
-      "¿Puedo cursar electivos de otra línea?",
-      "¿Es posible mezclar cursos de diferentes especialidades?"
+      "¿Puedo elegir entre todos los electivos disponibles?",
+      "¿Hay restricciones en la elección de electivos?",
+      "¿Puedo combinar electivos de distintas áreas?"
     ],
-    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "fuente": "Plan Curricular 2024 EPIIS - UNSAAC",
     "tags": [
       "electivos",
       "cruzados",
