@@ -1,2 +1,19 @@
-ipython>=8.0.0
-ipywidgets>=8.0.0
+# ============================================================
+# REQUERIDAS - Chatbot EPIIS (notebook UI)
+# ============================================================
+ipython>=8.0.0                  # IPython.display: HTML, display, clear_output
+ipywidgets>=8.0.0               # Chat widget interactivo (botones, inputs, scroll)
+
+# ============================================================
+# OPCIONALES - Utilidades de desarrollo
+# ============================================================
+pdfplumber>=0.7.0               # Extracción de texto de PDFs fuente
+pandas>=1.5.0                   # Análisis de datos (corpus, keywords)
+openpyxl>=3.0.0                 # Exportación a Excel (reportes)
+
+# ============================================================
+# NOTA: Las siguientes librerías son de la stdlib de Python,
+# no requieren instalación:
+#   json, re, unicodedata, math, os, pathlib, datetime,
+#   difflib, html, csv, collections, typing
+# ============================================================
