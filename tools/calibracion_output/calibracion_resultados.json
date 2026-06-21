@@ -1,0 +1,2721 @@
+{
+  "version_calibracion": "1.0.0",
+  "margen_seguridad": 0.1,
+  "piso_absoluto": 0.5,
+  "techo_absoluto": 0.95,
+  "pisos_por_categoria": {
+    "TUT": 0.6,
+    "TTUT": 0.6,
+    "CUR": 0.65,
+    "ESP": 0.62,
+    "PPP": 0.7,
+    "BIE": 0.65,
+    "MOV": 0.55,
+    "MAT": 0.75,
+    "TIT": 0.72,
+    "SER": 0.65
+  },
+  "total_intents": 100,
+  "resultados": [
+    {
+      "intent_id": "consulta_tutoria_definicion",
+      "categoria": "TUT",
+      "consultas_validacion": [
+        "que es la tutoria academica",
+        "en que consiste la tutoria",
+        "como funciona la tutoria universitaria",
+        "que significa tutoria en la universidad"
+      ],
+      "scores_observados": [
+        0.25,
+        0.875,
+        0.25,
+        0.875
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.25,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.225) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Qué es la tutoría académica en la UNSAAC",
+      "corpus_ref": "TUT-001",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.72
+    },
+    {
+      "intent_id": "consulta_tutoria_frecuencia",
+      "categoria": "TUT",
+      "consultas_validacion": [
+        "con que frecuencia debo asistir tutoria",
+        "cuantas veces al mes es la tutoria",
+        "cada cuanto tiempo son las sesiones",
+        "que tan seguido hay reuniones tutor"
+      ],
+      "scores_observados": [
+        0.1111,
+        0.4444,
+        0.2222,
+        0.1111
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1111,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.100) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Con qué frecuencia debo asistir a las sesiones de tutoría",
+      "corpus_ref": "TUT-002",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.72
+    },
+    {
+      "intent_id": "consulta_tutoria_contacto_tutor",
+      "categoria": "TUT",
+      "consultas_validacion": [
+        "quien es mi tutor asignado",
+        "como puedo contactar a mi tutor",
+        "donde encuentro el nombre de mi tutor",
+        "como saber quien es mi tutor academico"
+      ],
+      "scores_observados": [
+        0.5714,
+        0.8571,
+        0.5714,
+        0.5714
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5714,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Quién es mi tutor asignado y cómo puedo contactarlo",
+      "corpus_ref": "TUT-003",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.72
+    },
+    {
+      "intent_id": "consulta_tutoria_temas",
+      "categoria": "TUT",
+      "consultas_validacion": [
+        "que temas se tratan en tutoria",
+        "sobre que se habla en la tutoria",
+        "de que tratan las reuniones con el tutor",
+        "que contenidos aborda la tutoria"
+      ],
+      "scores_observados": [
+        0.625,
+        0.625,
+        0.625,
+        0.5
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Qué temas se tratan en las sesiones de tutoría",
+      "corpus_ref": "TUT-004",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.72
+    },
+    {
+      "intent_id": "consulta_tutoria_obligatoriedad",
+      "categoria": "TUT",
+      "consultas_validacion": [
+        "la asistencia a tutoria es obligatoria",
+        "es opcional asistir a tutoria",
+        "puedo faltar a las sesiones de tutoria",
+        "me pueden sancionar si no voy tutoria"
+      ],
+      "scores_observados": [
+        0.8571,
+        0.8571,
+        0.8571,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "La asistencia a tutoría es obligatoria",
+      "corpus_ref": "TUT-005",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.72
+    },
+    {
+      "intent_id": "consulta_tutoria_registro_asistencia",
+      "categoria": "TUT",
+      "consultas_validacion": [
+        "como se registra la asistencia a tutoria",
+        "hay lista de asistencia en tutoria",
+        "como se controla la asistencia en tutoria",
+        "como saber si se registro mi asistencia"
+      ],
+      "scores_observados": [
+        0.7143,
+        0.4286,
+        0.5714,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Cómo se registra la asistencia a las sesiones de tutoría",
+      "corpus_ref": "TUT-006",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.72
+    },
+    {
+      "intent_id": "consulta_tutoria_cambio_tutor",
+      "categoria": "TUT",
+      "consultas_validacion": [
+        "puedo cambiar de tutor si tengo dificultades",
+        "como solicito cambio de tutor",
+        "es posible pedir otro tutor academico",
+        "que hago si no me llevo bien con mi tutor"
+      ],
+      "scores_observados": [
+        0.5714,
+        0.5714,
+        0.5714,
+        0.7143
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5714,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Puedo cambiar de tutor si tengo dificultades con el asignado",
+      "corpus_ref": "TUT-007",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.72
+    },
+    {
+      "intent_id": "consulta_tutoria_reglamento",
+      "categoria": "TUT",
+      "consultas_validacion": [
+        "existe reglamento que regule el proceso de tutorias",
+        "hay un reglamento de tutorias unsaac",
+        "donde puedo leer las normas de tutoria",
+        "que documento regula las tutorias"
+      ],
+      "scores_observados": [
+        0.125,
+        0.25,
+        0.25,
+        0.0
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.125,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Existe algún reglamento que regule el proceso de tutorías",
+      "corpus_ref": "TUT-008",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.72
+    },
+    {
+      "intent_id": "consulta_tutoria_materiales_sesion",
+      "categoria": "TUT",
+      "consultas_validacion": [
+        "que debo llevar a una sesion de tutoria",
+        "que necesito para la reunion con mi tutor",
+        "tengo que preparar algo para la tutoria",
+        "que documentos piden en tutoria"
+      ],
+      "scores_observados": [
+        0.8571,
+        0.2857,
+        0.2857,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Qué debo llevar a una sesión de tutoría",
+      "corpus_ref": "TUT-009",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.72
+    },
+    {
+      "intent_id": "consulta_tutoria_confidencialidad",
+      "categoria": "TUT",
+      "consultas_validacion": [
+        "las sesiones de tutoria son confidenciales",
+        "el tutor puede compartir lo que le digo",
+        "es privada la informacion en tutoria",
+        "que tan confidencial es la tutoria"
+      ],
+      "scores_observados": [
+        0.1429,
+        0.0,
+        0.4286,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Las sesiones de tutoría son confidenciales",
+      "corpus_ref": "TUT-010",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.72
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_general",
+      "categoria": "TTUT",
+      "consultas_validacion": [
+        "cuales son los tipos de tutoria que ofrece la escuela",
+        "que modalidades de tutoria existen",
+        "cuantas clases de tutoria hay",
+        "de que tipos es la tutoria en la unsaac"
+      ],
+      "scores_observados": [
+        0.5714,
+        0.5714,
+        0.5714,
+        0.7143
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5714,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Cuáles son los tipos de tutoría que ofrece la escuela",
+      "corpus_ref": "TTUT-001",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.7
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_individual",
+      "categoria": "TTUT",
+      "consultas_validacion": [
+        "en que consiste la tutoria individual",
+        "que es la tutoria uno a uno",
+        "como funciona la tutoria personalizada",
+        "cuando se da la tutoria individual"
+      ],
+      "scores_observados": [
+        0.2857,
+        0.8571,
+        0.1429,
+        0.7143
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "En qué consiste la tutoría individual",
+      "corpus_ref": "TTUT-002",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.7
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_grupal",
+      "categoria": "TTUT",
+      "consultas_validacion": [
+        "que es la tutoria grupal y como se organiza",
+        "como son las tutorias grupales",
+        "cuantas personas van a la tutoria grupal",
+        "con quienes comparto la tutoria grupal"
+      ],
+      "scores_observados": [
+        0.5714,
+        0.1429,
+        0.4286,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Qué es la tutoría grupal y cómo se organiza",
+      "corpus_ref": "TTUT-003",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.7
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_pares",
+      "categoria": "TTUT",
+      "consultas_validacion": [
+        "que es la tutoria entre pares",
+        "que es el tutoreo entre companeros",
+        "quienes son los tutores pares",
+        "como funciona la tutoria entre estudiantes"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.4286,
+        0.2857,
+        0.1429
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Qué es la tutoría entre pares",
+      "corpus_ref": "TTUT-004",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.7
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_virtual",
+      "categoria": "TTUT",
+      "consultas_validacion": [
+        "existe tutoria en linea o virtual",
+        "hay tutoria a distancia",
+        "puedo hacer tutoria por videoconferencia zoom",
+        "las tutorias son presenciales o tambien virtuales"
+      ],
+      "scores_observados": [
+        0.875,
+        0.625,
+        0.375,
+        0.875
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.375,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.338) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Existe tutoría en línea o virtual",
+      "corpus_ref": "TTUT-005",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.7
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_vs_psicologia",
+      "categoria": "TTUT",
+      "consultas_validacion": [
+        "diferencia entre tutoria academica y orientacion psicologica",
+        "la tutoria incluye apoyo psicologico",
+        "cuando debo ir al psicologo en vez del tutor",
+        "el tutor es psicologo"
+      ],
+      "scores_observados": [
+        0.2857,
+        0.0,
+        0.7143,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Cuál es la diferencia entre tutoría académica y orientación ",
+      "corpus_ref": "TTUT-006",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.7
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_ingresantes",
+      "categoria": "TTUT",
+      "consultas_validacion": [
+        "que es la tutoria de ingresantes",
+        "hay tutoria especial para los nuevos alumnos",
+        "que tutoria reciben los que recien entran a la universidad",
+        "como se atiende a alumnos de primer semestre adaptacion"
+      ],
+      "scores_observados": [
+        0.375,
+        0.25,
+        0.75,
+        0.875
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.25,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.225) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Qué es la tutoría de ingresantes",
+      "corpus_ref": "TTUT-007",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.7
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_riesgo_academico",
+      "categoria": "TTUT",
+      "consultas_validacion": [
+        "existe tutoria para estudiantes con bajo rendimiento",
+        "hay tutoria especial si mis notas son bajas",
+        "que pasa si estoy en riesgo academico tutoria",
+        "me asignan tutoria si jalo muchos cursos"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.2857,
+        0.4286,
+        0.1429
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Existe tutoría para estudiantes con bajo rendimiento",
+      "corpus_ref": "TTUT-008",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.7
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_vs_asesoria_tesis",
+      "categoria": "TTUT",
+      "consultas_validacion": [
+        "que diferencia hay entre tutoria y asesoria de tesis",
+        "mi asesor de tesis es mi tutor",
+        "la tutoria incluye apoyo en la tesis",
+        "el tutor me ayuda con la tesis"
+      ],
+      "scores_observados": [
+        0.7143,
+        1.0,
+        0.5714,
+        0.5714
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5714,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "Qué diferencia hay entre tutoría y asesoría de tesis",
+      "corpus_ref": "TTUT-009",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.7
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_vocacional",
+      "categoria": "TTUT",
+      "consultas_validacion": [
+        "la tutoria cubre orientacion vocacional y de carrera",
+        "el tutor me ayuda a saber que especialidad elegir",
+        "puedo hablar con mi tutor sobre mi futuro profesional",
+        "la tutoria incluye orientacion laboral"
+      ],
+      "scores_observados": [
+        0.7143,
+        0.8571,
+        0.2857,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.6,
+      "confianza_minima": 0.6,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "display_name": "La tutoría cubre también orientación vocacional y de carrera",
+      "corpus_ref": "TTUT-010",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.7
+    },
+    {
+      "intent_id": "consulta_cursos_duracion_carrera",
+      "categoria": "CUR",
+      "consultas_validacion": [
+        "cuantos semestres tiene la carrera ingenieria informatica",
+        "cuantos ciclos tiene la carrera sistemas",
+        "cuantos anos dura la carrera",
+        "que duracion tiene la carrera de sistemas unsaac"
+      ],
+      "scores_observados": [
+        0.375,
+        0.25,
+        0.625,
+        0.375
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.25,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.225) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cuántos semestres tiene la carrera de Ingeniería Informática",
+      "corpus_ref": "CUR-001",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_cursos_total_creditos",
+      "categoria": "CUR",
+      "consultas_validacion": [
+        "cuantos creditos son necesarios para culminar la carrera",
+        "cuantos creditos necesito para acabar la carrera",
+        "cual es el total de creditos del plan de estudios",
+        "creditos titulacion epiis"
+      ],
+      "scores_observados": [
+        0.7143,
+        0.5714,
+        0.5714,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cuántos créditos son necesarios para culminar la carrera",
+      "corpus_ref": "CUR-002",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_cursos_primer_semestre",
+      "categoria": "CUR",
+      "consultas_validacion": [
+        "cuales son los cursos del primer semestre",
+        "que cursos llevo en el primer ciclo",
+        "cuales son las materias de inicio de carrera",
+        "que se estudia en el primer semestre de sistemas"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.4286,
+        0.2857,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cuáles son los cursos del primer semestre",
+      "corpus_ref": "CUR-003",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_cursos_adelanto_semestres",
+      "categoria": "CUR",
+      "consultas_validacion": [
+        "puedo llevar cursos de otro semestre si aprobe prerrequisitos",
+        "puedo adelantar cursos de ciclos superiores",
+        "es posible llevar materias de semestres mas avanzados",
+        "cursos avanzados prerrequisitos autorizacion"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.4286,
+        0.5714,
+        0.5714
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Puedo llevar cursos de otro semestre si aprobé los prerrequi",
+      "corpus_ref": "CUR-004",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_cursos_desaprobacion",
+      "categoria": "CUR",
+      "consultas_validacion": [
+        "que pasa si desapruebo un curso",
+        "que consecuencias tiene jalar un curso",
+        "cuantas veces puedo llevar un curso desaprobacion",
+        "que hago si repruebo una materia"
+      ],
+      "scores_observados": [
+        0.125,
+        0.25,
+        0.375,
+        0.0
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.125,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Qué pasa si desapruebo un curso",
+      "corpus_ref": "CUR-005",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_cursos_areas_plan_estudios",
+      "categoria": "CUR",
+      "consultas_validacion": [
+        "como esta organizado el plan de estudios por areas",
+        "que areas tiene el curriculo de la carrera",
+        "en que grupos se dividen los cursos",
+        "como se clasifican las materias de la carrera"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.5714,
+        0.1429,
+        0.1429
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cómo está organizado el plan de estudios por áreas",
+      "corpus_ref": "CUR-006",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_cursos_electivos",
+      "categoria": "CUR",
+      "consultas_validacion": [
+        "cuantos cursos electivos debo llevar durante la carrera",
+        "cuantas materias optativas son obligatorias",
+        "cuantos electivos exige el plan de estudios",
+        "puedo elegir mis cursos libremente creditos"
+      ],
+      "scores_observados": [
+        0.25,
+        0.125,
+        0.5,
+        0.375
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.125,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cuántos cursos electivos debo llevar durante la carrera",
+      "corpus_ref": "CUR-007",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_cursos_horario_clases",
+      "categoria": "CUR",
+      "consultas_validacion": [
+        "donde puedo ver el horario de clases del semestre",
+        "como consulto mis horarios serunsa",
+        "donde estan los horarios del semestre clases",
+        "en que plataforma veo mis clases y aulas"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.4286,
+        0.4286,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Dónde puedo ver el horario de clases del semestre",
+      "corpus_ref": "CUR-008",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_cursos_creditos_definicion",
+      "categoria": "CUR",
+      "consultas_validacion": [
+        "que son los creditos academicos y como se calculan",
+        "que significa un credito academico",
+        "como funciona el sistema de creditos",
+        "un credito equivale a cuantas horas"
+      ],
+      "scores_observados": [
+        0.1429,
+        0.4286,
+        0.1429,
+        1.0
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Qué son los créditos académicos y cómo se calculan",
+      "corpus_ref": "CUR-009",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_cursos_promedio_ponderado",
+      "categoria": "CUR",
+      "consultas_validacion": [
+        "como se calcula el promedio ponderado semestral",
+        "como se saca el promedio del semestre",
+        "que es el promedio ponderado notas",
+        "como calcula el sistema mi promedio"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.2857,
+        0.7143,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cómo se calcula el promedio ponderado semestral",
+      "corpus_ref": "CUR-010",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_esp_listado_especialidades",
+      "categoria": "ESP",
+      "consultas_validacion": [
+        "cuales son las especialidades que ofrece la escuela ingenieria",
+        "que especializaciones hay en la carrera epiis",
+        "en que areas me puedo especializar sistemas",
+        "cuantas especialidades tiene la carrera"
+      ],
+      "scores_observados": [
+        0.25,
+        0.375,
+        0.125,
+        0.375
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.125,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.62,
+      "confianza_minima": 0.62,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.62). Se elevó al piso.",
+      "display_name": "Cuáles son las especialidades que ofrece la Escuela de Ingen",
+      "corpus_ref": "ESP-001",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.73
+    },
+    {
+      "intent_id": "consulta_esp_cuando_elegir",
+      "categoria": "ESP",
+      "consultas_validacion": [
+        "cuando debo elegir mi especialidad",
+        "en que semestre escojo especialidad",
+        "a partir de que ciclo elijo especializacion",
+        "cuando me especializo en la carrera"
+      ],
+      "scores_observados": [
+        0.3333,
+        0.5,
+        0.5,
+        0.8333
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.3333,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.62,
+      "confianza_minima": 0.62,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.62). Se elevó al piso.",
+      "display_name": "Cuándo debo elegir mi especialidad",
+      "corpus_ref": "ESP-002",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.73
+    },
+    {
+      "intent_id": "consulta_esp_demanda_laboral",
+      "categoria": "ESP",
+      "consultas_validacion": [
+        "que especialidad tiene mas demanda laboral en la region",
+        "cual especialidad tiene mas trabajo cusco",
+        "que especializacion es mas solicitada en el mercado",
+        "que especialidad conviene mas elegir"
+      ],
+      "scores_observados": [
+        0.5,
+        0.375,
+        0.25,
+        0.125
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.125,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.62,
+      "confianza_minima": 0.62,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.62). Se elevó al piso.",
+      "display_name": "Qué especialidad tiene más demanda laboral en la región",
+      "corpus_ref": "ESP-003",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.73
+    },
+    {
+      "intent_id": "consulta_esp_cursos_ingenieria_software",
+      "categoria": "ESP",
+      "consultas_validacion": [
+        "cuales son los cursos de la especialidad ingenieria de software",
+        "que materias llevo en software",
+        "que cursos tiene la especialidad de software epiis",
+        "que se aprende en ingenieria de software"
+      ],
+      "scores_observados": [
+        0.375,
+        0.375,
+        0.375,
+        0.375
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.375,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.62,
+      "confianza_minima": 0.62,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.338) caía por debajo del piso de categoría (0.62). Se elevó al piso.",
+      "display_name": "Cuáles son los cursos de la especialidad de Ingeniería de So",
+      "corpus_ref": "ESP-004",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.73
+    },
+    {
+      "intent_id": "consulta_esp_cambio_especialidad",
+      "categoria": "ESP",
+      "consultas_validacion": [
+        "puedo cambiar de especialidad una vez que la elegi",
+        "es posible cambiar de especializacion",
+        "que pasa si quiero otra especialidad",
+        "puedo arrepentirme de la especialidad que elegi"
+      ],
+      "scores_observados": [
+        0.3333,
+        0.5,
+        0.1667,
+        0.1667
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1667,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.62,
+      "confianza_minima": 0.62,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.150) caía por debajo del piso de categoría (0.62). Se elevó al piso.",
+      "display_name": "Puedo cambiar de especialidad una vez que la elegí",
+      "corpus_ref": "ESP-005",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.73
+    },
+    {
+      "intent_id": "consulta_esp_cursos_redes_telecom",
+      "categoria": "ESP",
+      "consultas_validacion": [
+        "que cursos incluye la especialidad redes y telecomunicaciones",
+        "que materias son de redes telecom",
+        "que se estudia en telecomunicaciones epiis",
+        "que aprendo en la especialidad de redes"
+      ],
+      "scores_observados": [
+        0.5714,
+        0.4286,
+        0.1429,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.62,
+      "confianza_minima": 0.62,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.62). Se elevó al piso.",
+      "display_name": "Qué cursos incluye la especialidad de Redes y Telecomunicaci",
+      "corpus_ref": "ESP-006",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.73
+    },
+    {
+      "intent_id": "consulta_esp_ia_ciencia_datos",
+      "categoria": "ESP",
+      "consultas_validacion": [
+        "que es la especialidad de inteligencia artificial y ciencia de datos",
+        "que es la especialidad de ia",
+        "que cubro en ciencia de datos machine learning",
+        "que se estudia en la especialidad de machine learning"
+      ],
+      "scores_observados": [
+        0.5714,
+        0.5714,
+        0.7143,
+        0.7143
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5714,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.62,
+      "confianza_minima": 0.62,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.62). Se elevó al piso.",
+      "display_name": "Qué es la especialidad de Inteligencia Artificial y Ciencia ",
+      "corpus_ref": "ESP-007",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.73
+    },
+    {
+      "intent_id": "consulta_esp_seguridad_certificaciones",
+      "categoria": "ESP",
+      "consultas_validacion": [
+        "la especialidad de seguridad informatica tiene certificaciones",
+        "en seguridad informatica hay certificados",
+        "la especialidad de ciberseguridad prepara para certificaciones",
+        "puedo obtener certificados en la especialidad de seguridad"
+      ],
+      "scores_observados": [
+        0.5714,
+        0.4286,
+        0.4286,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.62,
+      "confianza_minima": 0.62,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.62). Se elevó al piso.",
+      "display_name": "La especialidad de Seguridad Informática tiene certificacion",
+      "corpus_ref": "ESP-008",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.73
+    },
+    {
+      "intent_id": "consulta_esp_convenios_practicas",
+      "categoria": "ESP",
+      "consultas_validacion": [
+        "las especialidades tienen convenios con empresas para practicas",
+        "las especialidades tienen empresas colaboradoras convenio",
+        "hay convenios de practicas por especialidad epiis",
+        "las empresas contratan segun mi especialidad"
+      ],
+      "scores_observados": [
+        0.5,
+        0.1667,
+        0.5,
+        0.5
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1667,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.62,
+      "confianza_minima": 0.62,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.150) caía por debajo del piso de categoría (0.62). Se elevó al piso.",
+      "display_name": "Las especialidades tienen convenios con empresas para prácti",
+      "corpus_ref": "ESP-009",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.73
+    },
+    {
+      "intent_id": "consulta_esp_electivos_cruzados",
+      "categoria": "ESP",
+      "consultas_validacion": [
+        "puedo llevar cursos de otras especialidades como electivos",
+        "es posible tomar materias de otra especializacion",
+        "puedo cruzar cursos de diferentes especialidades",
+        "electivos de otras especialidades disponibles"
+      ],
+      "scores_observados": [
+        0.2857,
+        0.2857,
+        0.1429,
+        0.1429
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.62,
+      "confianza_minima": 0.62,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.62). Se elevó al piso.",
+      "display_name": "Puedo llevar cursos de otras especialidades como electivos",
+      "corpus_ref": "ESP-010",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.73
+    },
+    {
+      "intent_id": "consulta_ppp_requisitos_inicio",
+      "categoria": "PPP",
+      "consultas_validacion": [
+        "cuales son los requisitos para iniciar las practicas pre profesionales",
+        "que necesito para empezar las practicas ppp",
+        "requisitos inicio practicas pre profesionales epiis",
+        "como inicio las practicas preprofesionales"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.4286,
+        0.4286,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.7,
+      "confianza_minima": 0.7,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.70). Se elevó al piso.",
+      "display_name": "Cuáles son los requisitos para iniciar las prácticas pre-pro",
+      "corpus_ref": "PPP-001",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ppp_horas_acumuladas",
+      "categoria": "PPP",
+      "consultas_validacion": [
+        "cuantas horas de practicas debo acumular",
+        "cuantas horas ppp se requieren",
+        "horas acumuladas practicas pre profesionales",
+        "cuantas horas minimo de practicas"
+      ],
+      "scores_observados": [
+        0.5,
+        0.6667,
+        0.5,
+        0.5
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.7,
+      "confianza_minima": 0.7,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.70). Se elevó al piso.",
+      "display_name": "Cuántas horas de prácticas debo acumular",
+      "corpus_ref": "PPP-002",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ppp_empresa_convenio",
+      "categoria": "PPP",
+      "consultas_validacion": [
+        "la empresa donde hago practicas debe tener convenio con la universidad",
+        "necesito empresa con convenio para practicas",
+        "la empresa de practicas debe estar registrada en la unsaac",
+        "convenio empresa practicas pre profesionales"
+      ],
+      "scores_observados": [
+        0.6667,
+        0.6667,
+        0.5,
+        0.5
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.7,
+      "confianza_minima": 0.7,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.70). Se elevó al piso.",
+      "display_name": "La empresa donde hago prácticas debe tener convenio con la U",
+      "corpus_ref": "PPP-003",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ppp_carta_presentacion",
+      "categoria": "PPP",
+      "consultas_validacion": [
+        "como consigo la carta de presentacion para las practicas",
+        "donde solicito carta de presentacion practicas",
+        "como tramito la carta de presentacion ppp",
+        "solicitar carta presentacion practicas epiis"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.4286,
+        0.4286,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.7,
+      "confianza_minima": 0.7,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.70). Se elevó al piso.",
+      "display_name": "Cómo consigo la carta de presentación para las prácticas",
+      "corpus_ref": "PPP-004",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ppp_informe_final",
+      "categoria": "PPP",
+      "consultas_validacion": [
+        "que es el informe de practicas y cuando debo presentarlo",
+        "cuando presento el informe final de practicas",
+        "que contiene el informe de practicas pre profesionales",
+        "plazo entrega informe practicas"
+      ],
+      "scores_observados": [
+        0.5714,
+        0.7143,
+        0.5714,
+        0.5714
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5714,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.7,
+      "confianza_minima": 0.7,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.70). Se elevó al piso.",
+      "display_name": "Qué es el informe de prácticas y cuándo debo presentarlo",
+      "corpus_ref": "PPP-005",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ppp_remuneracion",
+      "categoria": "PPP",
+      "consultas_validacion": [
+        "las practicas pre profesionales son remuneradas",
+        "pagan por las practicas preprofesionales",
+        "las practicas tienen pago o son gratuitas",
+        "remuneracion practicas pre profesionales"
+      ],
+      "scores_observados": [
+        0.125,
+        0.25,
+        0.75,
+        0.25
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.125,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.7,
+      "confianza_minima": 0.7,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.70). Se elevó al piso.",
+      "display_name": "Las prácticas pre-profesionales son remuneradas",
+      "corpus_ref": "PPP-006",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ppp_sector_publico",
+      "categoria": "PPP",
+      "consultas_validacion": [
+        "puedo hacer mis practicas en una empresa publica o institucion del estado",
+        "puedo hacer practicas en entidades publicas",
+        "las practicas pueden ser en sector publico gobierno",
+        "instituciones del estado aceptan practicantes epiis"
+      ],
+      "scores_observados": [
+        0.8571,
+        0.1429,
+        0.4286,
+        0.1429
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.7,
+      "confianza_minima": 0.7,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.70). Se elevó al piso.",
+      "display_name": "Puedo hacer mis prácticas en una empresa pública o instituci",
+      "corpus_ref": "PPP-007",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ppp_supervision_universidad",
+      "categoria": "PPP",
+      "consultas_validacion": [
+        "quien supervisa y evalua mis practicas desde la universidad",
+        "quien es el supervisor de practicas de la epiis",
+        "como evalua la universidad mis practicas pre profesionales",
+        "docente supervisor practicas unsaac"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.2857,
+        0.2857,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.7,
+      "confianza_minima": 0.7,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.70). Se elevó al piso.",
+      "display_name": "Quién supervisa y evalúa mis prácticas desde la universidad",
+      "corpus_ref": "PPP-008",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ppp_trabajo_actual",
+      "categoria": "PPP",
+      "consultas_validacion": [
+        "puedo hacer las practicas en la misma empresa donde trabajo actualmente",
+        "puedo convalidar mi trabajo actual como practicas",
+        "si ya tengo trabajo puedo usarlo como practicas",
+        "empresa actual contar como practicas pre profesionales"
+      ],
+      "scores_observados": [
+        0.5,
+        0.6667,
+        0.5,
+        0.3333
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.3333,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.7,
+      "confianza_minima": 0.7,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.70). Se elevó al piso.",
+      "display_name": "Puedo hacer las prácticas en la misma empresa donde trabajo",
+      "corpus_ref": "PPP-009",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ppp_requisito_titulacion",
+      "categoria": "PPP",
+      "consultas_validacion": [
+        "las practicas pre profesionales son un requisito para titularse",
+        "necesito practicas para graduarme",
+        "las ppp son obligatorias para la titulacion",
+        "sin practicas puedo titularme epiis"
+      ],
+      "scores_observados": [
+        0.6,
+        0.2,
+        0.6,
+        0.2
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.7,
+      "confianza_minima": 0.7,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.180) caía por debajo del piso de categoría (0.70). Se elevó al piso.",
+      "display_name": "Las prácticas pre-profesionales son un requisito para titula",
+      "corpus_ref": "PPP-010",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_bie_servicios_generales",
+      "categoria": "BIE",
+      "consultas_validacion": [
+        "que servicios de bienestar ofrece la unsaac a sus estudiantes",
+        "que ofrece bienestar universitario unsaac",
+        "que servicios de apoyo estudiantil hay en la unsaac",
+        "cuales son los servicios de bienestar universitario"
+      ],
+      "scores_observados": [
+        0.5,
+        0.25,
+        0.5,
+        0.375
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.25,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.225) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Qué servicios de bienestar ofrece la UNSAAC a sus estudiante",
+      "corpus_ref": "BIE-001",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_bie_atencion_psicologica",
+      "categoria": "BIE",
+      "consultas_validacion": [
+        "como puedo acceder a la atencion psicologica gratuita",
+        "hay atencion psicologica gratis en la unsaac",
+        "donde pido cita con el psicologo en la universidad",
+        "como acceder al servicio psicologico unsaac"
+      ],
+      "scores_observados": [
+        0.8571,
+        0.4286,
+        0.7143,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cómo puedo acceder a la atención psicológica gratuita",
+      "corpus_ref": "BIE-002",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_bie_beca_alimentacion",
+      "categoria": "BIE",
+      "consultas_validacion": [
+        "que es la beca de alimentacion y como la solicito",
+        "como solicito la beca de comedor universitario",
+        "requisitos beca alimentacion unsaac estudiantes",
+        "como obtener beca comedor universitario"
+      ],
+      "scores_observados": [
+        0.8,
+        0.8,
+        0.4,
+        0.6
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.360) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Qué es la beca de alimentación y cómo la solicito",
+      "corpus_ref": "BIE-003",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_bie_apoyo_economico",
+      "categoria": "BIE",
+      "consultas_validacion": [
+        "existe apoyo economico para estudiantes en situacion de vulnerabilidad",
+        "hay apoyo economico para estudiantes de bajos recursos",
+        "como solicitar apoyo economico en la unsaac",
+        "beneficios economicos para estudiantes vulnerables unsaac"
+      ],
+      "scores_observados": [
+        0.2857,
+        0.1429,
+        0.2857,
+        0.0
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Existe apoyo económico para estudiantes en situación de vuln",
+      "corpus_ref": "BIE-004",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_bie_seguro_estudiantil",
+      "categoria": "BIE",
+      "consultas_validacion": [
+        "como funciona el seguro estudiantil de la unsaac",
+        "que cubre el seguro universitario",
+        "tengo seguro de salud por ser estudiante unsaac",
+        "seguro estudiantil accidentes unsaac"
+      ],
+      "scores_observados": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cómo funciona el seguro estudiantil de la UNSAAC",
+      "corpus_ref": "BIE-005",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_bie_deportes_cultura",
+      "categoria": "BIE",
+      "consultas_validacion": [
+        "que deportes y actividades culturales puedo practicar en la unsaac",
+        "que actividades deportivas ofrece la universidad",
+        "hay talleres culturales y deportivos en la unsaac",
+        "actividades extracurriculares deportes cultura unsaac"
+      ],
+      "scores_observados": [
+        0.5,
+        0.375,
+        0.25,
+        0.375
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.25,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.225) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Qué deportes y actividades culturales puedo practicar en la ",
+      "corpus_ref": "BIE-006",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_bie_residencia_universitaria",
+      "categoria": "BIE",
+      "consultas_validacion": [
+        "la unsaac tiene residencia universitaria para estudiantes de provincia",
+        "hay dormitorios universitarios en la unsaac",
+        "donde me alojo si soy de provincia en la unsaac",
+        "residencia estudiantil unsaac disponible"
+      ],
+      "scores_observados": [
+        0.2857,
+        0.4286,
+        0.4286,
+        0.1429
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "La UNSAAC tiene residencia universitaria para estudiantes de",
+      "corpus_ref": "BIE-007",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_bie_certificado_socioeconomico",
+      "categoria": "BIE",
+      "consultas_validacion": [
+        "como solicito un certificado de situacion socioeconomica",
+        "donde tramito el certificado socioeconomico unsaac",
+        "como pido el certificado de situacion economica",
+        "tramite certificado pobreza bienestar universitario"
+      ],
+      "scores_observados": [
+        0.6,
+        0.4,
+        0.6,
+        0.2
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.180) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cómo solicito un certificado de situación socioeconómica",
+      "corpus_ref": "BIE-008",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_bie_comedor_acceso",
+      "categoria": "BIE",
+      "consultas_validacion": [
+        "el comedor universitario esta disponible para todos los estudiantes",
+        "todos los alumnos pueden usar el comedor unsaac",
+        "como accedo al comedor universitario",
+        "quien puede ir al comedor universitario unsaac"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.4286,
+        0.2857,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "El comedor universitario está disponible para todos los estu",
+      "corpus_ref": "BIE-009",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_bie_contacto_oficina",
+      "categoria": "BIE",
+      "consultas_validacion": [
+        "a que numero o correo puedo comunicarme con bienestar universitario",
+        "como contacto la oficina de bienestar unsaac",
+        "cual es el telefono de bienestar universitario",
+        "correo de bienestar universitario unsaac contacto"
+      ],
+      "scores_observados": [
+        1.0,
+        0.5714,
+        0.5714,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "A qué número o correo puedo comunicarme con Bienestar Univer",
+      "corpus_ref": "BIE-010",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.74
+    },
+    {
+      "intent_id": "consulta_mov_programas_disponibles",
+      "categoria": "MOV",
+      "consultas_validacion": [
+        "que programas de movilidad estudiantil ofrece la unsaac",
+        "que programas de intercambio estudiantil hay",
+        "la unsaac tiene programas de intercambio internacional",
+        "programas movilidad estudiantil disponibles unsaac"
+      ],
+      "scores_observados": [
+        0.2857,
+        0.2857,
+        0.4286,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.55,
+      "confianza_minima": 0.55,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.55). Se elevó al piso.",
+      "display_name": "Qué programas de movilidad estudiantil ofrece la UNSAAC",
+      "corpus_ref": "MOV-001",
+      "prioridad": "media",
+      "confianza_minima_anterior": 0.68
+    },
+    {
+      "intent_id": "consulta_mov_requisitos_intercambio",
+      "categoria": "MOV",
+      "consultas_validacion": [
+        "cuales son los requisitos minimos para participar en un programa de intercambio",
+        "que necesito para postular al intercambio estudiantil",
+        "requisitos para movilidad estudiantil unsaac",
+        "condiciones para participar en intercambio internacional"
+      ],
+      "scores_observados": [
+        0.3333,
+        0.5,
+        0.3333,
+        0.3333
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.3333,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.55,
+      "confianza_minima": 0.55,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.55). Se elevó al piso.",
+      "display_name": "Cuáles son los requisitos mínimos para participar en un prog",
+      "corpus_ref": "MOV-002",
+      "prioridad": "media",
+      "confianza_minima_anterior": 0.68
+    },
+    {
+      "intent_id": "consulta_mov_convalidacion_cursos",
+      "categoria": "MOV",
+      "consultas_validacion": [
+        "los cursos llevados en el intercambio se convalidan en la unsaac",
+        "como se convalidan los cursos del intercambio",
+        "reconocen los creditos del intercambio en la unsaac",
+        "convalidacion cursos movilidad estudiantil"
+      ],
+      "scores_observados": [
+        0.5714,
+        0.2857,
+        0.5714,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.55,
+      "confianza_minima": 0.55,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.55). Se elevó al piso.",
+      "display_name": "Los cursos llevados en el intercambio se convalidan en la UN",
+      "corpus_ref": "MOV-003",
+      "prioridad": "media",
+      "confianza_minima_anterior": 0.68
+    },
+    {
+      "intent_id": "consulta_mov_apoyo_economico",
+      "categoria": "MOV",
+      "consultas_validacion": [
+        "hay apoyo economico para los estudiantes que van de intercambio",
+        "la unsaac apoya economicamente a los estudiantes de movilidad",
+        "hay becas para el intercambio estudiantil unsaac",
+        "financiamiento movilidad estudiantil beca"
+      ],
+      "scores_observados": [
+        0.4286,
+        1.0,
+        0.2857,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.55,
+      "confianza_minima": 0.55,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.55). Se elevó al piso.",
+      "display_name": "Hay apoyo económico para los estudiantes que van de intercam",
+      "corpus_ref": "MOV-004",
+      "prioridad": "media",
+      "confianza_minima_anterior": 0.68
+    },
+    {
+      "intent_id": "consulta_mov_estudiantes_entrantes",
+      "categoria": "MOV",
+      "consultas_validacion": [
+        "puedo recibir estudiantes de intercambio de otras universidades",
+        "la unsaac recibe estudiantes extranjeros de intercambio",
+        "como postular para venir a la unsaac de intercambio",
+        "estudiantes entrantes movilidad unsaac"
+      ],
+      "scores_observados": [
+        0.1429,
+        0.5714,
+        0.8571,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.55,
+      "confianza_minima": 0.55,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.55). Se elevó al piso.",
+      "display_name": "Puedo recibir estudiantes de intercambio de otras universida",
+      "corpus_ref": "MOV-005",
+      "prioridad": "media",
+      "confianza_minima_anterior": 0.68
+    },
+    {
+      "intent_id": "consulta_mov_convocatorias",
+      "categoria": "MOV",
+      "consultas_validacion": [
+        "donde puedo enterarme de las convocatorias de movilidad estudiantil",
+        "cuando son las convocatorias de intercambio unsaac",
+        "como me entero de los programas de movilidad",
+        "convocatorias intercambio estudiantil donde ver"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.4286,
+        0.2857,
+        0.1429
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.55,
+      "confianza_minima": 0.55,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.55). Se elevó al piso.",
+      "display_name": "Dónde puedo enterarme de las convocatorias de movilidad estu",
+      "corpus_ref": "MOV-006",
+      "prioridad": "media",
+      "confianza_minima_anterior": 0.68
+    },
+    {
+      "intent_id": "consulta_mov_documentos_postulacion",
+      "categoria": "MOV",
+      "consultas_validacion": [
+        "que documentos necesito para postular a la movilidad estudiantil",
+        "que papeles piden para el intercambio estudiantil",
+        "documentos requeridos para postular movilidad",
+        "requisitos documentarios intercambio estudiantil unsaac"
+      ],
+      "scores_observados": [
+        0.75,
+        0.25,
+        0.125,
+        0.125
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.125,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.55,
+      "confianza_minima": 0.55,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.55). Se elevó al piso.",
+      "display_name": "Qué documentos necesito para postular a la movilidad estudia",
+      "corpus_ref": "MOV-007",
+      "prioridad": "media",
+      "confianza_minima_anterior": 0.68
+    },
+    {
+      "intent_id": "consulta_mov_impacto_titulacion",
+      "categoria": "MOV",
+      "consultas_validacion": [
+        "el intercambio afecta mi proceso de titulacion o retrasa mi egreso",
+        "si voy de intercambio me retraso en la carrera",
+        "el intercambio estudiantil afecta mi graduacion",
+        "impacto titulacion intercambio estudiantil"
+      ],
+      "scores_observados": [
+        0.8333,
+        0.6667,
+        0.1667,
+        0.3333
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1667,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.55,
+      "confianza_minima": 0.55,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.150) caía por debajo del piso de categoría (0.55). Se elevó al piso.",
+      "display_name": "El intercambio afecta mi proceso de titulación o retrasa mi ",
+      "corpus_ref": "MOV-008",
+      "prioridad": "media",
+      "confianza_minima_anterior": 0.68
+    },
+    {
+      "intent_id": "consulta_mov_requisito_idioma",
+      "categoria": "MOV",
+      "consultas_validacion": [
+        "necesito dominar otro idioma para participar en la movilidad",
+        "debo hablar ingles para el intercambio estudiantil",
+        "requisito de idioma para movilidad estudiantil unsaac",
+        "que nivel de idioma necesito para intercambio"
+      ],
+      "scores_observados": [
+        0.2222,
+        0.4444,
+        0.2222,
+        0.4444
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2222,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.55,
+      "confianza_minima": 0.55,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.200) caía por debajo del piso de categoría (0.55). Se elevó al piso.",
+      "display_name": "Necesito dominar otro idioma para participar en la movilidad",
+      "corpus_ref": "MOV-009",
+      "prioridad": "media",
+      "confianza_minima_anterior": 0.68
+    },
+    {
+      "intent_id": "consulta_mov_universidades_convenio",
+      "categoria": "MOV",
+      "consultas_validacion": [
+        "la unsaac tiene convenios con universidades reconocidas internacionalmente",
+        "con que universidades tiene convenio la unsaac para intercambio",
+        "universidades socias de la unsaac para movilidad",
+        "convenios internacionales unsaac intercambio estudiantil"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.4286,
+        0.2857,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.55,
+      "confianza_minima": 0.55,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.55). Se elevó al piso.",
+      "display_name": "La UNSAAC tiene convenios con universidades reconocidas inte",
+      "corpus_ref": "MOV-010",
+      "prioridad": "media",
+      "confianza_minima_anterior": 0.68
+    },
+    {
+      "intent_id": "consulta_mat_fechas_matricula",
+      "categoria": "MAT",
+      "consultas_validacion": [
+        "cuando se realizan las matriculas en la unsaac",
+        "cuales son las fechas de matricula unsaac",
+        "cuando es el periodo de matricula en sistemas",
+        "fechas matricula semestre unsaac calendario"
+      ],
+      "scores_observados": [
+        0.375,
+        0.375,
+        0.5,
+        0.375
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.375,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.75,
+      "confianza_minima": 0.75,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.338) caía por debajo del piso de categoría (0.75). Se elevó al piso.",
+      "display_name": "Cuándo se realizan las matrículas en la UNSAAC",
+      "corpus_ref": "MAT-001",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.8
+    },
+    {
+      "intent_id": "consulta_mat_proceso_serunsa",
+      "categoria": "MAT",
+      "consultas_validacion": [
+        "como me matriculo en el portal serunsa",
+        "como hago la matricula en serunsa unsaac",
+        "proceso de matricula portal serunsa paso a paso",
+        "matricula online serunsa como funciona"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.7143,
+        1.0,
+        0.5714
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.75,
+      "confianza_minima": 0.75,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.75). Se elevó al piso.",
+      "display_name": "Cómo me matriculo en el portal SERUNSA",
+      "corpus_ref": "MAT-002",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.8
+    },
+    {
+      "intent_id": "consulta_mat_requisitos",
+      "categoria": "MAT",
+      "consultas_validacion": [
+        "cuales son los requisitos para poder matricularme",
+        "que necesito para matricularme en la unsaac",
+        "requisitos matricula semestre unsaac epiis",
+        "condiciones para matricularse en la carrera"
+      ],
+      "scores_observados": [
+        0.3333,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.3333,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.75,
+      "confianza_minima": 0.75,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.75). Se elevó al piso.",
+      "display_name": "Cuáles son los requisitos para poder matricularme",
+      "corpus_ref": "MAT-003",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.8
+    },
+    {
+      "intent_id": "consulta_mat_modalidad_presencial",
+      "categoria": "MAT",
+      "consultas_validacion": [
+        "puedo hacer la matricula de forma presencial",
+        "la matricula puede ser presencial en secretaria",
+        "hay matricula presencial en la unsaac",
+        "donde hago la matricula en persona"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.4286,
+        0.4286,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.75,
+      "confianza_minima": 0.75,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.75). Se elevó al piso.",
+      "display_name": "Puedo hacer la matrícula de forma presencial",
+      "corpus_ref": "MAT-004",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.8
+    },
+    {
+      "intent_id": "consulta_mat_fuera_de_plazo",
+      "categoria": "MAT",
+      "consultas_validacion": [
+        "que hago si no pude matricularme dentro del plazo establecido",
+        "se me paso la fecha de matricula que hago",
+        "matricula extemporanea fuera de plazo unsaac",
+        "como matricularme si se vencio el plazo"
+      ],
+      "scores_observados": [
+        0.2857,
+        0.4286,
+        0.5714,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.75,
+      "confianza_minima": 0.75,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.75). Se elevó al piso.",
+      "display_name": "Qué hago si no pude matricularme dentro del plazo establecid",
+      "corpus_ref": "MAT-005",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.8
+    },
+    {
+      "intent_id": "consulta_mat_creditos_maximo",
+      "categoria": "MAT",
+      "consultas_validacion": [
+        "cuantos creditos maximos puedo llevar por semestre",
+        "cual es la carga maxima de creditos por semestre",
+        "maximo creditos matricula semestre epiis",
+        "puedo llevar mas de 24 creditos por semestre"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.8571,
+        0.4286,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.75,
+      "confianza_minima": 0.75,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.75). Se elevó al piso.",
+      "display_name": "Cuántos créditos máximos puedo llevar por semestre",
+      "corpus_ref": "MAT-006",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.8
+    },
+    {
+      "intent_id": "consulta_mat_retiro_curso",
+      "categoria": "MAT",
+      "consultas_validacion": [
+        "puedo retirar un curso despues de matricularme",
+        "como retiro un curso de mi matricula",
+        "es posible darse de baja en un curso ya matriculado",
+        "retiro de curso matriculado plazo proceso"
+      ],
+      "scores_observados": [
+        0.6667,
+        0.6667,
+        0.6667,
+        0.6667
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.6667,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.75,
+      "confianza_minima": 0.75,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.600) caía por debajo del piso de categoría (0.75). Se elevó al piso.",
+      "display_name": "Puedo retirar un curso después de matricularme",
+      "corpus_ref": "MAT-007",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.8
+    },
+    {
+      "intent_id": "consulta_mat_condicional",
+      "categoria": "MAT",
+      "consultas_validacion": [
+        "que es la matricula condicional y cuando aplica",
+        "que significa matricula condicional en la unsaac",
+        "cuando me ponen matricula condicional",
+        "matricula condicional bajo rendimiento unsaac"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.4286,
+        0.4286,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.75,
+      "confianza_minima": 0.75,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.75). Se elevó al piso.",
+      "display_name": "Qué es la matrícula condicional y cuándo aplica",
+      "corpus_ref": "MAT-008",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.8
+    },
+    {
+      "intent_id": "consulta_mat_costo",
+      "categoria": "MAT",
+      "consultas_validacion": [
+        "cuanto cuesta la matricula en la unsaac",
+        "cual es el costo de la matricula en sistemas",
+        "hay que pagar para matricularse en la unsaac",
+        "arancel o costo matricula unsaac epiis"
+      ],
+      "scores_observados": [
+        0.5,
+        0.5,
+        0.5,
+        0.8333
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.75,
+      "confianza_minima": 0.75,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.75). Se elevó al piso.",
+      "display_name": "Cuánto cuesta la matrícula en la UNSAAC",
+      "corpus_ref": "MAT-009",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.8
+    },
+    {
+      "intent_id": "consulta_mat_seguro_activacion",
+      "categoria": "MAT",
+      "consultas_validacion": [
+        "que es el seguro universitario y cuando se activa con la matricula",
+        "el seguro estudiantil se activa al matricularme",
+        "cuando empieza el seguro universitario unsaac",
+        "seguro activacion matricula unsaac"
+      ],
+      "scores_observados": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.75,
+      "confianza_minima": 0.75,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.75). Se elevó al piso.",
+      "display_name": "Qué es el seguro universitario y cuándo se activa con la mat",
+      "corpus_ref": "MAT-010",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.8
+    },
+    {
+      "intent_id": "consulta_tit_modalidades",
+      "categoria": "TIT",
+      "consultas_validacion": [
+        "cuales son las modalidades de titulacion disponibles en la epiis",
+        "que formas de titulacion existen en la carrera",
+        "modalidades de graduacion titulacion epiis unsaac",
+        "como puedo titularme en ingenieria informatica unsaac"
+      ],
+      "scores_observados": [
+        0.625,
+        0.625,
+        0.125,
+        0.375
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.125,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.72,
+      "confianza_minima": 0.72,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.72). Se elevó al piso.",
+      "display_name": "Cuáles son las modalidades de titulación disponibles en la E",
+      "corpus_ref": "TIT-001",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.78
+    },
+    {
+      "intent_id": "consulta_tit_requisitos_inicio",
+      "categoria": "TIT",
+      "consultas_validacion": [
+        "cuales son los requisitos para iniciar el proceso de titulacion",
+        "que necesito para comenzar a titularme",
+        "requisitos para iniciar titulacion epiis unsaac",
+        "condiciones para empezar proceso de grado"
+      ],
+      "scores_observados": [
+        0.2857,
+        0.7143,
+        0.2857,
+        0.1429
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.72,
+      "confianza_minima": 0.72,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.72). Se elevó al piso.",
+      "display_name": "Cuáles son los requisitos para iniciar el proceso de titulac",
+      "corpus_ref": "TIT-002",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.78
+    },
+    {
+      "intent_id": "consulta_tit_grado_bachiller",
+      "categoria": "TIT",
+      "consultas_validacion": [
+        "como obtengo el grado de bachiller",
+        "que necesito para obtener el bachillerato en sistemas",
+        "proceso para graduarse bachiller epiis",
+        "como tramitar el grado de bachiller unsaac"
+      ],
+      "scores_observados": [
+        0.5714,
+        0.4286,
+        0.5714,
+        0.5714
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.72,
+      "confianza_minima": 0.72,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.72). Se elevó al piso.",
+      "display_name": "Cómo obtengo el grado de Bachiller",
+      "corpus_ref": "TIT-003",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.78
+    },
+    {
+      "intent_id": "consulta_tit_plazo_titulacion",
+      "categoria": "TIT",
+      "consultas_validacion": [
+        "cuanto tiempo tengo para titularme despues de terminar los cursos",
+        "hay un plazo limite para titularme despues de egresar",
+        "cuando vence el plazo para titularse en la unsaac",
+        "tiempo limite titulacion egresados unsaac"
+      ],
+      "scores_observados": [
+        0.3333,
+        0.5,
+        0.6667,
+        0.6667
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.3333,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.72,
+      "confianza_minima": 0.72,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.72). Se elevó al piso.",
+      "display_name": "Cuánto tiempo tengo para titularme después de terminar los c",
+      "corpus_ref": "TIT-004",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.78
+    },
+    {
+      "intent_id": "consulta_tit_suficiencia_profesional",
+      "categoria": "TIT",
+      "consultas_validacion": [
+        "que es un trabajo de suficiencia profesional",
+        "que es la suficiencia profesional como modalidad de titulacion",
+        "como funciona el trabajo de suficiencia profesional epiis",
+        "suficiencia profesional titulacion unsaac"
+      ],
+      "scores_observados": [
+        0.5,
+        0.6667,
+        0.5,
+        0.5
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.72,
+      "confianza_minima": 0.72,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.72). Se elevó al piso.",
+      "display_name": "Qué es un trabajo de suficiencia profesional",
+      "corpus_ref": "TIT-005",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.78
+    },
+    {
+      "intent_id": "consulta_tit_eleccion_asesor",
+      "categoria": "TIT",
+      "consultas_validacion": [
+        "como escojo a mi asesor de tesis",
+        "como elijo mi asesor de titulacion",
+        "proceso para elegir asesor de tesis epiis",
+        "requisitos asesor tesis unsaac"
+      ],
+      "scores_observados": [
+        0.8571,
+        0.5714,
+        0.7143,
+        0.7143
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5714,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.72,
+      "confianza_minima": 0.72,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.72). Se elevó al piso.",
+      "display_name": "Cómo escojo a mi asesor de tesis",
+      "corpus_ref": "TIT-006",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.78
+    },
+    {
+      "intent_id": "consulta_tit_duracion_proceso",
+      "categoria": "TIT",
+      "consultas_validacion": [
+        "cuanto tiempo toma habitualmente el proceso de titulacion",
+        "cuanto demora titularse en la epiis",
+        "tiempo promedio proceso de titulacion unsaac",
+        "cuanto dura el tramite de titulacion sistemas"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.4286,
+        0.2857,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.72,
+      "confianza_minima": 0.72,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.72). Se elevó al piso.",
+      "display_name": "Cuánto tiempo toma habitualmente el proceso de titulación",
+      "corpus_ref": "TIT-007",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.78
+    },
+    {
+      "intent_id": "consulta_tit_jurado_sustentacion",
+      "categoria": "TIT",
+      "consultas_validacion": [
+        "en que consiste el jurado de sustentacion",
+        "quienes conforman el jurado de tesis epiis",
+        "como se forma el jurado para la sustentacion",
+        "que es el jurado de sustentacion de titulacion"
+      ],
+      "scores_observados": [
+        0.7143,
+        0.4286,
+        0.4286,
+        0.7143
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.72,
+      "confianza_minima": 0.72,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.72). Se elevó al piso.",
+      "display_name": "En qué consiste el jurado de sustentación",
+      "corpus_ref": "TIT-008",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.78
+    },
+    {
+      "intent_id": "consulta_tit_desaprobacion_sustentacion",
+      "categoria": "TIT",
+      "consultas_validacion": [
+        "que pasa si desapruebo la sustentacion",
+        "que consecuencias hay si jalo la sustentacion de tesis",
+        "puedo repetir la sustentacion si la desapruebo",
+        "segunda oportunidad sustentacion tesis epiis"
+      ],
+      "scores_observados": [
+        0.5,
+        0.6667,
+        0.5,
+        0.6667
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.72,
+      "confianza_minima": 0.72,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.72). Se elevó al piso.",
+      "display_name": "Qué pasa si desapruebo la sustentación",
+      "corpus_ref": "TIT-009",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.78
+    },
+    {
+      "intent_id": "consulta_tit_registro_sunedu",
+      "categoria": "TIT",
+      "consultas_validacion": [
+        "donde debo registrar mi titulo una vez obtenido",
+        "como registro mi titulo en sunedu",
+        "tramite registro titulo sunedu unsaac",
+        "donde se registra el titulo profesional obtenido"
+      ],
+      "scores_observados": [
+        0.2857,
+        0.4286,
+        0.4286,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.72,
+      "confianza_minima": 0.72,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.72). Se elevó al piso.",
+      "display_name": "Dónde debo registrar mi título una vez obtenido",
+      "corpus_ref": "TIT-010",
+      "prioridad": "muy_alta",
+      "confianza_minima_anterior": 0.78
+    },
+    {
+      "intent_id": "consulta_ser_biblioteca",
+      "categoria": "SER",
+      "consultas_validacion": [
+        "como accedo a los recursos de la biblioteca universitaria",
+        "como uso la biblioteca de la unsaac",
+        "acceso biblioteca universitaria unsaac recursos digitales",
+        "servicios biblioteca unsaac estudiantes"
+      ],
+      "scores_observados": [
+        0.625,
+        0.25,
+        0.375,
+        0.25
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.25,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.225) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cómo accedo a los recursos de la biblioteca universitaria",
+      "corpus_ref": "SER-001",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ser_correo_institucional",
+      "categoria": "SER",
+      "consultas_validacion": [
+        "como obtengo mi correo institucional de la unsaac",
+        "como creo mi correo universitario unsaac",
+        "tramite correo institucional estudiantes unsaac",
+        "donde solicito mi correo de la universidad"
+      ],
+      "scores_observados": [
+        0.5714,
+        0.7143,
+        0.4286,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cómo obtengo mi correo institucional de la UNSAAC",
+      "corpus_ref": "SER-002",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ser_certificados_constancias",
+      "categoria": "SER",
+      "consultas_validacion": [
+        "donde solicito mis certificados y constancias academicas",
+        "como tramito una constancia de estudios unsaac",
+        "como pido un certificado de notas en la epiis",
+        "tramite constancia matricula certificado academico"
+      ],
+      "scores_observados": [
+        0.2857,
+        0.2857,
+        0.4286,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Dónde solicito mis certificados y constancias académicas",
+      "corpus_ref": "SER-003",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ser_aula_virtual",
+      "categoria": "SER",
+      "consultas_validacion": [
+        "como puedo acceder al aula virtual de la unsaac",
+        "como entro al aula virtual campus virtual unsaac",
+        "donde accedo al moodle de la unsaac",
+        "aula virtual plataforma educativa unsaac acceso"
+      ],
+      "scores_observados": [
+        0.5714,
+        0.4286,
+        0.7143,
+        0.5714
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cómo puedo acceder al aula virtual de la UNSAAC",
+      "corpus_ref": "SER-004",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ser_laboratorios_computo",
+      "categoria": "SER",
+      "consultas_validacion": [
+        "la unsaac cuenta con laboratorios de computo disponibles para estudiantes",
+        "hay laboratorios de computacion en la epiis",
+        "puedo usar los laboratorios de computo de la unsaac",
+        "acceso laboratorios informatica computadoras epiis"
+      ],
+      "scores_observados": [
+        0.5,
+        0.375,
+        0.5,
+        0.375
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.375,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.338) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "La UNSAAC cuenta con laboratorios de cómputo disponibles par",
+      "corpus_ref": "SER-005",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ser_carta_presentacion",
+      "categoria": "SER",
+      "consultas_validacion": [
+        "como solicito una carta de presentacion para eventos o concursos",
+        "donde tramito carta de presentacion para eventos",
+        "carta de presentacion para concursos externos epiis",
+        "solicitar carta presentacion actividades academicas"
+      ],
+      "scores_observados": [
+        0.7143,
+        0.2857,
+        0.4286,
+        0.2857
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cómo solicito una carta de presentación para eventos o concu",
+      "corpus_ref": "SER-006",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ser_impresion_campus",
+      "categoria": "SER",
+      "consultas_validacion": [
+        "existe un servicio de impresion o fotocopiado dentro del campus",
+        "hay servicio de impresion en la unsaac campus",
+        "donde puedo imprimir en la universidad unsaac",
+        "fotocopiado impresion campus universitario unsaac"
+      ],
+      "scores_observados": [
+        0.7143,
+        0.4286,
+        0.1429,
+        0.5714
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.1429,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Existe un servicio de impresión o fotocopiado dentro del cam",
+      "corpus_ref": "SER-007",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ser_record_notas",
+      "categoria": "SER",
+      "consultas_validacion": [
+        "como puedo obtener mi record de notas oficial",
+        "donde tramito mi record de notas oficial unsaac",
+        "como solicito el historial de notas epiis",
+        "record academico notas tramite secretaria"
+      ],
+      "scores_observados": [
+        0.5,
+        0.5,
+        0.625,
+        0.5
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.5,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cómo puedo obtener mi récord de notas oficial",
+      "corpus_ref": "SER-008",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ser_tupa",
+      "categoria": "SER",
+      "consultas_validacion": [
+        "que es el tupa y donde puedo consultarlo",
+        "donde encuentro el tupa de la unsaac",
+        "que es el texto unico de procedimientos administrativos unsaac",
+        "como consultar el tupa tramites unsaac"
+      ],
+      "scores_observados": [
+        0.4286,
+        0.2857,
+        0.5714,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.2857,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Qué es el TUPA y dónde puedo consultarlo",
+      "corpus_ref": "SER-009",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.76
+    },
+    {
+      "intent_id": "consulta_ser_contacto_secretaria",
+      "categoria": "SER",
+      "consultas_validacion": [
+        "como me comunico con la secretaria de la escuela de ingenieria",
+        "cual es el telefono de la secretaria de la epiis",
+        "correo o telefono de la secretaria de sistemas unsaac",
+        "contacto secretaria epiis ingenieria informatica"
+      ],
+      "scores_observados": [
+        0.5714,
+        0.7143,
+        0.8571,
+        0.4286
+      ],
+      "n_validacion": 4,
+      "score_minimo_correcto": 0.4286,
+      "margen_aplicado": 0.1,
+      "piso_categoria": 0.65,
+      "confianza_minima": 0.65,
+      "criterio_calibracion": "piso_categoria_aplicado",
+      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "display_name": "Cómo me comunico con la secretaría de la Escuela de Ingenier",
+      "corpus_ref": "SER-010",
+      "prioridad": "alta",
+      "confianza_minima_anterior": 0.76
+    }
+  ]
+}
