@@ -201,6 +201,30 @@
     ]
   },
   {
+    "id":"TUT-011",
+    "categoria":"TUT",
+    "categoria_nombre":"Proceso de Tutorías",
+    "pregunta":"¿Quién es mi tutor académico asignado?",
+    "respuesta":"Lo siento, no tengo acceso a la información personal de tu asignación tutorial. El reglamento (Art. 9°) establece que el Comité Tutorial de cada Escuela Profesional propone los tutores, y son nombrados mediante resolución de decanato. Para conocer quién es tu tutor asignado te recomiendo: (1) revisar la resolución de decanato o la relación oficial de tutores publicada por tu Escuela Profesional; (2) consultar directamente en la Dirección de la Escuela Profesional de Ingeniería Informática y de Sistemas (EPIIS); (3) escribir al Director de la EPIIS o a la Secretaría de la Escuela; o (4) acudir al Comité Tutorial de la Escuela. El Director de Escuela Profesional articula el trabajo de los tutores con el Comité (Art. 9°).",
+    "intent":"consulta_tutoria_quien_es_mi_tutor",
+    "variaciones":[
+      "¿Quién es mi tutor?",
+      "¿Cómo sé quién es mi tutor?",
+      "¿Dónde encuentro el nombre de mi tutor?",
+      "¿Cómo contacto a mi tutor académico?",
+      "¿Quién me corresponde como tutor?",
+      "¿Cuál es mi tutor asignado?"
+    ],
+    "fuente":"Reglamento de Tutoría Académica UNSAAC, Art. 9° y 14° (información personal no disponible)",
+    "tags":[
+      "quien",
+      "mi tutor",
+      "asignado",
+      "contacto",
+      "director escuela"
+    ]
+  },
+  {
     "id": "TTUT-001",
     "categoria": "TTUT",
     "categoria_nombre": "Tipos de Tutoría",

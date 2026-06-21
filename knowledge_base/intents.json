@@ -45,10 +45,10 @@
       "calibracion": {
         "version": "1.0.0",
         "n_validacion": 4,
-        "score_minimo_correcto": 0.5714,
+        "score_minimo_correcto": 0.6667,
         "margen_aplicado": 0.1,
-        "criterio": "piso_categoria_aplicado",
-        "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+        "criterio": "score_minimo_con_margen",
+        "observaciones": "Confianza calibrada desde score_min=0.667 con margen de seguridad del 10%."
       }
     },
     {
@@ -445,10 +445,10 @@
       "calibracion": {
         "version": "1.0.0",
         "n_validacion": 4,
-        "score_minimo_correcto": 0.2857,
+        "score_minimo_correcto": 0.3333,
         "margen_aplicado": 0.1,
         "criterio": "piso_categoria_aplicado",
-        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+        "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.65). Se elevó al piso."
       }
     },
     {
@@ -1053,10 +1053,10 @@
       "calibracion": {
         "version": "1.0.0",
         "n_validacion": 4,
-        "score_minimo_correcto": 0.1429,
+        "score_minimo_correcto": 0.1667,
         "margen_aplicado": 0.1,
         "criterio": "piso_categoria_aplicado",
-        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.55). Se elevó al piso."
+        "observaciones": "Score mínimo calculado (0.150) caía por debajo del piso de categoría (0.55). Se elevó al piso."
       }
     },
     {
@@ -1149,10 +1149,10 @@
       "calibracion": {
         "version": "1.0.0",
         "n_validacion": 4,
-        "score_minimo_correcto": 0.4286,
+        "score_minimo_correcto": 0.3333,
         "margen_aplicado": 0.1,
         "criterio": "piso_categoria_aplicado",
-        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.75). Se elevó al piso."
+        "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.75). Se elevó al piso."
       }
     },
     {
@@ -1485,10 +1485,10 @@
       "calibracion": {
         "version": "1.0.0",
         "n_validacion": 4,
-        "score_minimo_correcto": 0.2857,
+        "score_minimo_correcto": 0.3333,
         "margen_aplicado": 0.1,
         "criterio": "piso_categoria_aplicado",
-        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+        "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.65). Se elevó al piso."
       }
     },
     {
@@ -1501,10 +1501,10 @@
       "calibracion": {
         "version": "1.0.0",
         "n_validacion": 4,
-        "score_minimo_correcto": 0.4286,
+        "score_minimo_correcto": 0.5,
         "margen_aplicado": 0.1,
         "criterio": "piso_categoria_aplicado",
-        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+        "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.65). Se elevó al piso."
       }
     },
     {

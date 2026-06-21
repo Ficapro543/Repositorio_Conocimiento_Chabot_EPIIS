@@ -6,7 +6,6 @@
       "intent_id": "consulta_tutoria_definicion",
       "categoria": "TUT",
       "keywords_primarios": [
-        "tutoria",
         "tutoria academica",
         "acompanamiento"
       ],
@@ -46,7 +45,8 @@
       "frases_trigger": [
         "cuantas veces tutoria",
         "frecuencia sesiones",
-        "cada cuanto tiempo tutor"
+        "cada cuanto tiempo tutor",
+        "con que frecuencia asistir tutoria"
       ]
     },
     {
@@ -245,7 +245,8 @@
       "frases_trigger": [
         "que tipos tutoria",
         "modalidades tutoria",
-        "cuantas clases tutoria"
+        "cuantas clases tutoria",
+        "cuales son los tipos de tutoria"
       ]
     },
     {
@@ -356,7 +357,7 @@
       "frases_trigger": [
         "diferencia tutoria psicologo",
         "tutoria incluye psicologia",
-        "cuando ir psicologo"
+        "cuando ir al psicologo tutoria"
       ]
     },
     {
@@ -543,6 +544,8 @@
       "keywords_primarios": [
         "desaprobacion",
         "jalar",
+        "jalo",
+        "jale",
         "reprobar",
         "tres veces"
       ],
@@ -557,7 +560,10 @@
       "frases_trigger": [
         "que pasa desapruebo curso",
         "consecuencias jalar",
-        "cuantas veces puedo llevar curso"
+        "cuantas veces puedo llevar curso",
+        "que pasa si jalo un curso",
+        "jale un curso",
+        "que hago si jalo un curso"
       ]
     },
     {
@@ -711,7 +717,8 @@
       "frases_trigger": [
         "cuando escojo especialidad",
         "en que semestre elijo",
-        "a partir de cuando me especializo"
+        "a partir de cuando me especializo",
+        "cuando tengo que elegir especialidad"
       ]
     },
     {
@@ -909,7 +916,9 @@
       "frases_trigger": [
         "requisitos practicas",
         "que necesito practicas",
-        "condiciones ppp"
+        "condiciones ppp",
+        "informacion ppp",
+        "saber sobre ppp"
       ]
     },
     {
@@ -1140,13 +1149,14 @@
       "keywords_secundarios": [
         "gratuito",
         "cita",
-        "confidencial"
+        "confidencial",
+        "acceder"
       ],
       "sinonimos": [
         "atencion psicologica"
       ],
       "frases_trigger": [
-        "psicologo unsaac",
+        "psicologo gratuito",
         "cita psicologo",
         "salud mental universidad"
       ]
@@ -1342,7 +1352,8 @@
       "frases_trigger": [
         "que programas movilidad",
         "intercambios estudiantiles",
-        "convenios intercambio"
+        "convenios intercambio",
+        "que programas intercambio hay"
       ]
     },
     {
@@ -1385,7 +1396,8 @@
       "frases_trigger": [
         "convalidan cursos intercambio",
         "reconocen materias intercambio",
-        "creditos intercambio"
+        "creditos intercambio",
+        "reconocen cursos intercambio"
       ]
     },
     {
@@ -1571,7 +1583,9 @@
       "categoria": "MAT",
       "keywords_primarios": [
         "matricula online",
-        "pasos matricula"
+        "pasos matricula",
+        "portal virtual",
+        "matriculo"
       ],
       "keywords_secundarios": [
         "usuario",
@@ -1583,7 +1597,9 @@
       ],
       "frases_trigger": [
         "pasos matricula",
-        "matricula en linea"
+        "matricula en linea",
+        "portal virtual matricula",
+        "matriculo portal virtual"
       ]
     },
     {
@@ -1895,6 +1911,7 @@
       "keywords_primarios": [
         "cuanto dura titulo",
         "tiempo titulacion",
+        "proceso titulacion",
         "meses"
       ],
       "keywords_secundarios": [
@@ -1908,7 +1925,8 @@
       "frases_trigger": [
         "cuanto dura titularse",
         "tiempo sacar titulo",
-        "tramite titulacion rapido"
+        "tramite titulacion rapido",
+        "cuanto tarda proceso titulacion"
       ]
     },
     {

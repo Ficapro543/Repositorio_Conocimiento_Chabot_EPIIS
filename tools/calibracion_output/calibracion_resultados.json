@@ -42,7 +42,7 @@
       "display_name": "Qué es la tutoría académica en la UNSAAC",
       "corpus_ref": "TUT-001",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.72
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tutoria_frecuencia",
@@ -69,7 +69,7 @@
       "display_name": "Con qué frecuencia debo asistir a las sesiones de tutoría",
       "corpus_ref": "TUT-002",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.72
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tutoria_contacto_tutor",
@@ -81,22 +81,22 @@
         "como saber quien es mi tutor academico"
       ],
       "scores_observados": [
-        0.5714,
-        0.8571,
-        0.5714,
-        0.5714
+        0.6667,
+        0.8333,
+        0.6667,
+        0.6667
       ],
       "n_validacion": 4,
-      "score_minimo_correcto": 0.5714,
+      "score_minimo_correcto": 0.6667,
       "margen_aplicado": 0.1,
       "piso_categoria": 0.6,
       "confianza_minima": 0.6,
-      "criterio_calibracion": "piso_categoria_aplicado",
-      "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.60). Se elevó al piso.",
+      "criterio_calibracion": "score_minimo_con_margen",
+      "observaciones": "Confianza calibrada desde score_min=0.667 con margen de seguridad del 10%.",
       "display_name": "Quién es mi tutor asignado y cómo puedo contactarlo",
       "corpus_ref": "TUT-003",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.72
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tutoria_temas",
@@ -123,7 +123,7 @@
       "display_name": "Qué temas se tratan en las sesiones de tutoría",
       "corpus_ref": "TUT-004",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.72
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tutoria_obligatoriedad",
@@ -150,7 +150,7 @@
       "display_name": "La asistencia a tutoría es obligatoria",
       "corpus_ref": "TUT-005",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.72
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tutoria_registro_asistencia",
@@ -177,7 +177,7 @@
       "display_name": "Cómo se registra la asistencia a las sesiones de tutoría",
       "corpus_ref": "TUT-006",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.72
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tutoria_cambio_tutor",
@@ -204,7 +204,7 @@
       "display_name": "Puedo cambiar de tutor si tengo dificultades con el asignado",
       "corpus_ref": "TUT-007",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.72
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tutoria_reglamento",
@@ -231,7 +231,7 @@
       "display_name": "Existe algún reglamento que regule el proceso de tutorías",
       "corpus_ref": "TUT-008",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.72
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tutoria_materiales_sesion",
@@ -258,7 +258,7 @@
       "display_name": "Qué debo llevar a una sesión de tutoría",
       "corpus_ref": "TUT-009",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.72
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tutoria_confidencialidad",
@@ -285,7 +285,7 @@
       "display_name": "Las sesiones de tutoría son confidenciales",
       "corpus_ref": "TUT-010",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.72
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tipos_tutoria_general",
@@ -312,7 +312,7 @@
       "display_name": "Cuáles son los tipos de tutoría que ofrece la escuela",
       "corpus_ref": "TTUT-001",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.7
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tipos_tutoria_individual",
@@ -339,7 +339,7 @@
       "display_name": "En qué consiste la tutoría individual",
       "corpus_ref": "TTUT-002",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.7
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tipos_tutoria_grupal",
@@ -366,7 +366,7 @@
       "display_name": "Qué es la tutoría grupal y cómo se organiza",
       "corpus_ref": "TTUT-003",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.7
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tipos_tutoria_pares",
@@ -393,7 +393,7 @@
       "display_name": "Qué es la tutoría entre pares",
       "corpus_ref": "TTUT-004",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.7
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tipos_tutoria_virtual",
@@ -420,7 +420,7 @@
       "display_name": "Existe tutoría en línea o virtual",
       "corpus_ref": "TTUT-005",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.7
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tipos_tutoria_vs_psicologia",
@@ -447,7 +447,7 @@
       "display_name": "Cuál es la diferencia entre tutoría académica y orientación ",
       "corpus_ref": "TTUT-006",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.7
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tipos_tutoria_ingresantes",
@@ -474,7 +474,7 @@
       "display_name": "Qué es la tutoría de ingresantes",
       "corpus_ref": "TTUT-007",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.7
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tipos_tutoria_riesgo_academico",
@@ -501,7 +501,7 @@
       "display_name": "Existe tutoría para estudiantes con bajo rendimiento",
       "corpus_ref": "TTUT-008",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.7
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tipos_tutoria_vs_asesoria_tesis",
@@ -528,7 +528,7 @@
       "display_name": "Qué diferencia hay entre tutoría y asesoría de tesis",
       "corpus_ref": "TTUT-009",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.7
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_tipos_tutoria_vocacional",
@@ -555,7 +555,7 @@
       "display_name": "La tutoría cubre también orientación vocacional y de carrera",
       "corpus_ref": "TTUT-010",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.7
+      "confianza_minima_anterior": 0.6
     },
     {
       "intent_id": "consulta_cursos_duracion_carrera",
@@ -582,7 +582,7 @@
       "display_name": "Cuántos semestres tiene la carrera de Ingeniería Informática",
       "corpus_ref": "CUR-001",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_cursos_total_creditos",
@@ -609,7 +609,7 @@
       "display_name": "Cuántos créditos son necesarios para culminar la carrera",
       "corpus_ref": "CUR-002",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_cursos_primer_semestre",
@@ -636,7 +636,7 @@
       "display_name": "Cuáles son los cursos del primer semestre",
       "corpus_ref": "CUR-003",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_cursos_adelanto_semestres",
@@ -663,7 +663,7 @@
       "display_name": "Puedo llevar cursos de otro semestre si aprobé los prerrequi",
       "corpus_ref": "CUR-004",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_cursos_desaprobacion",
@@ -690,7 +690,7 @@
       "display_name": "Qué pasa si desapruebo un curso",
       "corpus_ref": "CUR-005",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_cursos_areas_plan_estudios",
@@ -717,7 +717,7 @@
       "display_name": "Cómo está organizado el plan de estudios por áreas",
       "corpus_ref": "CUR-006",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_cursos_electivos",
@@ -744,34 +744,34 @@
       "display_name": "Cuántos cursos electivos debo llevar durante la carrera",
       "corpus_ref": "CUR-007",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_cursos_horario_clases",
       "categoria": "CUR",
       "consultas_validacion": [
         "donde puedo ver el horario de clases del semestre",
-        "como consulto mis horarios virtual",
+        "como consulto mis horarios en el sistema virtual",
         "donde estan los horarios del semestre clases",
         "en que plataforma veo mis clases y aulas"
       ],
       "scores_observados": [
-        0.4286,
-        0.4286,
-        0.4286,
-        0.2857
+        0.5,
+        0.3333,
+        0.5,
+        0.3333
       ],
       "n_validacion": 4,
-      "score_minimo_correcto": 0.2857,
+      "score_minimo_correcto": 0.3333,
       "margen_aplicado": 0.1,
       "piso_categoria": 0.65,
       "confianza_minima": 0.65,
       "criterio_calibracion": "piso_categoria_aplicado",
-      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
       "display_name": "Dónde puedo ver el horario de clases del semestre",
       "corpus_ref": "CUR-008",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_cursos_creditos_definicion",
@@ -798,7 +798,7 @@
       "display_name": "Qué son los créditos académicos y cómo se calculan",
       "corpus_ref": "CUR-009",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_cursos_promedio_ponderado",
@@ -825,7 +825,7 @@
       "display_name": "Cómo se calcula el promedio ponderado semestral",
       "corpus_ref": "CUR-010",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_esp_listado_especialidades",
@@ -852,7 +852,7 @@
       "display_name": "Cuáles son las especialidades que ofrece la Escuela de Ingen",
       "corpus_ref": "ESP-001",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.73
+      "confianza_minima_anterior": 0.62
     },
     {
       "intent_id": "consulta_esp_cuando_elegir",
@@ -879,7 +879,7 @@
       "display_name": "Cuándo debo elegir mi especialidad",
       "corpus_ref": "ESP-002",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.73
+      "confianza_minima_anterior": 0.62
     },
     {
       "intent_id": "consulta_esp_demanda_laboral",
@@ -906,7 +906,7 @@
       "display_name": "Qué especialidad tiene más demanda laboral en la región",
       "corpus_ref": "ESP-003",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.73
+      "confianza_minima_anterior": 0.62
     },
     {
       "intent_id": "consulta_esp_cursos_ingenieria_software",
@@ -933,7 +933,7 @@
       "display_name": "Cuáles son los cursos de la especialidad de Ingeniería de So",
       "corpus_ref": "ESP-004",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.73
+      "confianza_minima_anterior": 0.62
     },
     {
       "intent_id": "consulta_esp_cambio_especialidad",
@@ -960,7 +960,7 @@
       "display_name": "Puedo cambiar de especialidad una vez que la elegí",
       "corpus_ref": "ESP-005",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.73
+      "confianza_minima_anterior": 0.62
     },
     {
       "intent_id": "consulta_esp_cursos_redes_telecom",
@@ -987,7 +987,7 @@
       "display_name": "Qué cursos incluye la especialidad de Redes y Telecomunicaci",
       "corpus_ref": "ESP-006",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.73
+      "confianza_minima_anterior": 0.62
     },
     {
       "intent_id": "consulta_esp_ia_ciencia_datos",
@@ -1014,7 +1014,7 @@
       "display_name": "Qué es la especialidad de Inteligencia Artificial y Ciencia ",
       "corpus_ref": "ESP-007",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.73
+      "confianza_minima_anterior": 0.62
     },
     {
       "intent_id": "consulta_esp_seguridad_certificaciones",
@@ -1041,7 +1041,7 @@
       "display_name": "La especialidad de Seguridad Informática tiene certificacion",
       "corpus_ref": "ESP-008",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.73
+      "confianza_minima_anterior": 0.62
     },
     {
       "intent_id": "consulta_esp_convenios_practicas",
@@ -1068,7 +1068,7 @@
       "display_name": "Las especialidades tienen convenios con empresas para prácti",
       "corpus_ref": "ESP-009",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.73
+      "confianza_minima_anterior": 0.62
     },
     {
       "intent_id": "consulta_esp_electivos_cruzados",
@@ -1095,7 +1095,7 @@
       "display_name": "Puedo llevar cursos de otras especialidades como electivos",
       "corpus_ref": "ESP-010",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.73
+      "confianza_minima_anterior": 0.62
     },
     {
       "intent_id": "consulta_ppp_requisitos_inicio",
@@ -1122,7 +1122,7 @@
       "display_name": "Cuáles son los requisitos para iniciar las prácticas pre-pro",
       "corpus_ref": "PPP-001",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.7
     },
     {
       "intent_id": "consulta_ppp_horas_acumuladas",
@@ -1149,7 +1149,7 @@
       "display_name": "Cuántas horas de prácticas debo acumular",
       "corpus_ref": "PPP-002",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.7
     },
     {
       "intent_id": "consulta_ppp_empresa_convenio",
@@ -1176,7 +1176,7 @@
       "display_name": "La empresa donde hago prácticas debe tener convenio con la U",
       "corpus_ref": "PPP-003",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.7
     },
     {
       "intent_id": "consulta_ppp_carta_presentacion",
@@ -1203,7 +1203,7 @@
       "display_name": "Cómo consigo la carta de presentación para las prácticas",
       "corpus_ref": "PPP-004",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.7
     },
     {
       "intent_id": "consulta_ppp_informe_final",
@@ -1230,7 +1230,7 @@
       "display_name": "Qué es el informe de prácticas y cuándo debo presentarlo",
       "corpus_ref": "PPP-005",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.7
     },
     {
       "intent_id": "consulta_ppp_remuneracion",
@@ -1257,7 +1257,7 @@
       "display_name": "Las prácticas pre-profesionales son remuneradas",
       "corpus_ref": "PPP-006",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.7
     },
     {
       "intent_id": "consulta_ppp_sector_publico",
@@ -1284,7 +1284,7 @@
       "display_name": "Puedo hacer mis prácticas en una empresa pública o instituci",
       "corpus_ref": "PPP-007",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.7
     },
     {
       "intent_id": "consulta_ppp_supervision_universidad",
@@ -1311,7 +1311,7 @@
       "display_name": "Quién supervisa y evalúa mis prácticas desde la universidad",
       "corpus_ref": "PPP-008",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.7
     },
     {
       "intent_id": "consulta_ppp_trabajo_actual",
@@ -1338,7 +1338,7 @@
       "display_name": "Puedo hacer las prácticas en la misma empresa donde trabajo",
       "corpus_ref": "PPP-009",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.7
     },
     {
       "intent_id": "consulta_ppp_requisito_titulacion",
@@ -1365,7 +1365,7 @@
       "display_name": "Las prácticas pre-profesionales son un requisito para titula",
       "corpus_ref": "PPP-010",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.7
     },
     {
       "intent_id": "consulta_bie_servicios_generales",
@@ -1392,7 +1392,7 @@
       "display_name": "Qué servicios de bienestar ofrece la UNSAAC a sus estudiante",
       "corpus_ref": "BIE-001",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_bie_atencion_psicologica",
@@ -1419,7 +1419,7 @@
       "display_name": "Cómo puedo acceder a la atención psicológica gratuita",
       "corpus_ref": "BIE-002",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_bie_beca_alimentacion",
@@ -1446,7 +1446,7 @@
       "display_name": "Qué es la beca de alimentación y cómo la solicito",
       "corpus_ref": "BIE-003",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_bie_apoyo_economico",
@@ -1473,7 +1473,7 @@
       "display_name": "Existe apoyo económico para estudiantes en situación de vuln",
       "corpus_ref": "BIE-004",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_bie_seguro_estudiantil",
@@ -1500,7 +1500,7 @@
       "display_name": "Cómo funciona el seguro estudiantil de la UNSAAC",
       "corpus_ref": "BIE-005",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_bie_deportes_cultura",
@@ -1527,7 +1527,7 @@
       "display_name": "Qué deportes y actividades culturales puedo practicar en la ",
       "corpus_ref": "BIE-006",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_bie_residencia_universitaria",
@@ -1554,7 +1554,7 @@
       "display_name": "La UNSAAC tiene residencia universitaria para estudiantes de",
       "corpus_ref": "BIE-007",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_bie_certificado_socioeconomico",
@@ -1581,7 +1581,7 @@
       "display_name": "Cómo solicito un certificado de situación socioeconómica",
       "corpus_ref": "BIE-008",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_bie_comedor_acceso",
@@ -1608,7 +1608,7 @@
       "display_name": "El comedor universitario está disponible para todos los estu",
       "corpus_ref": "BIE-009",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_bie_contacto_oficina",
@@ -1635,7 +1635,7 @@
       "display_name": "A qué número o correo puedo comunicarme con Bienestar Univer",
       "corpus_ref": "BIE-010",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.74
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_mov_programas_disponibles",
@@ -1662,7 +1662,7 @@
       "display_name": "Qué programas de movilidad estudiantil ofrece la UNSAAC",
       "corpus_ref": "MOV-001",
       "prioridad": "media",
-      "confianza_minima_anterior": 0.68
+      "confianza_minima_anterior": 0.55
     },
     {
       "intent_id": "consulta_mov_requisitos_intercambio",
@@ -1689,7 +1689,7 @@
       "display_name": "Cuáles son los requisitos mínimos para participar en un prog",
       "corpus_ref": "MOV-002",
       "prioridad": "media",
-      "confianza_minima_anterior": 0.68
+      "confianza_minima_anterior": 0.55
     },
     {
       "intent_id": "consulta_mov_convalidacion_cursos",
@@ -1716,7 +1716,7 @@
       "display_name": "Los cursos llevados en el intercambio se convalidan en la UN",
       "corpus_ref": "MOV-003",
       "prioridad": "media",
-      "confianza_minima_anterior": 0.68
+      "confianza_minima_anterior": 0.55
     },
     {
       "intent_id": "consulta_mov_apoyo_economico",
@@ -1743,7 +1743,7 @@
       "display_name": "Hay apoyo económico para los estudiantes que van de intercam",
       "corpus_ref": "MOV-004",
       "prioridad": "media",
-      "confianza_minima_anterior": 0.68
+      "confianza_minima_anterior": 0.55
     },
     {
       "intent_id": "consulta_mov_estudiantes_entrantes",
@@ -1770,7 +1770,7 @@
       "display_name": "Puedo recibir estudiantes de intercambio de otras universida",
       "corpus_ref": "MOV-005",
       "prioridad": "media",
-      "confianza_minima_anterior": 0.68
+      "confianza_minima_anterior": 0.55
     },
     {
       "intent_id": "consulta_mov_convocatorias",
@@ -1782,22 +1782,22 @@
         "convocatorias intercambio estudiantil donde ver"
       ],
       "scores_observados": [
-        0.4286,
-        0.4286,
-        0.2857,
-        0.1429
+        0.5,
+        0.5,
+        0.3333,
+        0.1667
       ],
       "n_validacion": 4,
-      "score_minimo_correcto": 0.1429,
+      "score_minimo_correcto": 0.1667,
       "margen_aplicado": 0.1,
       "piso_categoria": 0.55,
       "confianza_minima": 0.55,
       "criterio_calibracion": "piso_categoria_aplicado",
-      "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.55). Se elevó al piso.",
+      "observaciones": "Score mínimo calculado (0.150) caía por debajo del piso de categoría (0.55). Se elevó al piso.",
       "display_name": "Dónde puedo enterarme de las convocatorias de movilidad estu",
       "corpus_ref": "MOV-006",
       "prioridad": "media",
-      "confianza_minima_anterior": 0.68
+      "confianza_minima_anterior": 0.55
     },
     {
       "intent_id": "consulta_mov_documentos_postulacion",
@@ -1824,7 +1824,7 @@
       "display_name": "Qué documentos necesito para postular a la movilidad estudia",
       "corpus_ref": "MOV-007",
       "prioridad": "media",
-      "confianza_minima_anterior": 0.68
+      "confianza_minima_anterior": 0.55
     },
     {
       "intent_id": "consulta_mov_impacto_titulacion",
@@ -1851,7 +1851,7 @@
       "display_name": "El intercambio afecta mi proceso de titulación o retrasa mi ",
       "corpus_ref": "MOV-008",
       "prioridad": "media",
-      "confianza_minima_anterior": 0.68
+      "confianza_minima_anterior": 0.55
     },
     {
       "intent_id": "consulta_mov_requisito_idioma",
@@ -1878,7 +1878,7 @@
       "display_name": "Necesito dominar otro idioma para participar en la movilidad",
       "corpus_ref": "MOV-009",
       "prioridad": "media",
-      "confianza_minima_anterior": 0.68
+      "confianza_minima_anterior": 0.55
     },
     {
       "intent_id": "consulta_mov_universidades_convenio",
@@ -1905,7 +1905,7 @@
       "display_name": "La UNSAAC tiene convenios con universidades reconocidas inte",
       "corpus_ref": "MOV-010",
       "prioridad": "media",
-      "confianza_minima_anterior": 0.68
+      "confianza_minima_anterior": 0.55
     },
     {
       "intent_id": "consulta_mat_fechas_matricula",
@@ -1932,34 +1932,34 @@
       "display_name": "Cuándo se realizan las matrículas en la UNSAAC",
       "corpus_ref": "MAT-001",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.8
+      "confianza_minima_anterior": 0.75
     },
     {
       "intent_id": "consulta_mat_proceso_virtual",
       "categoria": "MAT",
       "consultas_validacion": [
-        "como me matriculo en el portal virtual",
-        "como hago la matricula en virtual unsaac",
-        "proceso de matricula portal virtual paso a paso",
-        "matricula online virtual como funciona"
+        "como me matriculo en el portal virtual unsaac",
+        "como hago la matricula virtual en la unsaac",
+        "proceso de matricula en linea paso a paso",
+        "matricula online como funciona"
       ],
       "scores_observados": [
-        0.4286,
-        0.7143,
+        0.3333,
+        0.6667,
         1.0,
-        0.5714
+        0.5
       ],
       "n_validacion": 4,
-      "score_minimo_correcto": 0.4286,
+      "score_minimo_correcto": 0.3333,
       "margen_aplicado": 0.1,
       "piso_categoria": 0.75,
       "confianza_minima": 0.75,
       "criterio_calibracion": "piso_categoria_aplicado",
-      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.75). Se elevó al piso.",
-      "display_name": "Cómo me matriculo en el portal virtual",
+      "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.75). Se elevó al piso.",
+      "display_name": "Cómo me matriculo en el sistema virtual UNSAAC",
       "corpus_ref": "MAT-002",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.8
+      "confianza_minima_anterior": 0.75
     },
     {
       "intent_id": "consulta_mat_requisitos",
@@ -1986,7 +1986,7 @@
       "display_name": "Cuáles son los requisitos para poder matricularme",
       "corpus_ref": "MAT-003",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.8
+      "confianza_minima_anterior": 0.75
     },
     {
       "intent_id": "consulta_mat_modalidad_presencial",
@@ -2013,7 +2013,7 @@
       "display_name": "Puedo hacer la matrícula de forma presencial",
       "corpus_ref": "MAT-004",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.8
+      "confianza_minima_anterior": 0.75
     },
     {
       "intent_id": "consulta_mat_fuera_de_plazo",
@@ -2040,7 +2040,7 @@
       "display_name": "Qué hago si no pude matricularme dentro del plazo establecid",
       "corpus_ref": "MAT-005",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.8
+      "confianza_minima_anterior": 0.75
     },
     {
       "intent_id": "consulta_mat_creditos_maximo",
@@ -2067,7 +2067,7 @@
       "display_name": "Cuántos créditos máximos puedo llevar por semestre",
       "corpus_ref": "MAT-006",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.8
+      "confianza_minima_anterior": 0.75
     },
     {
       "intent_id": "consulta_mat_retiro_curso",
@@ -2094,7 +2094,7 @@
       "display_name": "Puedo retirar un curso después de matricularme",
       "corpus_ref": "MAT-007",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.8
+      "confianza_minima_anterior": 0.75
     },
     {
       "intent_id": "consulta_mat_condicional",
@@ -2121,7 +2121,7 @@
       "display_name": "Qué es la matrícula condicional y cuándo aplica",
       "corpus_ref": "MAT-008",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.8
+      "confianza_minima_anterior": 0.75
     },
     {
       "intent_id": "consulta_mat_costo",
@@ -2148,7 +2148,7 @@
       "display_name": "Cuánto cuesta la matrícula en la UNSAAC",
       "corpus_ref": "MAT-009",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.8
+      "confianza_minima_anterior": 0.75
     },
     {
       "intent_id": "consulta_mat_seguro_activacion",
@@ -2175,7 +2175,7 @@
       "display_name": "Qué es el seguro universitario y cuándo se activa con la mat",
       "corpus_ref": "MAT-010",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.8
+      "confianza_minima_anterior": 0.75
     },
     {
       "intent_id": "consulta_tit_modalidades",
@@ -2202,7 +2202,7 @@
       "display_name": "Cuáles son las modalidades de titulación disponibles en la E",
       "corpus_ref": "TIT-001",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.78
+      "confianza_minima_anterior": 0.72
     },
     {
       "intent_id": "consulta_tit_requisitos_inicio",
@@ -2229,7 +2229,7 @@
       "display_name": "Cuáles son los requisitos para iniciar el proceso de titulac",
       "corpus_ref": "TIT-002",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.78
+      "confianza_minima_anterior": 0.72
     },
     {
       "intent_id": "consulta_tit_grado_bachiller",
@@ -2256,7 +2256,7 @@
       "display_name": "Cómo obtengo el grado de Bachiller",
       "corpus_ref": "TIT-003",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.78
+      "confianza_minima_anterior": 0.72
     },
     {
       "intent_id": "consulta_tit_plazo_titulacion",
@@ -2283,7 +2283,7 @@
       "display_name": "Cuánto tiempo tengo para titularme después de terminar los c",
       "corpus_ref": "TIT-004",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.78
+      "confianza_minima_anterior": 0.72
     },
     {
       "intent_id": "consulta_tit_suficiencia_profesional",
@@ -2310,7 +2310,7 @@
       "display_name": "Qué es un trabajo de suficiencia profesional",
       "corpus_ref": "TIT-005",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.78
+      "confianza_minima_anterior": 0.72
     },
     {
       "intent_id": "consulta_tit_eleccion_asesor",
@@ -2337,7 +2337,7 @@
       "display_name": "Cómo escojo a mi asesor de tesis",
       "corpus_ref": "TIT-006",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.78
+      "confianza_minima_anterior": 0.72
     },
     {
       "intent_id": "consulta_tit_duracion_proceso",
@@ -2364,7 +2364,7 @@
       "display_name": "Cuánto tiempo toma habitualmente el proceso de titulación",
       "corpus_ref": "TIT-007",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.78
+      "confianza_minima_anterior": 0.72
     },
     {
       "intent_id": "consulta_tit_jurado_sustentacion",
@@ -2391,7 +2391,7 @@
       "display_name": "En qué consiste el jurado de sustentación",
       "corpus_ref": "TIT-008",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.78
+      "confianza_minima_anterior": 0.72
     },
     {
       "intent_id": "consulta_tit_desaprobacion_sustentacion",
@@ -2418,7 +2418,7 @@
       "display_name": "Qué pasa si desapruebo la sustentación",
       "corpus_ref": "TIT-009",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.78
+      "confianza_minima_anterior": 0.72
     },
     {
       "intent_id": "consulta_tit_registro_sunedu",
@@ -2445,7 +2445,7 @@
       "display_name": "Dónde debo registrar mi título una vez obtenido",
       "corpus_ref": "TIT-010",
       "prioridad": "muy_alta",
-      "confianza_minima_anterior": 0.78
+      "confianza_minima_anterior": 0.72
     },
     {
       "intent_id": "consulta_ser_biblioteca",
@@ -2472,7 +2472,7 @@
       "display_name": "Cómo accedo a los recursos de la biblioteca universitaria",
       "corpus_ref": "SER-001",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_ser_correo_institucional",
@@ -2499,7 +2499,7 @@
       "display_name": "Cómo obtengo mi correo institucional de la UNSAAC",
       "corpus_ref": "SER-002",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_ser_certificados_constancias",
@@ -2511,22 +2511,22 @@
         "tramite constancia matricula certificado academico"
       ],
       "scores_observados": [
-        0.2857,
-        0.2857,
-        0.4286,
-        0.4286
+        0.3333,
+        0.3333,
+        0.3333,
+        0.5
       ],
       "n_validacion": 4,
-      "score_minimo_correcto": 0.2857,
+      "score_minimo_correcto": 0.3333,
       "margen_aplicado": 0.1,
       "piso_categoria": 0.65,
       "confianza_minima": 0.65,
       "criterio_calibracion": "piso_categoria_aplicado",
-      "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
       "display_name": "Dónde solicito mis certificados y constancias académicas",
       "corpus_ref": "SER-003",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_ser_aula_virtual",
@@ -2538,22 +2538,22 @@
         "aula virtual plataforma educativa unsaac acceso"
       ],
       "scores_observados": [
-        0.5714,
-        0.4286,
-        0.7143,
-        0.5714
+        0.6667,
+        0.5,
+        0.8333,
+        0.6667
       ],
       "n_validacion": 4,
-      "score_minimo_correcto": 0.4286,
+      "score_minimo_correcto": 0.5,
       "margen_aplicado": 0.1,
       "piso_categoria": 0.65,
       "confianza_minima": 0.65,
       "criterio_calibracion": "piso_categoria_aplicado",
-      "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
+      "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.65). Se elevó al piso.",
       "display_name": "Cómo puedo acceder al aula virtual de la UNSAAC",
       "corpus_ref": "SER-004",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_ser_laboratorios_computo",
@@ -2580,7 +2580,7 @@
       "display_name": "La UNSAAC cuenta con laboratorios de cómputo disponibles par",
       "corpus_ref": "SER-005",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_ser_carta_presentacion",
@@ -2607,7 +2607,7 @@
       "display_name": "Cómo solicito una carta de presentación para eventos o concu",
       "corpus_ref": "SER-006",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_ser_impresion_campus",
@@ -2634,7 +2634,7 @@
       "display_name": "Existe un servicio de impresión o fotocopiado dentro del cam",
       "corpus_ref": "SER-007",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_ser_record_notas",
@@ -2661,7 +2661,7 @@
       "display_name": "Cómo puedo obtener mi récord de notas oficial",
       "corpus_ref": "SER-008",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_ser_tupa",
@@ -2688,7 +2688,7 @@
       "display_name": "Qué es el TUPA y dónde puedo consultarlo",
       "corpus_ref": "SER-009",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.65
     },
     {
       "intent_id": "consulta_ser_contacto_secretaria",
@@ -2715,7 +2715,7 @@
       "display_name": "Cómo me comunico con la secretaría de la Escuela de Ingenier",
       "corpus_ref": "SER-010",
       "prioridad": "alta",
-      "confianza_minima_anterior": 0.76
+      "confianza_minima_anterior": 0.65
     }
   ]
 }

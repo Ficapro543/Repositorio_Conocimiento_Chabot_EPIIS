@@ -230,7 +230,7 @@ CONSULTAS_VALIDACION: Dict[str, List[str]] = {
     ],
     "consulta_cursos_horario_clases": [
         "donde puedo ver el horario de clases del semestre",
-        "como consulto mis horarios serunsa",
+        "como consulto mis horarios en el sistema virtual",
         "donde estan los horarios del semestre clases",
         "en que plataforma veo mis clases y aulas",
     ],
@@ -497,11 +497,11 @@ CONSULTAS_VALIDACION: Dict[str, List[str]] = {
         "cuando es el periodo de matricula en sistemas",
         "fechas matricula semestre unsaac calendario",
     ],
-    "consulta_mat_proceso_serunsa": [
-        "como me matriculo en el portal serunsa",
-        "como hago la matricula en serunsa unsaac",
-        "proceso de matricula portal serunsa paso a paso",
-        "matricula online serunsa como funciona",
+    "consulta_mat_proceso_virtual": [
+        "como me matriculo en el portal virtual unsaac",
+        "como hago la matricula virtual en la unsaac",
+        "proceso de matricula en linea paso a paso",
+        "matricula online como funciona",
     ],
     "consulta_mat_requisitos": [
         "cuales son los requisitos para poder matricularme",
