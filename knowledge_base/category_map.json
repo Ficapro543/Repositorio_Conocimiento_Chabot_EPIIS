@@ -1,0 +1,42 @@
+{
+  "BIE": {
+    "nombre": "Bienestar Universitario",
+    "alias": ["bie", "bienestar", "bienestar universitario"]
+  },
+  "CUR": {
+    "nombre": "Cursos y Semestres",
+    "alias": ["cur", "cursos", "cursos y semestres"]
+  },
+  "ESP": {
+    "nombre": "Especialidades de la Escuela",
+    "alias": ["esp", "especialidades", "especialidades de la escuela"]
+  },
+  "MAT": {
+    "nombre": "Matrícula",
+    "alias": ["mat", "matricula"]
+  },
+  "MOV": {
+    "nombre": "Movilidad Estudiantil",
+    "alias": ["mov", "movilidad", "movilidad estudiantil"]
+  },
+  "PPP": {
+    "nombre": "Prácticas Pre-Profesionales",
+    "alias": ["ppp", "practicas", "practicas pre profesionales"]
+  },
+  "SER": {
+    "nombre": "Servicios Universitarios",
+    "alias": ["ser", "servicios", "servicios universitarios"]
+  },
+  "TIT": {
+    "nombre": "Titulación",
+    "alias": ["tit", "titulacion"]
+  },
+  "TTUT": {
+    "nombre": "Tipos de Tutoría",
+    "alias": ["ttut", "tipos de tutoria"]
+  },
+  "TUT": {
+    "nombre": "Proceso de Tutorías",
+    "alias": ["tut", "tutoria", "proceso de tutorias"]
+  }
+}
