@@ -1,142 +1,2118 @@
 [
   {
     "id": "TUT-001",
-    "categoria": "TUT - Proceso de Tutorías",
+    "categoria": "TUT",
+    "categoria_nombre": "Proceso de Tutorías",
     "pregunta": "¿Qué es la tutoría académica en la UNSAAC?",
-    "respuesta": "La Tutoría Académica es un proceso permanente de acompañamiento durante la formación de los estudiantes, concretado mediante la atención personalizada o grupal por parte de docentes, orientándolos en los aspectos psicosociales, cognitivos y afectivos del aprendizaje (Art. 3.°, Reglamento de Tutoría Académica UNSAAC, 2017).",
+    "respuesta": "La Tutoría Académica es un proceso permanente de acompañamiento durante la formación de los estudiantes, que se concreta mediante la atención personalizada o grupal que se les brinde por parte de docentes, buscando orientarlos y proporcionarles seguimiento a su trayectoria académica en los aspectos psicosociales, cognitivos y afectivos del aprendizaje, para fortalecer su formación integral y asegurar su permanencia y culminación de la carrera (Art. 3°, Reglamento de Tutoría Académica UNSAAC, Res. N° CU-0220-2017-UNSAAC).",
     "intent": "consulta_tutoria_definicion",
     "variaciones": [
       "¿En qué consiste la tutoría?",
       "¿Cómo funciona la tutoría universitaria?",
       "¿Qué significa tutoría en la universidad?"
     ],
-    "fuente": "Reglamento de Tutoría Académica UNSAAC (Res. N.° CU-0220-2017-UNSAAC)",
-    "tags": ["definicion", "tutoría", "unsaac"]
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 3°",
+    "tags": [
+      "tutoria",
+      "acompanamiento",
+      "definicion",
+      "reglamento"
+    ]
   },
   {
     "id": "TUT-002",
-    "categoria": "TUT - Proceso de Tutorías",
+    "categoria": "TUT",
+    "categoria_nombre": "Proceso de Tutorías",
     "pregunta": "¿Con qué frecuencia debo asistir a las sesiones de tutoría?",
-    "respuesta": "El reglamento establece un mínimo de tres encuentros por semestre: al inicio del curso académico, después de la primera evaluación parcial y una semana antes de la finalización del semestre (Art. 12.3). El tutor puede proponer sesiones adicionales según las necesidades del tutorado (Art. 12.4).",
+    "respuesta": "El reglamento establece tres encuentros clave por semestre: al inicio del curso académico, después de la primera evaluación parcial según el cronograma de actividades académicas y una semana antes de la finalización del semestre (Art. 12.3). El tutor puede programar más reuniones y el estudiante puede solicitarlas según sus necesidades específicas (Art. 12.4).",
     "intent": "consulta_tutoria_frecuencia",
     "variaciones": [
       "¿Cuántas veces al mes es la tutoría?",
       "¿Cada cuánto tiempo son las reuniones con el tutor?",
       "¿Qué tan seguido hay sesiones de tutoría?"
     ],
-    "fuente": "Reglamento de Tutoría Académica UNSAAC (Res. N.° CU-0220-2017-UNSAAC)",
-    "tags": ["frecuencia", "sesiones", "reglamento"]
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 12.3 y 12.4",
+    "tags": [
+      "frecuencia",
+      "sesiones",
+      "semestre",
+      "encuentros"
+    ]
+  },
+  {
+    "id": "TUT-003",
+    "categoria": "TUT",
+    "categoria_nombre": "Proceso de Tutorías",
+    "pregunta": "¿Quién es mi tutor asignado y cómo puedo contactarlo?",
+    "respuesta": "El tutor es un docente universitario con régimen de tiempo completo o dedicación exclusiva (Art. 6°), asignado desde el inicio de los estudios hasta la culminación del plan curricular (Art. 14°). El contacto se realiza mediante entrevistas programadas, comentarios de trabajos u otras actividades acordadas con el tutor (Art. 12.1).",
+    "intent": "consulta_tutoria_contacto_tutor",
+    "variaciones": [
+      "¿Cómo sé quién es mi tutor?",
+      "¿Dónde encuentro el nombre de mi tutor?",
+      "¿Cómo contacto a mi tutor académico?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 6°, 14° y 12.1",
+    "tags": [
+      "tutor",
+      "asignado",
+      "contacto",
+      "portal_estudiantil"
+    ]
+  },
+  {
+    "id": "TUT-004",
+    "categoria": "TUT",
+    "categoria_nombre": "Proceso de Tutorías",
+    "pregunta": "¿Qué temas se tratan en las sesiones de tutoría?",
+    "respuesta": "Las sesiones abordan tres dimensiones: (a) académica: habilidades de estudio, estilos de aprendizaje, toma de decisiones; (b) personal: responsabilidad, habilidades interpersonales; y (c) profesional: orientación vocacional, proyección laboral (Art. 7°, Reglamento de Tutoría Académica UNSAAC, 2017).",
+    "intent": "consulta_tutoria_temas",
+    "variaciones": [
+      "¿Sobre qué se habla en la tutoría?",
+      "¿De qué tratan las reuniones con el tutor?",
+      "¿Qué contenidos aborda la tutoría?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 7°",
+    "tags": [
+      "temas",
+      "dimensiones",
+      "academica",
+      "personal",
+      "profesional"
+    ]
+  },
+  {
+    "id": "TUT-005",
+    "categoria": "TUT",
+    "categoria_nombre": "Proceso de Tutorías",
+    "pregunta": "¿La asistencia a tutoría es obligatoria?",
+    "respuesta": "Sí. El Comité Tutorial de la Escuela Profesional determina la frecuencia mínima de las entrevistas con los estudiantes tutorados (Art. 12.2). Adicionalmente, la asignación de tutor es obligatoria para el estudiante con matrícula condicionada (Art. 4°).",
+    "intent": "consulta_tutoria_obligatoriedad",
+    "variaciones": [
+      "¿Es opcional asistir a tutoría?",
+      "¿Me pueden sancionar si no voy a tutoría?",
+      "¿Puedo faltar a las sesiones de tutoría?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 12.2 y Art. 4°",
+    "tags": [
+      "obligatoria",
+      "obligatorio",
+      "asistencia",
+      "sancion"
+    ]
+  },
+  {
+    "id": "TUT-006",
+    "categoria": "TUT",
+    "categoria_nombre": "Proceso de Tutorías",
+    "pregunta": "¿Cómo se registra la asistencia a las sesiones de tutoría?",
+    "respuesta": "El tutor lleva un registro oficial de visitas y reuniones, haciendo constar los problemas planteados y cualquier circunstancia relevante del seguimiento estudiantil. La plataforma informática de apoyo recoge también una valoración global al final del curso (Art. 13.7).",
+    "intent": "consulta_tutoria_registro_asistencia",
+    "variaciones": [
+      "¿Cómo se controla la asistencia en tutoría?",
+      "¿Hay lista de asistencia en tutoría?",
+      "¿Cómo saber si se registró mi asistencia?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 13.7",
+    "tags": [
+      "registro",
+      "asistencia",
+      "lista",
+      "plataforma"
+    ]
+  },
+  {
+    "id": "TUT-007",
+    "categoria": "TUT",
+    "categoria_nombre": "Proceso de Tutorías",
+    "pregunta": "¿Puedo cambiar de tutor si tengo dificultades con el asignado?",
+    "respuesta": "Sí. Cualquier estudiante puede solicitar, de forma razonada, al Comité Tutorial de la Escuela el cambio de Tutor Académico; la solicitud se resuelve previa audiencia del tutor por el Comité y, en última instancia, por el Vicerrectorado Académico (Art. 14°, numeral 3).",
+    "intent": "consulta_tutoria_cambio_tutor",
+    "variaciones": [
+      "¿Es posible solicitar otro tutor?",
+      "¿Qué hago si no me llevo bien con mi tutor?",
+      "¿Puedo pedir que me cambien de tutor?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 14° numeral 3",
+    "tags": [
+      "cambio",
+      "tutor",
+      "solicitud",
+      "comite"
+    ]
+  },
+  {
+    "id": "TUT-008",
+    "categoria": "TUT",
+    "categoria_nombre": "Proceso de Tutorías",
+    "pregunta": "¿Existe algún reglamento que regule el proceso de tutorías?",
+    "respuesta": "Sí. El Reglamento de Tutoría Académica fue aprobado mediante Resolución N° CU-0220-2017-UNSAAC de fecha 24 de mayo de 2017, con base en la Ley Universitaria N° 30220 (Art. 87.5) y el Estatuto de la UNSAAC (Art. 195.5). Está disponible en la página web institucional.",
+    "intent": "consulta_tutoria_reglamento",
+    "variaciones": [
+      "¿Hay un reglamento de tutorías?",
+      "¿Dónde puedo leer las normas de tutoría?",
+      "¿Qué documento regula las tutorías en la UNSAAC?"
+    ],
+    "fuente": "Resolución N° CU-0220-2017-UNSAAC",
+    "tags": [
+      "reglamento",
+      "norma",
+      "resolucion",
+      "ley"
+    ]
+  },
+  {
+    "id": "TUT-009",
+    "categoria": "TUT",
+    "categoria_nombre": "Proceso de Tutorías",
+    "pregunta": "¿Qué debo llevar a una sesión de tutoría?",
+    "respuesta": "El tutor elabora un expediente del tutorado que incluye: diagnóstico inicial del estudiante en base a su desempeño académico, implementación de estrategias de atención tutorial y verificación de la mejora del rendimiento académico del estudiante hasta la finalización de sus estudios (Art. 10°).",
+    "intent": "consulta_tutoria_materiales_sesion",
+    "variaciones": [
+      "¿Qué necesito para la reunión con mi tutor?",
+      "¿Tengo que preparar algo para la tutoría?",
+      "¿Qué documentos piden en tutoría?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 10°",
+    "tags": [
+      "llevar",
+      "documentos",
+      "carne",
+      "notas"
+    ]
+  },
+  {
+    "id": "TUT-010",
+    "categoria": "TUT",
+    "categoria_nombre": "Proceso de Tutorías",
+    "pregunta": "¿Las sesiones de tutoría son confidenciales?",
+    "respuesta": "Los Tutores Académicos tienen deber de confidencialidad respecto de la información recibida de los estudiantes (Art. 15.1). En casos graves de carácter personal o académico, el tutor solo informará a padres o representantes legales en circunstancias excepcionales, procurando que sea el propio estudiante quien tome la iniciativa (Art. 13.8).",
+    "intent": "consulta_tutoria_confidencialidad",
+    "variaciones": [
+      "¿El tutor puede compartir lo que le digo?",
+      "¿Es privada la información en tutoría?",
+      "¿Qué tan confidencial es la tutoría?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 15.1 y 13.8",
+    "tags": [
+      "confidencial",
+      "privado",
+      "datos",
+      "secreto"
+    ]
+  },
+  {
+    "id":"TUT-011",
+    "categoria":"TUT",
+    "categoria_nombre":"Proceso de Tutorías",
+    "pregunta":"¿Quién es mi tutor académico asignado?",
+    "respuesta":"Lo siento, no tengo acceso a la información personal de tu asignación tutorial. El reglamento (Art. 9°) establece que el Comité Tutorial de cada Escuela Profesional propone los tutores, y son nombrados mediante resolución de decanato. Para conocer quién es tu tutor asignado te recomiendo: (1) revisar la resolución de decanato o la relación oficial de tutores publicada por tu Escuela Profesional; (2) consultar directamente en la Dirección de la Escuela Profesional de Ingeniería Informática y de Sistemas (EPIIS); (3) escribir al Director de la EPIIS o a la Secretaría de la Escuela; o (4) acudir al Comité Tutorial de la Escuela. El Director de Escuela Profesional articula el trabajo de los tutores con el Comité (Art. 9°).",
+    "intent":"consulta_tutoria_quien_es_mi_tutor",
+    "variaciones":[
+      "¿Quién es mi tutor?",
+      "¿Cómo sé quién es mi tutor?",
+      "¿Dónde encuentro el nombre de mi tutor?",
+      "¿Cómo contacto a mi tutor académico?",
+      "¿Quién me corresponde como tutor?",
+      "¿Cuál es mi tutor asignado?"
+    ],
+    "fuente":"Reglamento de Tutoría Académica UNSAAC, Art. 9° y 14° (información personal no disponible)",
+    "tags":[
+      "quien",
+      "mi tutor",
+      "asignado",
+      "contacto",
+      "director escuela"
+    ]
   },
   {
     "id": "TTUT-001",
-    "categoria": "TTUT - Tipos de Tutoría",
+    "categoria": "TTUT",
+    "categoria_nombre": "Tipos de Tutoría",
     "pregunta": "¿Cuáles son los tipos de tutoría que ofrece la escuela?",
-    "respuesta": "La tutoría académica en la UNSAAC se realiza de manera personalizada y grupal (Art. 7.°), comprendiendo: (1) Tutoría Individual, (2) Tutoría Grupal y (3) Tutoría entre Pares.",
+    "respuesta": "El Art. 7° del Reglamento de Tutoría Académica establece que la tutoría se efectúa de manera personalizada y se cumple en tres dimensiones: (a) académica: habilidades de estudio, estilos de aprendizaje y toma de decisiones; (b) personal: responsabilidad, habilidades interpersonales y comunicación; y (c) profesional: orientación vocacional y proyección laboral.",
     "intent": "consulta_tipos_tutoria_general",
     "variaciones": [
       "¿Qué modalidades de tutoría existen?",
       "¿Cuántas clases de tutoría hay?",
       "¿De qué tipos es la tutoría en la UNSAAC?"
     ],
-    "fuente": "Reglamento de Tutoría Académica UNSAAC (Res. N.° CU-0220-2017-UNSAAC)",
-    "tags": ["modalidades", "tipos", "tutoría"]
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 7°",
+    "tags": [
+      "tipos",
+      "modalidades",
+      "individual",
+      "grupal",
+      "pares"
+    ]
+  },
+  {
+    "id": "TTUT-002",
+    "categoria": "TTUT",
+    "categoria_nombre": "Tipos de Tutoría",
+    "pregunta": "¿En qué consiste la tutoría individual?",
+    "respuesta": "La tutoría individual es una sesión privada entre el estudiante y su tutor asignado. Se activa especialmente cuando el estudiante presenta dificultades académicas, personales o de adaptación que requieren atención personalizada y seguimiento continuo por parte del docente tutor.",
+    "intent": "consulta_tipos_tutoria_individual",
+    "variaciones": [
+      "¿Qué es la tutoría individual?",
+      "¿Cómo funciona la tutoría uno a uno?",
+      "¿Cuándo se da la tutoría personalizada?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 7°",
+    "tags": [
+      "individual",
+      "personalizada",
+      "privada",
+      "uno a uno"
+    ]
+  },
+  {
+    "id": "TTUT-003",
+    "categoria": "TTUT",
+    "categoria_nombre": "Tipos de Tutoría",
+    "pregunta": "¿Qué es la tutoría grupal y cómo se organiza?",
+    "respuesta": "La tutoría grupal reúne a un conjunto de estudiantes del mismo semestre con un tutor. El número de tutorados por docente no debe superar los veinticinco (25) estudiantes en la medida de lo posible (Art. 14°, numeral 2), abordando temáticas comunes como rendimiento académico y orientación vocacional.",
+    "intent": "consulta_tipos_tutoria_grupal",
+    "variaciones": [
+      "¿Cómo son las tutorías grupales?",
+      "¿Cuántas personas van a la tutoría grupal?",
+      "¿Con quiénes comparto la tutoría grupal?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 14° numeral 2",
+    "tags": [
+      "grupal",
+      "grupo",
+      "semestre",
+      "25 estudiantes"
+    ]
+  },
+  {
+    "id": "TTUT-004",
+    "categoria": "TTUT",
+    "categoria_nombre": "Tipos de Tutoría",
+    "pregunta": "¿Qué es la tutoría entre pares?",
+    "respuesta": "La tutoría entre pares es una modalidad en la que estudiantes de semestres avanzados orientan a compañeros de semestres iniciales en temas académicos y de adaptación universitaria. Es voluntaria y complementa la tutoría docente. Los tutores pares actúan bajo supervisión de un docente ordinario.",
+    "intent": "consulta_tipos_tutoria_pares",
+    "variaciones": [
+      "¿Qué es el tutoreo entre compañeros?",
+      "¿Cómo funciona la tutoría entre estudiantes?",
+      "¿Quiénes son los tutores pares?"
+    ],
+    "fuente": "Coordinación de Tutoría EPIIS",
+    "tags": [
+      "pares",
+      "companeros",
+      "avanzados",
+      "voluntaria"
+    ]
+  },
+  {
+    "id": "TTUT-005",
+    "categoria": "TTUT",
+    "categoria_nombre": "Tipos de Tutoría",
+    "pregunta": "¿Existe tutoría en línea o virtual?",
+    "respuesta": "El Art. 12.1 del Reglamento de Tutoría Académica establece que la tutoría se ejerce mediante entrevistas programadas, comentarios de trabajos u otras actividades que puedan resultar de utilidad a los fines perseguidos. El profesor organiza su atención tutorial de manera que se ajuste a la programación docente y contribuya a alcanzar los objetivos previstos.",
+    "intent": "consulta_tipos_tutoria_virtual",
+    "variaciones": [
+      "¿Hay tutoría a distancia?",
+      "¿Puedo hacer tutoría por videoconferencia?",
+      "¿Las tutorías son presenciales o también virtuales?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 12.1",
+    "tags": [
+      "modalidad",
+      "entrevistas",
+      "programadas",
+      "actividades",
+      "programacion"
+    ]
+  },
+  {
+    "id": "TTUT-006",
+    "categoria": "TTUT",
+    "categoria_nombre": "Tipos de Tutoría",
+    "pregunta": "¿Cuál es la diferencia entre tutoría académica y orientación psicológica?",
+    "respuesta": "La tutoría académica acompaña el proceso formativo integral del estudiante. La orientación psicológica es un servicio especializado de la Unidad de Bienestar. El tutor puede derivar al estudiante a dicho servicio cuando detecta necesidades que superan su ámbito de acción (Art. 13.9 y Art. 10°).",
+    "intent": "consulta_tipos_tutoria_vs_psicologia",
+    "variaciones": [
+      "¿La tutoría incluye apoyo psicológico?",
+      "¿El tutor es psicólogo?",
+      "¿Cuándo debo ir al psicólogo en vez de al tutor?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 13.9",
+    "tags": [
+      "psicologo",
+      "psicologia",
+      "diferencia",
+      "bienestar"
+    ]
+  },
+  {
+    "id": "TTUT-007",
+    "categoria": "TTUT",
+    "categoria_nombre": "Tipos de Tutoría",
+    "pregunta": "¿Qué es la tutoría de ingresantes?",
+    "respuesta": "En el primer semestre de Estudios Generales, el Tutor Académico dedicará especial atención a facilitar la transición y adaptación de los estudiantes a la enseñanza universitaria (Art. 13.5). Esta modalidad busca prevenir el abandono temprano mediante acompañamiento reforzado.",
+    "intent": "consulta_tipos_tutoria_ingresantes",
+    "variaciones": [
+      "¿Hay tutoría especial para los nuevos alumnos?",
+      "¿Qué tutoría reciben los que recién entran?",
+      "¿Cómo se atiende a los alumnos de primer semestre?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 13.5",
+    "tags": [
+      "ingresantes",
+      "primer semestre",
+      "adaptacion",
+      "nuevos"
+    ]
+  },
+  {
+    "id": "TTUT-008",
+    "categoria": "TTUT",
+    "categoria_nombre": "Tipos de Tutoría",
+    "pregunta": "¿Existe tutoría para estudiantes con bajo rendimiento?",
+    "respuesta": "Sí. La asignación de tutor es obligatoria para el estudiante con matrícula condicionada (Art. 4°). El tutor implementa estrategias de atención reforzada y verifica la mejora del rendimiento académico hasta la finalización de los estudios (Art. 10°, numerales 2 y 3).",
+    "intent": "consulta_tipos_tutoria_riesgo_academico",
+    "variaciones": [
+      "¿Hay tutoría especial si mis notas son bajas?",
+      "¿Qué pasa si estoy en riesgo académico?",
+      "¿Me asignan tutoría si jalo muchos cursos?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 4° y 10°",
+    "tags": [
+      "bajo rendimiento",
+      "notas bajas",
+      "riesgo academico",
+      "condicionada"
+    ]
+  },
+  {
+    "id": "TTUT-009",
+    "categoria": "TTUT",
+    "categoria_nombre": "Tipos de Tutoría",
+    "pregunta": "¿Qué diferencia hay entre tutoría y asesoría de tesis?",
+    "respuesta": "Según el Art. 13.6 del Reglamento de Tutoría Académica, el tutor académico asiste y orienta individualmente a los estudiantes en sus procesos de aprendizaje, organización del tiempo y adquisición de metodología de estudio. En los últimos cursos del pregrado, su actividad se centra en la preparación del tutorado ante la futura salida a la vida profesional.",
+    "intent": "consulta_tipos_tutoria_vs_asesoria_tesis",
+    "variaciones": [
+      "¿Mi asesor de tesis es mi tutor?",
+      "¿La tutoría incluye apoyo en la tesis?",
+      "¿El tutor me ayuda con la tesis?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 13.6",
+    "tags": [
+      "tesis",
+      "asesoria",
+      "diferencia",
+      "asesor"
+    ]
+  },
+  {
+    "id": "TTUT-010",
+    "categoria": "TTUT",
+    "categoria_nombre": "Tipos de Tutoría",
+    "pregunta": "¿La tutoría cubre también orientación vocacional y de carrera?",
+    "respuesta": "Sí. En los últimos cursos del pregrado, la actividad tutorial debe centrarse en la preparación del tutorado ante la futura salida a la vida profesional, en colaboración con los órganos y servicios establecidos para tal efecto por la Universidad (Art. 13.6).",
+    "intent": "consulta_tipos_tutoria_vocacional",
+    "variaciones": [
+      "¿El tutor me ayuda a saber qué especialidad elegir?",
+      "¿Puedo hablar con mi tutor sobre mi futuro profesional?",
+      "¿La tutoría incluye orientación laboral?"
+    ],
+    "fuente": "Reglamento de Tutoría Académica UNSAAC, Art. 13.6",
+    "tags": [
+      "vocacional",
+      "carrera",
+      "profesional",
+      "laboral"
+    ]
   },
   {
     "id": "CUR-001",
-    "categoria": "CUR - Cursos y Semestres",
+    "categoria": "CUR",
+    "categoria_nombre": "Cursos y Semestres",
     "pregunta": "¿Cuántos semestres tiene la carrera de Ingeniería Informática y de Sistemas?",
-    "respuesta": "La carrera de Ingeniería Informática y de Sistemas de la UNSAAC tiene una duración de 10 semestres académicos, equivalentes a 5 años de estudios. El plan de estudios vigente corresponde al currículo 2022.",
+    "respuesta": "La carrera de Ingeniería Informática y de Sistemas de la UNSAAC tiene una duración de 10 semestres académicos, equivalentes a 5 años de estudios, organizados desde el primer hasta el décimo semestre según el plan de estudios de la Escuela Profesional.",
     "intent": "consulta_cursos_duracion_carrera",
     "variaciones": [
       "¿Cuántos ciclos tiene la carrera?",
       "¿Cuántos años dura la carrera?",
       "¿Qué duración tiene la carrera de sistemas?"
     ],
-    "fuente": "Plan de Estudios EPIIS 2022, Reglamento Académico UNSAAC",
-    "tags": ["duracion", "semestres", "carrera"]
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "semestres",
+      "duracion",
+      "anos",
+      "ciclos",
+      "10 semestres"
+    ]
+  },
+  {
+    "id": "CUR-002",
+    "categoria": "CUR",
+    "categoria_nombre": "Cursos y Semestres",
+    "pregunta": "¿Cuántos créditos son necesarios para culminar la carrera?",
+    "respuesta": "El plan de estudios de la EPIIS establece un total de 219 créditos académicos distribuidos en los 10 semestres, comprendiendo 35 créditos de Estudios Generales, 124 créditos de Estudios Específicos, 45 créditos de Estudios de Especialidad, 6 créditos de Actividades Extracurriculares y 9 créditos de Prácticas Pre-Profesionales.",
+    "intent": "consulta_cursos_total_creditos",
+    "variaciones": [
+      "¿Cuántos créditos necesito para acabar la carrera?",
+      "¿Cuál es el total de créditos del plan de estudios?",
+      "¿Cuántos créditos tiene el currículo?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "creditos",
+      "total",
+      "219",
+      "plan de estudios"
+    ]
+  },
+  {
+    "id": "CUR-003",
+    "categoria": "CUR",
+    "categoria_nombre": "Cursos y Semestres",
+    "pregunta": "¿Cuáles son los cursos del primer semestre?",
+    "respuesta": "El primer semestre comprende: Redacción de Textos (4 créditos), Matemática I (4 créditos), Estrategias de Aprendizaje Autónomo (4 créditos), Filosofía y Ética (3 créditos), Sociedad y Cultura (3 créditos), y Constitución Política y Derechos Humanos (3 créditos). La carga total es de 21 créditos.",
+    "intent": "consulta_cursos_primer_semestre",
+    "variaciones": [
+      "¿Qué cursos llevo en el primer ciclo?",
+      "¿Cuáles son las materias de inicio de carrera?",
+      "¿Qué se estudia en el primer semestre de sistemas?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "primer semestre",
+      "cursos",
+      "materias",
+      "matematica",
+      "programacion"
+    ]
+  },
+  {
+    "id": "CUR-004",
+    "categoria": "CUR",
+    "categoria_nombre": "Cursos y Semestres",
+    "pregunta": "¿Puedo llevar cursos de otro semestre si aprobé los prerrequisitos?",
+    "respuesta": "Sí, siempre que hayas aprobado los prerrequisitos establecidos en el plan de estudios y cuentes con autorización de la Dirección de la Escuela. La carga máxima permitida es de 24 créditos por semestre, salvo casos excepcionales aprobados por la Dirección.",
+    "intent": "consulta_cursos_adelanto_semestres",
+    "variaciones": [
+      "¿Puedo adelantar cursos?",
+      "¿Es posible llevar materias de ciclos superiores?",
+      "¿Puedo llevar cursos de semestres más avanzados?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC / Reglamento Académico UNSAAC",
+    "tags": [
+      "adelantar",
+      "prerrequisitos",
+      "avanzados",
+      "24 creditos"
+    ]
+  },
+  {
+    "id": "CUR-005",
+    "categoria": "CUR",
+    "categoria_nombre": "Cursos y Semestres",
+    "pregunta": "¿Qué pasa si desapruebo un curso?",
+    "respuesta": "Si desapruebas un curso, debes matricularte nuevamente en él el siguiente semestre que sea ofertado. Un estudiante puede llevar el mismo curso un máximo de tres veces. A la tercera desaprobación, debe tramitar una solicitud especial ante el Consejo de Facultad.",
+    "intent": "consulta_cursos_desaprobacion",
+    "variaciones": [
+      "¿Qué consecuencias tiene jalar un curso?",
+      "¿Cuántas veces puedo llevar un curso?",
+      "¿Qué hago si repruebo una materia?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC",
+    "tags": [
+      "desaprobacion",
+      "jalar",
+      "reprobar",
+      "tres veces",
+      "consejo"
+    ]
+  },
+  {
+    "id": "CUR-006",
+    "categoria": "CUR",
+    "categoria_nombre": "Cursos y Semestres",
+    "pregunta": "¿Cómo está organizado el plan de estudios por áreas?",
+    "respuesta": "El plan de estudios se organiza en cinco áreas: (1) Estudios Generales (35 créditos, cursos de formación humanística y ciencias básicas), (2) Estudios Específicos (124 créditos, fundamentos de ingeniería y computación), (3) Estudios de Especialidad (45 créditos, líneas de especialización), (4) Actividades Extracurriculares (6 créditos) y (5) Prácticas Pre-Profesionales (9 créditos).",
+    "intent": "consulta_cursos_areas_plan_estudios",
+    "variaciones": [
+      "¿Qué áreas tiene el currículo de la carrera?",
+      "¿En qué grupos se dividen los cursos?",
+      "¿Cómo se clasifican las materias de la carrera?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "areas",
+      "plan de estudios",
+      "formacion",
+      "organizacion"
+    ]
+  },
+  {
+    "id": "CUR-007",
+    "categoria": "CUR",
+    "categoria_nombre": "Cursos y Semestres",
+    "pregunta": "¿Cuántos cursos electivos debo llevar durante la carrera?",
+    "respuesta": "El Plan de Estudios de la EPIIS incluye 13 cursos de Estudios de Especialidad (45 créditos), de los cuales varios son electivos que el estudiante elige en los semestres VIII, IX y X. El número exacto de créditos electivos depende de la oferta de la Escuela Profesional.",
+    "intent": "consulta_cursos_electivos",
+    "variaciones": [
+      "¿Cuántas materias optativas son obligatorias?",
+      "¿Cuántos electivos exige el plan de estudios?",
+      "¿Puedo elegir mis cursos libremente?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "electivos",
+      "optativas",
+      "18 creditos",
+      "libre eleccion"
+    ]
+  },
+  {
+    "id": "CUR-008",
+    "categoria": "CUR",
+    "categoria_nombre": "Cursos y Semestres",
+    "pregunta": "¿Dónde puedo ver el horario de clases del semestre?",
+    "respuesta": "Los horarios de clases son publicados por cada Escuela Profesional al inicio del semestre académico, de acuerdo al catálogo de asignaturas ofrecidas que ingresan los Directores de Escuela al Centro de Cómputo (Art. 13°, Reglamento Académico UNSAAC). Se publican en los canales oficiales de la Facultad y en el sistema del Centro de Cómputo UNSAAC.",
+    "intent": "consulta_cursos_horario_clases",
+    "variaciones": [
+      "¿Cómo consulto mis horarios?",
+      "¿Dónde están los horarios del semestre?",
+      "¿En qué plataforma veo mis clases y aulas?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Art. 13°",
+    "tags": [
+      "horario",
+      "portal_estudiantil",
+      "clases",
+      "semestre"
+    ]
+  },
+  {
+    "id": "CUR-009",
+    "categoria": "CUR",
+    "categoria_nombre": "Cursos y Semestres",
+    "pregunta": "¿Qué son los créditos académicos y cómo se calculan?",
+    "respuesta": "Un crédito académico equivale a una hora de clase teórica semanal o dos horas de práctica o laboratorio semanal durante el semestre. El valor en créditos de cada asignatura está indicado en el plan de estudios y en el sílabo del curso.",
+    "intent": "consulta_cursos_creditos_definicion",
+    "variaciones": [
+      "¿Qué significa un crédito académico?",
+      "¿Cómo funciona el sistema de créditos?",
+      "¿Un crédito equivale a cuántas horas?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC / Reglamento Académico UNSAAC",
+    "tags": [
+      "creditos",
+      "definicion",
+      "horas",
+      "calculo"
+    ]
+  },
+  {
+    "id": "CUR-010",
+    "categoria": "CUR",
+    "categoria_nombre": "Cursos y Semestres",
+    "pregunta": "¿Cómo se calcula el promedio ponderado semestral?",
+    "respuesta": "El promedio ponderado semestral se calcula multiplicando la nota final de cada curso por el número de créditos del mismo, sumando todos los productos y dividiendo entre el total de créditos matriculados. La escala de calificación es vigesimal (0–20).",
+    "intent": "consulta_cursos_promedio_ponderado",
+    "variaciones": [
+      "¿Cómo se saca el promedio del semestre?",
+      "¿Qué es el promedio ponderado?",
+      "¿Cómo calcula el sistema mi promedio?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC",
+    "tags": [
+      "promedio",
+      "ponderado",
+      "calculo",
+      "notas",
+      "vigesimal"
+    ]
   },
   {
     "id": "ESP-001",
-    "categoria": "ESP - Especialidades de la Escuela",
+    "categoria": "ESP",
+    "categoria_nombre": "Especialidades de la Escuela",
     "pregunta": "¿Cuáles son las especialidades que ofrece la Escuela de Ingeniería Informática y de Sistemas?",
-    "respuesta": "La EPIIS ofrece cuatro líneas de especialización en los semestres superiores: (1) Ingeniería de Software, (2) Redes y Telecomunicaciones, (3) Inteligencia Artificial y Ciencia de Datos, y (4) Seguridad Informática. La elección se realiza a partir del VII semestre.",
+    "respuesta": "El Plan de Estudios de la EPIIS organiza los Estudios de Especialidad (13 cursos, 45 créditos) como asignaturas electivas que se cursan en los semestres VIII, IX y X. No establece líneas de especialización con denominaciones fijas; el estudiante elige asignaturas electivas de especialidad según la oferta de la Escuela Profesional.",
     "intent": "consulta_esp_listado_especialidades",
     "variaciones": [
       "¿Qué especializaciones hay en la carrera?",
       "¿En qué áreas me puedo especializar?",
       "¿Cuántas especialidades tiene la carrera de sistemas?"
     ],
-    "fuente": "Plan de Estudios EPIIS 2022, Dirección de la Escuela Profesional",
-    "tags": ["especialidades", "software", "redes", "IA", "seguridad"]
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "especialidades",
+      "lineas",
+      "software",
+      "redes",
+      "ia",
+      "seguridad"
+    ]
+  },
+  {
+    "id": "ESP-002",
+    "categoria": "ESP",
+    "categoria_nombre": "Especialidades de la Escuela",
+    "pregunta": "¿Cuándo debo elegir mi especialidad?",
+    "respuesta": "El Plan de Estudios de la EPIIS no especifica un semestre de elección de especialidad ni un proceso de selección. Las asignaturas de especialidad (electivas) se ofrecen a partir del VIII semestre.",
+    "intent": "consulta_esp_cuando_elegir",
+    "variaciones": [
+      "¿En qué semestre escojo especialidad?",
+      "¿A partir de qué ciclo elijo especialización?",
+      "¿Cuándo me especializo en la carrera?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "elegir",
+      "especialidad",
+      "vi semestre",
+      "vii semestre",
+      "cuando"
+    ]
+  },
+  {
+    "id": "ESP-003",
+    "categoria": "ESP",
+    "categoria_nombre": "Especialidades de la Escuela",
+    "pregunta": "¿Qué especialidad tiene más demanda laboral en la región?",
+    "respuesta": "El Plan de Estudios de la EPIIS no contiene información sobre demanda laboral de especialidades.",
+    "intent": "consulta_esp_demanda_laboral",
+    "variaciones": [
+      "¿Cuál especialidad tiene más trabajo?",
+      "¿Qué especialización es más solicitada en el mercado?",
+      "¿Qué especialidad conviene más elegir?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "demanda",
+      "laboral",
+      "mercado",
+      "trabajo",
+      "empleabilidad"
+    ]
+  },
+  {
+    "id": "ESP-004",
+    "categoria": "ESP",
+    "categoria_nombre": "Especialidades de la Escuela",
+    "pregunta": "¿Cuáles son los cursos de la especialidad de Ingeniería de Software?",
+    "respuesta": "El Plan de Estudios de la EPIIS incluye la asignatura obligatoria Ingeniería de Software I (código IF614, 4 créditos) en el VIII semestre como parte de los estudios específicos. Las asignaturas electivas de especialidad se cursan en los semestres VIII, IX y X sin agruparse en líneas de especialización con nombre propio.",
+    "intent": "consulta_esp_cursos_ingenieria_software",
+    "variaciones": [
+      "¿Qué materias llevo en software?",
+      "¿Qué cursos tiene la especialidad de software?",
+      "¿Qué se aprende en Ingeniería de Software?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "software",
+      "ingenieria de software",
+      "cursos",
+      "arquitectura",
+      "agil"
+    ]
+  },
+  {
+    "id": "ESP-005",
+    "categoria": "ESP",
+    "categoria_nombre": "Especialidades de la Escuela",
+    "pregunta": "¿Puedo cambiar de especialidad una vez que la elegí?",
+    "respuesta": "El Plan de Estudios de la EPIIS no contempla disposiciones sobre cambio de especialidad.",
+    "intent": "consulta_esp_cambio_especialidad",
+    "variaciones": [
+      "¿Es posible cambiar de especialización?",
+      "¿Qué pasa si quiero otra especialidad?",
+      "¿Puedo arrepentirme de la especialidad que elegí?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "cambio",
+      "especialidad",
+      "solicitud",
+      "vacantes"
+    ]
+  },
+  {
+    "id": "ESP-006",
+    "categoria": "ESP",
+    "categoria_nombre": "Especialidades de la Escuela",
+    "pregunta": "¿Qué cursos incluye la especialidad de Redes y Telecomunicaciones?",
+    "respuesta": "El Plan de Estudios de la EPIIS no incluye una línea de especialización denominada 'Redes y Telecomunicaciones'. Las asignaturas electivas de especialidad se cursan en los semestres VIII, IX y X sin agruparse en líneas predefinidas.",
+    "intent": "consulta_esp_cursos_redes_telecom",
+    "variaciones": [
+      "¿Qué materias son de redes?",
+      "¿Qué se estudia en telecomunicaciones?",
+      "¿Qué aprendo en la especialidad de redes?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "redes",
+      "telecomunicaciones",
+      "cursos",
+      "voip",
+      "sdn"
+    ]
+  },
+  {
+    "id": "ESP-007",
+    "categoria": "ESP",
+    "categoria_nombre": "Especialidades de la Escuela",
+    "pregunta": "¿Qué es la especialidad de Inteligencia Artificial y Ciencia de Datos?",
+    "respuesta": "El Plan de Estudios de la EPIIS incluye la asignatura obligatoria Aprendizaje Automático (código IF652, 4 créditos) en el VIII semestre, relacionada con inteligencia artificial. No define una línea de especialización denominada 'Inteligencia Artificial y Ciencia de Datos'; las electivas de especialidad se seleccionan de la oferta general de la Escuela.",
+    "intent": "consulta_esp_ia_ciencia_datos",
+    "variaciones": [
+      "¿Qué es la especialidad de IA?",
+      "¿Qué cubro en ciencia de datos?",
+      "¿Qué se estudia en la especialidad de machine learning?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "inteligencia artificial",
+      "ciencia de datos",
+      "machine learning",
+      "nlp",
+      "mineria"
+    ]
+  },
+  {
+    "id": "ESP-008",
+    "categoria": "ESP",
+    "categoria_nombre": "Especialidades de la Escuela",
+    "pregunta": "¿La especialidad de Seguridad Informática tiene certificaciones asociadas?",
+    "respuesta": "El Plan de Estudios de la EPIIS no incluye información sobre certificaciones profesionales asociadas.",
+    "intent": "consulta_esp_seguridad_certificaciones",
+    "variaciones": [
+      "¿En seguridad informática hay certificados?",
+      "¿La especialidad de ciberseguridad prepara para certificaciones?",
+      "¿Puedo obtener certificados en la especialidad de seguridad?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "seguridad",
+      "certificaciones",
+      "ceh",
+      "cissp",
+      "ciberseguridad"
+    ]
+  },
+  {
+    "id": "ESP-009",
+    "categoria": "ESP",
+    "categoria_nombre": "Especialidades de la Escuela",
+    "pregunta": "¿Las especialidades tienen convenios con empresas para prácticas?",
+    "respuesta": "El Plan de Estudios de la EPIIS no incluye información sobre convenios con empresas.",
+    "intent": "consulta_esp_convenios_practicas",
+    "variaciones": [
+      "¿Las especialidades tienen empresas colaboradoras?",
+      "¿Hay convenios de prácticas por especialidad?",
+      "¿Las empresas contratan según mi especialidad?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "convenios",
+      "empresas",
+      "practicas",
+      "sunat",
+      "bcp"
+    ]
+  },
+  {
+    "id": "ESP-010",
+    "categoria": "ESP",
+    "categoria_nombre": "Especialidades de la Escuela",
+    "pregunta": "¿Puedo llevar cursos de otras especialidades como electivos?",
+    "respuesta": "El Plan de Estudios de la EPIIS contempla asignaturas electivas de especialidad en los semestres VIII, IX y X. No especifica disposiciones sobre cursar electivos de otras áreas.",
+    "intent": "consulta_esp_electivos_cruzados",
+    "variaciones": [
+      "¿Puedo tomar materias de otra especialidad?",
+      "¿Puedo cursar electivos de otra línea?",
+      "¿Es posible mezclar cursos de diferentes especialidades?"
+    ],
+    "fuente": "Plan de Estudios y Malla Curricular EPIIS - UNSAAC",
+    "tags": [
+      "electivos",
+      "cruzados",
+      "interdisciplinario",
+      "otra especialidad"
+    ]
   },
   {
     "id": "PPP-001",
-    "categoria": "PPP - Prácticas Pre-Profesionales",
+    "categoria": "PPP",
+    "categoria_nombre": "Prácticas Pre-Profesionales",
     "pregunta": "¿Cuáles son los requisitos para iniciar las prácticas pre-profesionales?",
-    "respuesta": "Los requisitos incluyen haber aprobado 200 créditos y contar con una empresa aceptante. Se debe tramitar la carta de presentación ante la escuela.",
+    "respuesta": "Según el Reglamento Académico UNSAAC (Art. 112°), las prácticas pre-profesionales están dirigidas al estudiante que está por egresar, se realizan en una entidad pública o privada y forman parte del Plan de Estudios de la Escuela Profesional. Se exigen como requisito para alcanzar el grado académico de Bachiller. Cada Escuela Profesional establece las áreas académicas de entrenamiento práctico requeridas según su especialidad.",
     "intent": "consulta_ppp_requisitos_inicio",
     "variaciones": [
-      "¿Qué necesito para empezar mis prácticas?",
-      "¿Cuándo puedo iniciar mis PPP?",
-      "¿Cuáles son los pasos para hacer prácticas?"
+      "¿Qué necesito para hacer prácticas?",
+      "¿Cuáles son las condiciones para empezar las PPP?",
+      "¿Qué debo tener para poder practicar?"
     ],
-    "fuente": "Reglamento de Prácticas Pre-Profesionales UNSAAC",
-    "tags": ["prácticas", "requisitos", "PPP"]
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Arts. 112°-116°",
+    "tags": [
+      "requisitos",
+      "practicas",
+      "ppp",
+      "ix semestre",
+      "promedio"
+    ]
   },
   {
-    "id": "MAT-001",
-    "categoria": "MAT - Matrícula",
-    "pregunta": "¿Cuándo se realizan las matrículas en la UNSAAC?",
-    "respuesta": "Las fechas de matrícula son establecidas en el calendario académico semestral aprobado por el Consejo Universitario. Generalmente ocurren dos semanas antes del inicio de clases y se publican en el portal SERUNSA.",
-    "intent": "consulta_mat_fechas_matricula",
+    "id": "PPP-002",
+    "categoria": "PPP",
+    "categoria_nombre": "Prácticas Pre-Profesionales",
+    "pregunta": "¿Cuántas horas de prácticas debo acumular?",
+    "respuesta": "El Reglamento Académico UNSAAC no establece un número mínimo de horas para las prácticas pre-profesionales. El Art. 112° señala que las prácticas forman parte del Plan de Estudios y su duración es determinada por cada Escuela Profesional según la naturaleza de su especialidad.",
+    "intent": "consulta_ppp_horas_acumuladas",
     "variaciones": [
-      "¿En qué fechas son las inscripciones?",
-      "¿Cuándo es la matrícula del próximo semestre?",
-      "¿Cronograma de matrícula UNSAAC?"
+      "¿Cuántas horas son las prácticas?",
+      "¿Qué duración tienen las prácticas pre-profesionales?",
+      "¿Cuánto tiempo debo practicar?"
     ],
-    "fuente": "Reglamento Académico UNSAAC, Portal SERUNSA",
-    "tags": ["matrícula", "fechas", "cronograma"]
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Arts. 112°-116°",
+    "tags": [
+      "horas",
+      "duracion"
+    ]
   },
   {
-    "id": "TIT-001",
-    "categoria": "TIT - Titulación",
-    "pregunta": "¿Cuáles son las modalidades de titulación disponibles en la EPIIS?",
-    "respuesta": "Las modalidades incluyen: Tesis, Trabajo de Suficiencia Profesional y Examen de Suficiencia Profesional. Cada una tiene requisitos específicos detallados en el reglamento de grados y títulos.",
-    "intent": "consulta_tit_modalidades",
+    "id": "PPP-003",
+    "categoria": "PPP",
+    "categoria_nombre": "Prácticas Pre-Profesionales",
+    "pregunta": "¿La empresa donde hago prácticas debe tener convenio con la UNSAAC?",
+    "respuesta": "El Reglamento Académico UNSAAC (Art. 114°) dispone que el coordinador de prácticas gestiona el establecimiento de convenios donde se desarrollarán las prácticas pre-profesionales. No regula el caso de empresas sin convenio previo; esa situación corresponde a cada Escuela Profesional.",
+    "intent": "consulta_ppp_empresa_convenio",
     "variaciones": [
-      "¿Cómo me puedo titular?",
-      "¿Qué opciones de titulación hay?",
-      "¿Formas de obtener el título profesional?"
+      "¿Debo practicar en una empresa convenio?",
+      "¿Puedo hacer prácticas en cualquier empresa?",
+      "¿La empresa de prácticas necesita estar registrada en la universidad?"
     ],
-    "fuente": "Reglamento de Grados y Títulos UNSAAC",
-    "tags": ["titulación", "modalidades", "tesis"]
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Arts. 112°-116°",
+    "tags": [
+      "empresa",
+      "convenio",
+      "autorizacion",
+      "carta"
+    ]
+  },
+  {
+    "id": "PPP-004",
+    "categoria": "PPP",
+    "categoria_nombre": "Prácticas Pre-Profesionales",
+    "pregunta": "¿Cómo consigo la carta de presentación para las prácticas?",
+    "respuesta": "El Reglamento Académico UNSAAC no contempla un procedimiento específico para la emisión de cartas de presentación. Según el Art. 114°, el coordinador de prácticas organiza las prácticas y gestiona convenios, mientras que el Art. 116° encarga al docente asesor orientar al estudiante en la preparación del plan de prácticas. Los detalles operativos son definidos por cada Escuela Profesional.",
+    "intent": "consulta_ppp_carta_presentacion",
+    "variaciones": [
+      "¿Dónde tramito la carta de prácticas?",
+      "¿Quién emite la carta de presentación para PPP?",
+      "¿Cómo pido la carta para ir a practicar?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Arts. 112°-116°",
+    "tags": [
+      "carta",
+      "presentacion",
+      "secretaria",
+      "tres dias"
+    ]
+  },
+  {
+    "id": "PPP-005",
+    "categoria": "PPP",
+    "categoria_nombre": "Prácticas Pre-Profesionales",
+    "pregunta": "¿Qué es el informe de prácticas y cuándo debo presentarlo?",
+    "respuesta": "El Reglamento Académico UNSAAC (Art. 116°, inciso b) menciona el Informe Final de prácticas pre-profesionales, supervisado por el docente asesor en su preparación, redacción y presentación. No especifica un formato ni una unidad receptora; eso corresponde a cada Escuela Profesional.",
+    "intent": "consulta_ppp_informe_final",
+    "variaciones": [
+      "¿Tengo que escribir un informe de prácticas?",
+      "¿Cómo es el informe final de PPP?",
+      "¿Cuándo entrego el informe de mis prácticas?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Arts. 112°-116°",
+    "tags": [
+      "informe",
+      "reporte",
+      "formato",
+      "unidad de practicas"
+    ]
+  },
+  {
+    "id": "PPP-006",
+    "categoria": "PPP",
+    "categoria_nombre": "Prácticas Pre-Profesionales",
+    "pregunta": "¿Las prácticas pre-profesionales son remuneradas?",
+    "respuesta": "El Reglamento Académico UNSAAC (Art. 112°) señala que las prácticas pre-profesionales se rigen por la Ley N° 28518 y su reglamento DS N° 007-2005-TR. El reglamento UNSAAC no establece montos específicos de subvención económica.",
+    "intent": "consulta_ppp_remuneracion",
+    "variaciones": [
+      "¿Me pagan en las prácticas?",
+      "¿Las PPP son con sueldo?",
+      "¿Las empresas pagan a los practicantes?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Arts. 112°-116°",
+    "tags": [
+      "remuneracion",
+      "sueldo",
+      "pago",
+      "rmv",
+      "subvencion"
+    ]
+  },
+  {
+    "id": "PPP-007",
+    "categoria": "PPP",
+    "categoria_nombre": "Prácticas Pre-Profesionales",
+    "pregunta": "¿Puedo hacer mis prácticas en una empresa pública o institución del Estado?",
+    "respuesta": "Sí. El Reglamento Académico UNSAAC (Art. 112°) establece que las prácticas pre-profesionales pueden cumplirse en una entidad pública o privada. Las instituciones del Estado son centros de prácticas válidos.",
+    "intent": "consulta_ppp_sector_publico",
+    "variaciones": [
+      "¿Puedo practicar en entidades del gobierno?",
+      "¿Las entidades públicas aceptan practicantes?",
+      "¿Puedo hacer PPP en una municipalidad o ministerio?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Arts. 112°-116°",
+    "tags": [
+      "publico",
+      "estado",
+      "municipalidad",
+      "gobierno",
+      "ministerio"
+    ]
+  },
+  {
+    "id": "PPP-008",
+    "categoria": "PPP",
+    "categoria_nombre": "Prácticas Pre-Profesionales",
+    "pregunta": "¿Quién supervisa y evalúa mis prácticas desde la universidad?",
+    "respuesta": "Según el Reglamento Académico UNSAAC (Arts. 115°-116°), la supervisión está a cargo de un docente asesor, elegido por el estudiante ante el Director de la Escuela Profesional y avalado por el Decano. Sus funciones incluyen: orientar la preparación del plan de prácticas, supervisar el informe final, acompañar la presentación oral, realizar visitas a las entidades donde el estudiante practica, y aquellas que la Escuela Profesional determine.",
+    "intent": "consulta_ppp_supervision_universidad",
+    "variaciones": [
+      "¿Qué docente supervisa las prácticas?",
+      "¿Hay alguien de la UNSAAC que revise mis prácticas?",
+      "¿Cómo me califica la universidad en las prácticas?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Arts. 112°-116°",
+    "tags": [
+      "supervisa",
+      "asesor",
+      "practicas",
+      "evaluacion",
+      "docente"
+    ]
+  },
+  {
+    "id": "PPP-009",
+    "categoria": "PPP",
+    "categoria_nombre": "Prácticas Pre-Profesionales",
+    "pregunta": "¿Puedo hacer las prácticas en la misma empresa donde trabajo?",
+    "respuesta": "El Reglamento Académico UNSAAC no regula específicamente la realización de prácticas en el mismo centro laboral del estudiante. El Art. 112° dispone que las prácticas se cumplen en una entidad pública o privada, y cada Escuela Profesional puede establecer disposiciones adicionales.",
+    "intent": "consulta_ppp_trabajo_actual",
+    "variaciones": [
+      "¿Puedo validar mi trabajo como prácticas?",
+      "¿Mi empleo actual puede contar como PPP?",
+      "¿Puedo hacer las PPP donde ya trabajo?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Arts. 112°-116°",
+    "tags": [
+      "trabajo",
+      "empleo",
+      "validar",
+      "autorizacion",
+      "donde trabajo"
+    ]
+  },
+  {
+    "id": "PPP-010",
+    "categoria": "PPP",
+    "categoria_nombre": "Prácticas Pre-Profesionales",
+    "pregunta": "¿Las prácticas pre-profesionales son un requisito para titularse?",
+    "respuesta": "Sí. El Reglamento Académico UNSAAC (Art. 112°) establece que la práctica pre-profesional se exige como requisito para alcanzar el grado académico de Bachiller. El grado de Bachiller es, a su vez, requisito indispensable para optar al título profesional (Art. 131°).",
+    "intent": "consulta_ppp_requisito_titulacion",
+    "variaciones": [
+      "¿Sin prácticas no puedo titularme?",
+      "¿Las PPP son obligatorias para el título?",
+      "¿Las prácticas son parte de los requisitos de titulación?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Arts. 112°-116°",
+    "tags": [
+      "requisito",
+      "titulacion",
+      "obligatorio",
+      "expediente",
+      "certificado"
+    ]
   },
   {
     "id": "BIE-001",
-    "categoria": "BIE - Bienestar Universitario",
+    "categoria": "BIE",
+    "categoria_nombre": "Bienestar Universitario",
     "pregunta": "¿Qué servicios de bienestar ofrece la UNSAAC a sus estudiantes?",
-    "respuesta": "Ofrece servicios de salud, comedor universitario, apoyo social, orientación psicológica y becas de alimentación, gestionados por la Dirección de Bienestar.",
+    "respuesta": "La Dirección de Bienestar Universitario ofrece: (1) Atención médica y odontológica, (2) Orientación psicológica, (3) Servicio social y asistencia económica, (4) Comedor universitario, (5) Residencia universitaria, (6) Actividades deportivas y culturales, y (7) Seguro estudiantil.",
     "intent": "consulta_bie_servicios_generales",
     "variaciones": [
-      "¿Qué beneficios tiene el estudiante en bienestar?",
-      "¿Qué servicios hay en bienestar universitario?",
-      "¿Cómo me ayuda la oficina de bienestar?"
+      "¿Qué ayudas da la universidad a los alumnos?",
+      "¿Cuáles son los beneficios de bienestar universitario?",
+      "¿Qué programas de apoyo tiene la UNSAAC?"
     ],
-    "fuente": "Reglamento de Bienestar Universitario UNSAAC",
-    "tags": ["bienestar", "servicios", "comedor", "salud"]
+    "fuente": "Dirección de Bienestar y Responsabilidad Social UNSAAC",
+    "tags": [
+      "bienestar",
+      "servicios",
+      "apoyo",
+      "medico",
+      "psicologo",
+      "comedor"
+    ]
+  },
+  {
+    "id": "BIE-002",
+    "categoria": "BIE",
+    "categoria_nombre": "Bienestar Universitario",
+    "pregunta": "¿Cómo puedo acceder a la atención psicológica gratuita?",
+    "respuesta": "La atención psicológica gratuita está disponible en la Unidad de Psicología de la Dirección de Bienestar Universitario. Puedes solicitar cita de forma presencial en las oficinas de bienestar o mediante el correo institucional de la unidad. El servicio es completamente confidencial.",
+    "intent": "consulta_bie_atencion_psicologica",
+    "variaciones": [
+      "¿Dónde hay psicólogo en la UNSAAC?",
+      "¿Cómo saco cita con el psicólogo?",
+      "¿La universidad tiene servicio de salud mental?"
+    ],
+    "fuente": "Dirección de Bienestar y Responsabilidad Social UNSAAC",
+    "tags": [
+      "psicologo",
+      "salud mental",
+      "cita",
+      "gratuito",
+      "bienestar"
+    ]
+  },
+  {
+    "id": "BIE-003",
+    "categoria": "BIE",
+    "categoria_nombre": "Bienestar Universitario",
+    "pregunta": "¿Qué es la beca de alimentación y cómo la solicito?",
+    "respuesta": "La beca de alimentación otorga acceso al comedor universitario de lunes a viernes. Para solicitarla debes presentar: solicitud dirigida al Director de Bienestar, constancia de matrícula, declaración jurada de ingresos familiares y recibos de servicios del domicilio. Se otorga por semestre y se renueva previo estudio socioeconómico.",
+    "intent": "consulta_bie_beca_alimentacion",
+    "variaciones": [
+      "¿Cómo accedo al comedor universitario gratis?",
+      "¿Hay beca de comida en la UNSAAC?",
+      "¿Puedo comer gratis en el comedor de la universidad?"
+    ],
+    "fuente": "Dirección de Bienestar y Responsabilidad Social UNSAAC",
+    "tags": [
+      "beca",
+      "alimentacion",
+      "comedor",
+      "declaracion jurada",
+      "solicitud"
+    ]
+  },
+  {
+    "id": "BIE-004",
+    "categoria": "BIE",
+    "categoria_nombre": "Bienestar Universitario",
+    "pregunta": "¿Existe apoyo económico para estudiantes en situación de vulnerabilidad?",
+    "respuesta": "Sí. La Unidad de Servicio Social evalúa casos de estudiantes en situación socioeconómica vulnerable y gestiona acceso a becas, exoneraciones de tasas y apoyo extraordinario. La UNSAAC articula también con el Programa Beca 18 del MINEDU para postulantes que cumplan el perfil.",
+    "intent": "consulta_bie_apoyo_economico",
+    "variaciones": [
+      "¿La universidad da apoyo económico?",
+      "¿Hay becas o subvenciones para alumnos pobres?",
+      "¿Qué ayuda económica ofrece la UNSAAC?"
+    ],
+    "fuente": "Dirección de Bienestar y Responsabilidad Social UNSAAC",
+    "tags": [
+      "apoyo economico",
+      "beca 18",
+      "exoneracion",
+      "vulnerabilidad",
+      "minedu"
+    ]
+  },
+  {
+    "id": "BIE-005",
+    "categoria": "BIE",
+    "categoria_nombre": "Bienestar Universitario",
+    "pregunta": "¿Cómo funciona el seguro estudiantil de la UNSAAC?",
+    "respuesta": "Todo estudiante matriculado cuenta con seguro de accidentes personales vigente durante el año académico, que cubre gastos de atención médica por accidentes ocurridos dentro o fuera del campus. Para acceder, debes presentarte al tópico universitario o al centro de salud con tu carné vigente.",
+    "intent": "consulta_bie_seguro_estudiantil",
+    "variaciones": [
+      "¿Qué cubre el seguro universitario?",
+      "¿Tengo seguro por ser estudiante de la UNSAAC?",
+      "¿El seguro estudiantil cubre accidentes?"
+    ],
+    "fuente": "Dirección de Bienestar y Responsabilidad Social UNSAAC",
+    "tags": [
+      "seguro",
+      "accidentes",
+      "carne",
+      "topico",
+      "cobertura"
+    ]
+  },
+  {
+    "id": "BIE-006",
+    "categoria": "BIE",
+    "categoria_nombre": "Bienestar Universitario",
+    "pregunta": "¿Qué deportes y actividades culturales puedo practicar en la universidad?",
+    "respuesta": "La Oficina de Deportes y Actividades Culturales ofrece disciplinas como fútbol, básquet, vóley, atletismo, natación, artes marciales y ajedrez. En el ámbito cultural hay talleres de danza, teatro, música y artes plásticas. La inscripción es gratuita para estudiantes matriculados.",
+    "intent": "consulta_bie_deportes_cultura",
+    "variaciones": [
+      "¿Hay deportes en la UNSAAC?",
+      "¿Qué actividades extracurriculares hay?",
+      "¿Puedo hacer deporte en la universidad?"
+    ],
+    "fuente": "Oficina de Deportes y Actividades Culturales UNSAAC",
+    "tags": [
+      "deportes",
+      "cultura",
+      "futbol",
+      "basquet",
+      "danza",
+      "teatro",
+      "gratuito"
+    ]
+  },
+  {
+    "id": "BIE-007",
+    "categoria": "BIE",
+    "categoria_nombre": "Bienestar Universitario",
+    "pregunta": "¿La UNSAAC tiene residencia universitaria para estudiantes del interior?",
+    "respuesta": "Sí, la UNSAAC cuenta con residencia universitaria para estudiantes provenientes de provincias y comunidades alejadas. El acceso se determina mediante estudio socioeconómico. Para postular, debes presentar la solicitud al inicio de cada año académico en la Dirección de Bienestar Universitario.",
+    "intent": "consulta_bie_residencia_universitaria",
+    "variaciones": [
+      "¿Hay albergue para estudiantes foráneos?",
+      "¿La universidad tiene dormitorios para alumnos?",
+      "¿Existe residencia universitaria en la UNSAAC?"
+    ],
+    "fuente": "Dirección de Bienestar y Responsabilidad Social UNSAAC",
+    "tags": [
+      "residencia",
+      "albergue",
+      "dormitorio",
+      "foraneos",
+      "provincias"
+    ]
+  },
+  {
+    "id": "BIE-008",
+    "categoria": "BIE",
+    "categoria_nombre": "Bienestar Universitario",
+    "pregunta": "¿Cómo solicito un certificado de situación socioeconómica?",
+    "respuesta": "El certificado lo emite la Unidad de Servicio Social de Bienestar Universitario. Debes presentar: solicitud, constancia de matrícula, declaración jurada de ingresos familiares y documentos que acrediten las condiciones descritas. El proceso tarda entre 5 y 10 días hábiles.",
+    "intent": "consulta_bie_certificado_socioeconomico",
+    "variaciones": [
+      "¿Dónde tramito la constancia socioeconómica?",
+      "¿Cómo obtengo el estudio socioeconómico?",
+      "¿La UNSAAC hace estudios socioeconómicos?"
+    ],
+    "fuente": "Unidad de Servicio Social UNSAAC",
+    "tags": [
+      "certificado",
+      "socioeconomico",
+      "constancia",
+      "servicio social",
+      "dias habiles"
+    ]
+  },
+  {
+    "id": "BIE-009",
+    "categoria": "BIE",
+    "categoria_nombre": "Bienestar Universitario",
+    "pregunta": "¿El comedor universitario está disponible para todos los estudiantes?",
+    "respuesta": "El comedor universitario está abierto para todos los estudiantes matriculados. Los beneficiarios de beca de alimentación acceden sin costo. Los demás estudiantes pueden adquirir tickets al precio subsidiado establecido por la universidad, significativamente menor al del mercado.",
+    "intent": "consulta_bie_comedor_acceso",
+    "variaciones": [
+      "¿Puedo comer en el comedor aunque no tenga beca?",
+      "¿El comedor es abierto para todos?",
+      "¿Cuánto cuesta el menú del comedor universitario?"
+    ],
+    "fuente": "Dirección de Bienestar y Responsabilidad Social UNSAAC",
+    "tags": [
+      "comedor",
+      "precio",
+      "subsidiado",
+      "tickets",
+      "todos"
+    ]
+  },
+  {
+    "id": "BIE-010",
+    "categoria": "BIE",
+    "categoria_nombre": "Bienestar Universitario",
+    "pregunta": "¿A qué número o correo puedo comunicarme con Bienestar Universitario?",
+    "respuesta": "La Dirección de Bienestar Universitario está ubicada en el Campus Universitario de Perayoc. Puedes contactarlos a través del correo institucional publicado en el portal web de la UNSAAC (unsaac.edu.pe) o llamando a la central telefónica de la universidad, anexo de Bienestar.",
+    "intent": "consulta_bie_contacto_oficina",
+    "variaciones": [
+      "¿Cuál es el teléfono de bienestar universitario?",
+      "¿Cómo contacto a la oficina de bienestar?",
+      "¿Dónde está la oficina de bienestar universitario?"
+    ],
+    "fuente": "Portal Web UNSAAC",
+    "tags": [
+      "contacto",
+      "correo",
+      "telefono",
+      "perayoc",
+      "bienestar"
+    ]
+  },
+  {
+    "id": "MOV-001",
+    "categoria": "MOV",
+    "categoria_nombre": "Movilidad Estudiantil",
+    "pregunta": "¿Qué programas de movilidad estudiantil ofrece la UNSAAC?",
+    "respuesta": "La UNSAAC ofrece movilidad estudiantil a través de: (1) PAME-UDUAL (movilidad latinoamericana), (2) convenios bilaterales con universidades de España, Brasil, México y Colombia, (3) Programa de Movilidad Nacional con universidades públicas del Perú, y (4) becas de posgrado PRONABEC y Fundación Carolina.",
+    "intent": "consulta_mov_programas_disponibles",
+    "variaciones": [
+      "¿Hay intercambios estudiantiles en la UNSAAC?",
+      "¿Puedo estudiar en otra universidad con la UNSAAC?",
+      "¿Qué convenios de intercambio tiene la universidad?"
+    ],
+    "fuente": "Oficina de Relaciones Internacionales UNSAAC",
+    "tags": [
+      "movilidad",
+      "intercambio",
+      "pame",
+      "udual",
+      "convenios",
+      "pronabec"
+    ]
+  },
+  {
+    "id": "MOV-002",
+    "categoria": "MOV",
+    "categoria_nombre": "Movilidad Estudiantil",
+    "pregunta": "¿Cuáles son los requisitos mínimos para participar en un programa de intercambio?",
+    "respuesta": "Los requisitos generales son: (1) estar matriculado a partir del IV semestre, (2) tener promedio ponderado mínimo de 14 sobre 20, (3) acreditar nivel intermedio del idioma del país destino, (4) no tener sanciones disciplinarias y (5) presentar carta de motivación y plan de estudios equivalente.",
+    "intent": "consulta_mov_requisitos_intercambio",
+    "variaciones": [
+      "¿Qué se necesita para el intercambio estudiantil?",
+      "¿Qué requisitos piden para la movilidad?",
+      "¿Cómo postulo a un intercambio universitario?"
+    ],
+    "fuente": "Oficina de Relaciones Internacionales UNSAAC",
+    "tags": [
+      "requisitos",
+      "intercambio",
+      "promedio 14",
+      "idioma",
+      "carta motivacion"
+    ]
+  },
+  {
+    "id": "MOV-003",
+    "categoria": "MOV",
+    "categoria_nombre": "Movilidad Estudiantil",
+    "pregunta": "¿Los cursos llevados en el intercambio se convalidan en la UNSAAC?",
+    "respuesta": "Sí. Los cursos aprobados durante la movilidad se pueden convalidar mediante un proceso de homologación ante la Dirección de la Escuela, previa revisión de sílabos y contenidos. El convenio establece equivalencias curriculares antes del viaje para garantizar el reconocimiento.",
+    "intent": "consulta_mov_convalidacion_cursos",
+    "variaciones": [
+      "¿Me reconocen los cursos del intercambio?",
+      "¿Puedo convalidar materias del intercambio?",
+      "¿Los créditos del intercambio cuentan en mi carrera?"
+    ],
+    "fuente": "Oficina de Relaciones Internacionales UNSAAC",
+    "tags": [
+      "convalidacion",
+      "homologacion",
+      "creditos",
+      "silabos",
+      "reconocimiento"
+    ]
+  },
+  {
+    "id": "MOV-004",
+    "categoria": "MOV",
+    "categoria_nombre": "Movilidad Estudiantil",
+    "pregunta": "¿Hay apoyo económico para los estudiantes que van de intercambio?",
+    "respuesta": "Algunos programas incluyen cobertura de manutención y/o pasajes. La universidad articula con PRONABEC, la Fundación Carolina y otros fondos para becas de movilidad. La Oficina de Relaciones Internacionales orienta a los postulantes sobre las fuentes de financiamiento disponibles por convocatoria.",
+    "intent": "consulta_mov_apoyo_economico",
+    "variaciones": [
+      "¿Dan beca para el intercambio?",
+      "¿La universidad financia el intercambio?",
+      "¿Hay ayuda para pagar el intercambio estudiantil?"
+    ],
+    "fuente": "Oficina de Relaciones Internacionales UNSAAC",
+    "tags": [
+      "apoyo",
+      "beca",
+      "financiamiento",
+      "pronabec",
+      "fundacion carolina"
+    ]
+  },
+  {
+    "id": "MOV-005",
+    "categoria": "MOV",
+    "categoria_nombre": "Movilidad Estudiantil",
+    "pregunta": "¿Puedo recibir estudiantes de intercambio de otras universidades?",
+    "respuesta": "Sí. La UNSAAC recibe estudiantes de intercambio entrante (incoming). Estos estudiantes se matriculan en cursos regulares de la carrera y reciben orientación de la Oficina de Relaciones Internacionales. El proceso de admisión se gestiona a través de los convenios bilaterales vigentes.",
+    "intent": "consulta_mov_estudiantes_entrantes",
+    "variaciones": [
+      "¿La UNSAAC recibe estudiantes extranjeros?",
+      "¿Hay estudiantes de intercambio que vienen a la UNSAAC?",
+      "¿Cómo funciona la movilidad entrante?"
+    ],
+    "fuente": "Oficina de Relaciones Internacionales UNSAAC",
+    "tags": [
+      "entrantes",
+      "incoming",
+      "extranjeros",
+      "admision",
+      "bilateral"
+    ]
+  },
+  {
+    "id": "MOV-006",
+    "categoria": "MOV",
+    "categoria_nombre": "Movilidad Estudiantil",
+    "pregunta": "¿Dónde puedo enterarme de las convocatorias de movilidad estudiantil?",
+    "respuesta": "Las convocatorias se publican en: la página web oficial de la UNSAAC (sección Relaciones Internacionales), el portal del Centro de Cómputo UNSAAC, las redes sociales institucionales y los paneles informativos de la facultad. Se recomienda estar atento al inicio de cada semestre académico.",
+    "intent": "consulta_mov_convocatorias",
+    "variaciones": [
+      "¿Cómo me entero de las becas de intercambio?",
+      "¿Dónde se publican las convocatorias de movilidad?",
+      "¿Cómo saber cuándo hay intercambios disponibles?"
+    ],
+    "fuente": "Oficina de Relaciones Internacionales UNSAAC",
+    "tags": [
+      "convocatorias",
+      "publicacion",
+      "portal_estudiantil",
+      "redes sociales",
+      "semestre"
+    ]
+  },
+  {
+    "id": "MOV-007",
+    "categoria": "MOV",
+    "categoria_nombre": "Movilidad Estudiantil",
+    "pregunta": "¿Qué documentos necesito para postular a la movilidad estudiantil?",
+    "respuesta": "El expediente generalmente incluye: solicitud de postulación, currículum vitae, constancia de matrícula, certificado de notas, carta de motivación, carta de recomendación de un docente, acreditación del idioma y el plan de estudios equivalente propuesto.",
+    "intent": "consulta_mov_documentos_postulacion",
+    "variaciones": [
+      "¿Qué papeles piden para el intercambio?",
+      "¿Qué expediente armo para la movilidad?",
+      "¿Qué documentación necesito para postular al intercambio?"
+    ],
+    "fuente": "Oficina de Relaciones Internacionales UNSAAC",
+    "tags": [
+      "documentos",
+      "expediente",
+      "curriculum",
+      "constancia",
+      "carta recomendacion"
+    ]
+  },
+  {
+    "id": "MOV-008",
+    "categoria": "MOV",
+    "categoria_nombre": "Movilidad Estudiantil",
+    "pregunta": "¿El intercambio afecta mi proceso de titulación o retrasa mi carrera?",
+    "respuesta": "No necesariamente. La clave es planificar el intercambio con la Dirección de la Escuela y la Oficina de Relaciones Internacionales para garantizar la equivalencia curricular. Los créditos aprobados en la universidad destino se homologan, por lo que el intercambio puede realizarse sin retrasar la culminación de la carrera.",
+    "intent": "consulta_mov_impacto_titulacion",
+    "variaciones": [
+      "¿El intercambio me retrasa?",
+      "¿Ir de intercambio atrasa la titulación?",
+      "¿Pierdo semestre si hago intercambio?"
+    ],
+    "fuente": "Oficina de Relaciones Internacionales UNSAAC",
+    "tags": [
+      "retrasar",
+      "titulacion",
+      "homologacion",
+      "creditos",
+      "planificar"
+    ]
+  },
+  {
+    "id": "MOV-009",
+    "categoria": "MOV",
+    "categoria_nombre": "Movilidad Estudiantil",
+    "pregunta": "¿Necesito dominar otro idioma para participar en la movilidad?",
+    "respuesta": "Depende del programa y el país destino. Para universidades latinoamericanas, el español es suficiente. Para destinos en Europa o EE.UU., se exige acreditar nivel intermedio o avanzado del idioma local (inglés, portugués o francés), generalmente mediante certificados como TOEFL, IELTS o equivalentes.",
+    "intent": "consulta_mov_requisito_idioma",
+    "variaciones": [
+      "¿Es obligatorio hablar otro idioma para el intercambio?",
+      "¿Qué nivel de inglés piden para la movilidad?",
+      "¿Puedo ir a intercambio si no hablo inglés?"
+    ],
+    "fuente": "Oficina de Relaciones Internacionales UNSAAC",
+    "tags": [
+      "idioma",
+      "ingles",
+      "toefl",
+      "ielts",
+      "nivel",
+      "portugues"
+    ]
+  },
+  {
+    "id": "MOV-010",
+    "categoria": "MOV",
+    "categoria_nombre": "Movilidad Estudiantil",
+    "pregunta": "¿La UNSAAC tiene convenios con universidades reconocidas internacionalmente?",
+    "respuesta": "Sí. La UNSAAC mantiene convenios activos con universidades como la Universidad de Salamanca (España), la Universidad Federal de Paraná (Brasil), la UNAM (México), la Universidad Nacional de Córdoba (Argentina) y varias instituciones agrupadas en redes como UDUAL y AUIP.",
+    "intent": "consulta_mov_universidades_convenio",
+    "variaciones": [
+      "¿Con qué universidades del mundo tiene convenio la UNSAAC?",
+      "¿La UNSAAC tiene alianzas internacionales?",
+      "¿Qué universidades extranjeras tienen acuerdo con la UNSAAC?"
+    ],
+    "fuente": "Oficina de Relaciones Internacionales UNSAAC",
+    "tags": [
+      "convenios",
+      "salamanca",
+      "unam",
+      "brasil",
+      "argentina",
+      "udual"
+    ]
+  },
+  {
+    "id": "MAT-001",
+    "categoria": "MAT",
+    "categoria_nombre": "Matrícula",
+    "pregunta": "¿Cuándo se realizan las matrículas en la UNSAAC?",
+    "respuesta": "Según el Reglamento Académico UNSAAC (Arts. 1° y 11°), la matrícula es semestral y se realiza estrictamente en el periodo de actividades académicas programadas, conforme al cronograma aprobado por el Consejo Universitario. El cronograma se publica oficialmente cada semestre.",
+    "intent": "consulta_mat_fechas_matricula",
+    "variaciones": [
+      "¿En qué fechas es la matrícula?",
+      "¿Cuándo empieza la matrícula?",
+      "¿Cuáles son los periodos de matrícula?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título I, Arts. 1°-13°",
+    "tags": [
+      "matricula",
+      "fechas",
+      "cronograma",
+      "portal_estudiantil",
+      "marzo",
+      "agosto"
+    ]
+  },
+  {
+    "id": "MAT-002",
+    "categoria": "MAT",
+    "categoria_nombre": "Matrícula",
+    "pregunta": "¿Cómo me matriculo en el sistema virtual de la UNSAAC?",
+    "respuesta": "El Reglamento Académico UNSAAC (Art. 13°) dispone que el registro de matrícula se realiza mediante Internet, ingresando al sistema virtual del Centro de Cómputo de la universidad. El estudiante accede al formato virtual especialmente diseñado, siguiendo el cronograma establecido por el Consejo Universitario.",
+    "intent": "consulta_mat_proceso_virtual",
+    "variaciones": [
+      "¿Cómo se hace la matrícula en línea?",
+      "¿Cuáles son los pasos para matricularme?",
+      "¿Cómo uso el sistema el sistema virtual de la UNSAAC para matricularme?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título I, Arts. 1°-13°",
+    "tags": [
+      "portal_estudiantil",
+      "matricula",
+      "proceso",
+      "pasos",
+      "usuario",
+      "contrasena"
+    ]
+  },
+  {
+    "id": "MAT-003",
+    "categoria": "MAT",
+    "categoria_nombre": "Matrícula",
+    "pregunta": "¿Cuáles son los requisitos para poder matricularme?",
+    "respuesta": "El Reglamento Académico UNSAAC (Art. 10°) establece los siguientes requisitos: (a) hallarse en alguno de los supuestos del Art. 3° (estudiante regular, no regular o especial), (b) tener código de alumno asignado al ser admitido, (c) no ser deudor de la UNSAAC, (d) no tener matrícula condicionada por bajo rendimiento, y (e) haber realizado el pago de matrícula. El monto lo establece el Consejo Universitario para cada año académico (Art. 5°).",
+    "intent": "consulta_mat_requisitos",
+    "variaciones": [
+      "¿Qué necesito para hacer la matrícula?",
+      "¿Qué condiciones debo cumplir para matricularme?",
+      "¿Qué me pueden impedir matricularme?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título I, Arts. 1°-13°",
+    "tags": [
+      "requisitos",
+      "deudas",
+      "carne",
+      "habilitacion",
+      "portal_estudiantil"
+    ]
+  },
+  {
+    "id": "MAT-004",
+    "categoria": "MAT",
+    "categoria_nombre": "Matrícula",
+    "pregunta": "¿Puedo hacer la matrícula de forma presencial?",
+    "respuesta": "El Reglamento Académico UNSAAC (Art. 13°) establece que el registro de matrícula se procesa mediante Internet a través de la base de datos de la universidad. No contempla un procedimiento presencial regular.",
+    "intent": "consulta_mat_modalidad_presencial",
+    "variaciones": [
+      "¿La matrícula se puede hacer en persona?",
+      "¿Hay matrícula presencial en la UNSAAC?",
+      "¿Dónde hago la matrícula si no tengo internet?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título I, Arts. 1°-13°",
+    "tags": [
+      "presencial",
+      "virtual",
+      "draa",
+      "modulos",
+      "secretaria"
+    ]
+  },
+  {
+    "id": "MAT-005",
+    "categoria": "MAT",
+    "categoria_nombre": "Matrícula",
+    "pregunta": "¿Qué hago si no pude matricularme dentro del plazo establecido?",
+    "respuesta": "El Reglamento Académico UNSAAC (Arts. 6° y 11°) dispone que, concluido el cronograma de matrícula aprobado por el Consejo Universitario, el Vicerrector Académico emite resolución dando por terminada la matrícula. El plazo establecido es perentorio y no se permiten ampliaciones.",
+    "intent": "consulta_mat_fuera_de_plazo",
+    "variaciones": [
+      "¿Qué pasa si se me venció el plazo de matrícula?",
+      "¿Puedo hacer matrícula extemporánea?",
+      "¿Me pueden matricular fuera de fecha?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título I, Arts. 1°-13°",
+    "tags": [
+      "extemporanea",
+      "fuera de plazo",
+      "solicitud",
+      "cinco dias",
+      "vacantes"
+    ]
+  },
+  {
+    "id": "MAT-006",
+    "categoria": "MAT",
+    "categoria_nombre": "Matrícula",
+    "pregunta": "¿Cuántos créditos máximos puedo llevar por semestre?",
+    "respuesta": "El Reglamento Académico UNSAAC (Arts. 8° y 9°) establece: matrícula regular: mínimo 12, máximo 22 créditos. Estudiante con promedio ponderado ≥ 16: hasta 26 créditos. Estudiante por egresar: máximo 30 créditos y mínimo 1 asignatura (solo una vez). Estudiante no regular: menos de 12 créditos, hasta 3 semestres consecutivos.",
+    "intent": "consulta_mat_creditos_maximo",
+    "variaciones": [
+      "¿Cuál es la carga máxima de créditos?",
+      "¿Cuántos cursos puedo llevar a la vez?",
+      "¿Hay límite de materias por semestre?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título I, Arts. 1°-13°",
+    "tags": [
+      "creditos",
+      "maximo",
+      "24 creditos",
+      "sobrecarga",
+      "12 creditos",
+      "minimo"
+    ]
+  },
+  {
+    "id": "MAT-007",
+    "categoria": "MAT",
+    "categoria_nombre": "Matrícula",
+    "pregunta": "¿Puedo retirar un curso después de matricularme?",
+    "respuesta": "El Reglamento Académico UNSAAC no contempla el retiro de cursos después de la matrícula. El Art. 6° dispone que, concluido el cronograma, el Vicerrector Académico emite resolución dando por terminada la matrícula, y el Art. 1° señala que la matrícula es un acto formal voluntario e incondicional.",
+    "intent": "consulta_mat_retiro_curso",
+    "variaciones": [
+      "¿Puedo cancelar un curso en el que me matriculé?",
+      "¿Es posible dar de baja un curso?",
+      "¿Hasta cuándo puedo retirar un curso?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título I, Arts. 1°-13°",
+    "tags": [
+      "retiro",
+      "baja",
+      "cancelar",
+      "cuarta semana",
+      "justificado"
+    ]
+  },
+  {
+    "id": "MAT-008",
+    "categoria": "MAT",
+    "categoria_nombre": "Matrícula",
+    "pregunta": "¿Qué es la matrícula condicional y cuándo aplica?",
+    "respuesta": "El Reglamento Académico UNSAAC (Art. 10°, último párrafo) dispone que el estudiante que desapruebe dos veces una o más asignaturas debe asumir un compromiso escrito de superar su bajo rendimiento, requiriendo para la matrícula resolución del Decano con opinión favorable del docente tutor asignado. No utiliza la denominación 'matrícula condicional'.",
+    "intent": "consulta_mat_condicional",
+    "variaciones": [
+      "¿En qué casos hay matrícula condicional?",
+      "¿Qué es la matrícula con condición?",
+      "¿Me pueden poner matrícula condicional?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título I, Arts. 1°-13°",
+    "tags": [
+      "condicional",
+      "bajo promedio",
+      "seguimiento",
+      "acta de compromiso",
+      "dos veces"
+    ]
+  },
+  {
+    "id": "MAT-009",
+    "categoria": "MAT",
+    "categoria_nombre": "Matrícula",
+    "pregunta": "¿Cuánto cuesta la matrícula en la UNSAAC?",
+    "respuesta": "El Reglamento Académico UNSAAC (Art. 5°) establece que el pago por matrícula es por cada semestre y el monto lo determina el Consejo Universitario para cada año académico. Señala que no tiene carácter de pensión de enseñanza.",
+    "intent": "consulta_mat_costo",
+    "variaciones": [
+      "¿Cuánto es la tasa de matrícula?",
+      "¿Qué costo tiene matricularse en la UNSAAC?",
+      "¿Cuál es el precio de la matrícula universitaria?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título I, Arts. 1°-13°",
+    "tags": [
+      "costo",
+      "precio",
+      "tasa",
+      "socioeconomico",
+      "portal_estudiantil"
+    ]
+  },
+  {
+    "id": "MAT-010",
+    "categoria": "MAT",
+    "categoria_nombre": "Matrícula",
+    "pregunta": "¿Qué es el seguro universitario y cuándo se activa con la matrícula?",
+    "respuesta": "El Reglamento Académico UNSAAC no menciona un seguro estudiantil ni su activación con la matrícula.",
+    "intent": "consulta_mat_seguro_activacion",
+    "variaciones": [
+      "¿El seguro se activa solo al matricularme?",
+      "¿Cuándo empieza a cubrirme el seguro estudiantil?",
+      "¿La matrícula incluye seguro de accidentes?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título I, Arts. 1°-13°",
+    "tags": [
+      "seguro",
+      "activacion",
+      "automatico",
+      "carne",
+      "cobertura"
+    ]
+  },
+  {
+    "id": "TIT-001",
+    "categoria": "TIT",
+    "categoria_nombre": "Titulación",
+    "pregunta": "¿Cuáles son las modalidades de titulación disponibles en la EPIIS?",
+    "respuesta": "El Reglamento Académico UNSAAC (Art. 120°) establece dos modalidades para optar al título profesional: (1) aprobación de una tesis y (2) aprobación de un trabajo de suficiencia profesional. Además, para obtener el grado de Bachiller se requiere un trabajo de investigación (Arts. 126°-129°). Cada Escuela Profesional adapta estas disposiciones según sus particularidades (Art. 117°).",
+    "intent": "consulta_tit_modalidades",
+    "variaciones": [
+      "¿Cómo me puedo titular?",
+      "¿Qué opciones hay para obtener el título?",
+      "¿Cuántas formas de titulación existen en la carrera?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título V, Arts. 117°-157°",
+    "tags": [
+      "titulacion",
+      "modalidades",
+      "tesis",
+      "suficiencia",
+      "bachiller",
+      "examen"
+    ]
+  },
+  {
+    "id": "TIT-002",
+    "categoria": "TIT",
+    "categoria_nombre": "Titulación",
+    "pregunta": "¿Cuáles son los requisitos para iniciar el proceso de titulación?",
+    "respuesta": "Según el Reglamento Académico UNSAAC (Arts. 131°-132°), los requisitos son: (1) tener el grado académico de Bachiller otorgado por la UNSAAC, y (2) presentar expediente con: solicitud, copia simple del diploma de Bachiller, copia simple del DNI vigente, declaración jurada de carecer de antecedentes penales y judiciales (autenticada por Notario o Fedatario), y recibo de pago por título profesional.",
+    "intent": "consulta_tit_requisitos_inicio",
+    "variaciones": [
+      "¿Qué necesito para titularme?",
+      "¿Cuáles son los requisitos del proceso de titulación?",
+      "¿Qué documentos piden para el título?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título V, Arts. 117°-157°",
+    "tags": [
+      "requisitos",
+      "titulacion",
+      "220 creditos",
+      "bachiller",
+      "practicas",
+      "expediente"
+    ]
+  },
+  {
+    "id": "TIT-003",
+    "categoria": "TIT",
+    "categoria_nombre": "Titulación",
+    "pregunta": "¿Cómo obtengo el grado de Bachiller?",
+    "respuesta": "El Reglamento Académico UNSAAC (Arts. 121°-126°) establece que para obtener el grado de Bachiller el egresado debe haber completado los créditos exigidos por su Plan de Estudios y presentar: solicitud, ficha de seguimiento académico, copia del DNI, certificación de idioma extranjero, certificación de computación, pago por bachillerato, e inscripción de un trabajo de investigación que debe ser aprobado por la unidad de investigación respectiva.",
+    "intent": "consulta_tit_grado_bachiller",
+    "variaciones": [
+      "¿Qué se necesita para el bachillerato?",
+      "¿Cuáles son los requisitos para el grado de bachiller?",
+      "¿El bachiller es automático?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título V, Arts. 117°-157°",
+    "tags": [
+      "bachiller",
+      "automatico",
+      "grado",
+      "investigacion",
+      "ley 30220"
+    ]
+  },
+  {
+    "id": "TIT-004",
+    "categoria": "TIT",
+    "categoria_nombre": "Titulación",
+    "pregunta": "¿Cuánto tiempo tengo para titularme después de terminar los cursos?",
+    "respuesta": "El Reglamento Académico UNSAAC no establece un plazo máximo para iniciar el proceso de titulación tras concluir los estudios. La Disposición Transitoria Tercera señala que el Título V se aplica a estudiantes admitidos después del 10 de julio de 2014.",
+    "intent": "consulta_tit_plazo_titulacion",
+    "variaciones": [
+      "¿Hay un plazo límite para titularme?",
+      "¿Cuánto tiempo tengo para sacar mi título?",
+      "¿Me caducan los créditos si no me titulo?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título V, Arts. 117°-157°",
+    "tags": [
+      "plazo",
+      "titulacion",
+      "limite",
+      "caducidad",
+      "creditos"
+    ]
+  },
+  {
+    "id": "TIT-005",
+    "categoria": "TIT",
+    "categoria_nombre": "Titulación",
+    "pregunta": "¿Qué es un trabajo de suficiencia profesional?",
+    "respuesta": "El Reglamento Académico UNSAAC (Art. 149°) define el trabajo de suficiencia profesional como la presentación escrita y sustentación oral de un documento que refleje los aprendizajes logrados por el Bachiller en el pregrado, conteniendo un análisis o una propuesta de mejora o innovación. Si se opta por título con mención de especialidad, incluye una segunda etapa de evaluación disciplinar.",
+    "intent": "consulta_tit_suficiencia_profesional",
+    "variaciones": [
+      "¿Qué es la suficiencia profesional?",
+      "¿Cómo funciona la titulación por suficiencia?",
+      "¿En qué consiste la modalidad de suficiencia profesional?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título V, Arts. 117°-157°",
+    "tags": [
+      "suficiencia",
+      "profesional",
+      "experiencia laboral",
+      "proyecto",
+      "informe"
+    ]
+  },
+  {
+    "id": "TIT-006",
+    "categoria": "TIT",
+    "categoria_nombre": "Titulación",
+    "pregunta": "¿Cómo escojo a mi asesor de tesis?",
+    "respuesta": "El Reglamento Académico UNSAAC (Art. 136°) dispone que el plan de tesis debe contar con el aval de uno o más docentes directores de tesis, lo que constituye aceptación del asesoramiento. El Decano emite resolución aprobando el tema y plan de tesis, nombrando al director o directores que lo avalan. La tesis puede ser individual o colectiva (hasta 2 participantes, Art. 135°).",
+    "intent": "consulta_tit_eleccion_asesor",
+    "variaciones": [
+      "¿Quién puede ser mi asesor de tesis?",
+      "¿Cómo se asigna el asesor de investigación?",
+      "¿Puedo elegir a mi asesor?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título V, Arts. 117°-157°",
+    "tags": [
+      "asesor",
+      "tesis",
+      "docente",
+      "cinco tesistas",
+      "resolucion"
+    ]
+  },
+  {
+    "id": "TIT-007",
+    "categoria": "TIT",
+    "categoria_nombre": "Titulación",
+    "pregunta": "¿Cuánto tiempo toma habitualmente el proceso de titulación?",
+    "respuesta": "El Reglamento Académico UNSAAC establece plazos específicos para cada etapa del proceso de titulación pero no estima una duración total. Entre ellos: 3 días para declaración de apto (Art. 133°), 10 días para dictamen de tesis (Art. 140°), 30 días para nueva sustentación si se desaprueba (Art. 147°).",
+    "intent": "consulta_tit_duracion_proceso",
+    "variaciones": [
+      "¿Cuánto dura titularse?",
+      "¿En cuánto tiempo puedo sacar mi título?",
+      "¿El trámite de titulación es rápido?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título V, Arts. 117°-157°",
+    "tags": [
+      "duracion",
+      "tiempo",
+      "meses",
+      "tesis",
+      "suficiencia",
+      "sunedu"
+    ]
+  },
+  {
+    "id": "TIT-008",
+    "categoria": "TIT",
+    "categoria_nombre": "Titulación",
+    "pregunta": "¿En qué consiste el jurado de sustentación?",
+    "respuesta": "El Reglamento Académico UNSAAC (Art. 142°) establece que el jurado está conformado por el Decano, quien lo preside, y hasta cuatro docentes: dos dictaminadores y dos replicantes. Excepcionalmente el Decano puede delegar la presidencia. Pueden conformar el jurado docentes de otras facultades o de otras instituciones universitarias.",
+    "intent": "consulta_tit_jurado_sustentacion",
+    "variaciones": [
+      "¿Quiénes conforman el jurado de tesis?",
+      "¿Cómo es el jurado de la sustentación?",
+      "¿Cuántas personas me evalúan en la sustentación?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título V, Arts. 117°-157°",
+    "tags": [
+      "jurado",
+      "tres docentes",
+      "presidente",
+      "sustentacion",
+      "promedio"
+    ]
+  },
+  {
+    "id": "TIT-009",
+    "categoria": "TIT",
+    "categoria_nombre": "Titulación",
+    "pregunta": "¿Qué pasa si desapruebo la sustentación?",
+    "respuesta": "El Reglamento Académico UNSAAC (Art. 147°) señala que en caso de desaprobación de la sustentación, el aspirante puede solicitar nueva fecha después de treinta (30) días. Una segunda desaprobación permite nueva solicitud no antes de seis (6) meses. No se establece un número máximo de oportunidades.",
+    "intent": "consulta_tit_desaprobacion_sustentacion",
+    "variaciones": [
+      "¿Puedo repetir la sustentación si la jalé?",
+      "¿Qué ocurre si no apruebo la defensa de tesis?",
+      "¿Tengo otra oportunidad si desapruebo la sustentación?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título V, Arts. 117°-157°",
+    "tags": [
+      "desaprobacion",
+      "sustentacion",
+      "30 dias",
+      "dos oportunidades",
+      "observaciones"
+    ]
+  },
+  {
+    "id": "TIT-010",
+    "categoria": "TIT",
+    "categoria_nombre": "Titulación",
+    "pregunta": "¿Dónde debo registrar mi título una vez obtenido?",
+    "respuesta": "El Reglamento Académico UNSAAC (Arts. 118° y 129°) dispone que la UNSAAC mantiene el registro de los grados y títulos que confiere y los reporta al registro nacional administrado por SUNEDU. El diploma es emitido por el Consejo Universitario, refrendado por el Rector y certificado por el Secretario General.",
+    "intent": "consulta_tit_registro_sunedu",
+    "variaciones": [
+      "¿El título se inscribe en algún registro?",
+      "¿Dónde se registra el título profesional?",
+      "¿Qué hago después de obtener el título?"
+    ],
+    "fuente": "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título V, Arts. 117°-157°",
+    "tags": [
+      "sunedu",
+      "registro",
+      "titulo",
+      "validez",
+      "nacional",
+      "codigo"
+    ]
+  },
+  {
+    "id": "SER-001",
+    "categoria": "SER",
+    "categoria_nombre": "Servicios Universitarios",
+    "pregunta": "¿Cómo accedo a los recursos de la biblioteca universitaria?",
+    "respuesta": "La Biblioteca Central UNSAAC ofrece acceso presencial de lunes a sábado y acceso virtual a través del repositorio institucional (repositorio.unsaac.edu.pe), bases de datos suscritas (EBSCO, Scopus) y la Biblioteca Virtual del Consorcio de Universidades. El acceso digital requiere usuario institucional.",
+    "intent": "consulta_ser_biblioteca",
+    "variaciones": [
+      "¿Puedo usar la biblioteca de la UNSAAC?",
+      "¿Cómo uso la biblioteca universitaria?",
+      "¿La biblioteca tiene acceso en línea?"
+    ],
+    "fuente": "Biblioteca Central UNSAAC",
+    "tags": [
+      "biblioteca",
+      "repositorio",
+      "ebsco",
+      "scopus",
+      "digital",
+      "presencial"
+    ]
   },
   {
     "id": "SER-002",
-    "categoria": "SER - Servicios Universitarios",
+    "categoria": "SER",
+    "categoria_nombre": "Servicios Universitarios",
     "pregunta": "¿Cómo obtengo mi correo institucional de la UNSAAC?",
-    "respuesta": "El correo institucional se solicita a través del centro de cómputo o el portal SERUNSA al momento del primer ingreso o matrícula. Es fundamental para comunicaciones oficiales y acceso a herramientas académicas.",
+    "respuesta": "El correo institucional se activa en la Dirección de Tecnologías de la Información (DTI) presentando el carné universitario. El formato es nombre.apellido@unsaac.edu.pe. Con este correo se accede a plataformas como Google Workspace for Education, Microsoft 365 y las aulas virtuales.",
     "intent": "consulta_ser_correo_institucional",
     "variaciones": [
-      "¿Cómo activo mi correo de la universidad?",
-      "¿Dónde pido mi correo institucional?",
-      "¿Cuál es el proceso para el correo de alumno?"
+      "¿Cómo activo mi email universitario?",
+      "¿Cómo saco mi correo de la UNSAAC?",
+      "¿Qué correo me da la universidad?"
     ],
-    "fuente": "Dirección de Tecnologías de Información (DTI) UNSAAC",
-    "tags": ["correo", "institucional", "TIC"]
+    "fuente": "Dirección de Tecnologías de la Información (DTI) UNSAAC",
+    "tags": [
+      "correo",
+      "email",
+      "institucional",
+      "dti",
+      "google workspace",
+      "microsoft"
+    ]
+  },
+  {
+    "id": "SER-003",
+    "categoria": "SER",
+    "categoria_nombre": "Servicios Universitarios",
+    "pregunta": "¿Dónde solicito mis certificados y constancias académicas?",
+    "respuesta": "Los certificados y constancias se tramitan en la DRAA. Algunos documentos como la constancia de matrícula pueden descargarse directamente desde el portal del Centro de Cómputo UNSAAC. El tiempo de entrega varía de 3 a 10 días hábiles según el tipo de documento.",
+    "intent": "consulta_ser_certificados_constancias",
+    "variaciones": [
+      "¿Cómo pido una constancia de estudios?",
+      "¿Dónde tramito mis certificados de notas?",
+      "¿Dónde saco el certificado de matrícula?"
+    ],
+    "fuente": "Dirección de Registros Académicos y Admisión (DRAA)",
+    "tags": [
+      "certificados",
+      "constancias",
+      "draa",
+      "portal_estudiantil",
+      "dias habiles"
+    ]
+  },
+  {
+    "id": "SER-004",
+    "categoria": "SER",
+    "categoria_nombre": "Servicios Universitarios",
+    "pregunta": "¿Cómo puedo acceder al aula virtual de la UNSAAC?",
+    "respuesta": "El aula virtual está disponible en el portal del Centro de Cómputo UNSAAC o en la plataforma Moodle institucional (aulavirtual.unsaac.edu.pe). Se ingresa con usuario y contraseña institucional. Ahí se encuentran materiales de cursos, tareas, foros y comunicados de los docentes.",
+    "intent": "consulta_ser_aula_virtual",
+    "variaciones": [
+      "¿Dónde está el aula virtual de la universidad?",
+      "¿Cómo ingreso al campus virtual?",
+      "¿Cuál es la plataforma de e-learning de la UNSAAC?"
+    ],
+    "fuente": "Dirección de Tecnologías de la Información (DTI) UNSAAC",
+    "tags": [
+      "aula virtual",
+      "moodle",
+      "portal_estudiantil",
+      "campus virtual",
+      "elearning",
+      "plataforma"
+    ]
+  },
+  {
+    "id": "SER-005",
+    "categoria": "SER",
+    "categoria_nombre": "Servicios Universitarios",
+    "pregunta": "¿La UNSAAC cuenta con laboratorios de cómputo disponibles para estudiantes?",
+    "respuesta": "La EPIIS cuenta con cuatro laboratorios de cómputo equipados con estaciones de trabajo actualizadas, software especializado (Visual Studio, Eclipse, NetBeans, MATLAB, Cisco Packet Tracer, entre otros) y acceso a internet. El uso está disponible para estudiantes matriculados durante el horario de atención publicado.",
+    "intent": "consulta_ser_laboratorios_computo",
+    "variaciones": [
+      "¿Hay computadoras para usar en la universidad?",
+      "¿La escuela de sistemas tiene laboratorios?",
+      "¿Puedo usar los laboratorios de la EPIIS?"
+    ],
+    "fuente": "EPIIS - Dirección de Escuela Profesional",
+    "tags": [
+      "laboratorios",
+      "computo",
+      "visual studio",
+      "matlab",
+      "cisco",
+      "cuatro laboratorios"
+    ]
+  },
+  {
+    "id": "SER-006",
+    "categoria": "SER",
+    "categoria_nombre": "Servicios Universitarios",
+    "pregunta": "¿Cómo solicito una carta de presentación para eventos o concursos?",
+    "respuesta": "Para obtener una carta de presentación debes presentar una solicitud en la secretaría de la escuela, especificando el evento, la institución organizadora y la fecha. La carta es emitida por el Director de la Escuela en un plazo de tres días hábiles, previo visto bueno de la Dirección de la Facultad.",
+    "intent": "consulta_ser_carta_presentacion",
+    "variaciones": [
+      "¿Cómo pido una carta de la universidad para un concurso?",
+      "¿La escuela emite cartas de presentación?",
+      "¿Qué hago para que la universidad me represente en un evento?"
+    ],
+    "fuente": "Dirección de la Escuela Profesional EPIIS",
+    "tags": [
+      "carta",
+      "presentacion",
+      "concurso",
+      "evento",
+      "tres dias",
+      "secretaria"
+    ]
+  },
+  {
+    "id": "SER-007",
+    "categoria": "SER",
+    "categoria_nombre": "Servicios Universitarios",
+    "pregunta": "¿Existe un servicio de impresión o fotocopiado dentro del campus?",
+    "respuesta": "El campus cuenta con centros de fotocopiado e impresión en distintos puntos, incluyendo los pabellones de la Facultad de Ingeniería y los alrededores de la Biblioteca Central. Algunos laboratorios de la escuela permiten impresión con el carné universitario, sujeto a disponibilidad y cuotas establecidas.",
+    "intent": "consulta_ser_impresion_campus",
+    "variaciones": [
+      "¿Hay fotocopiadoras en la universidad?",
+      "¿Puedo imprimir en el campus?",
+      "¿Dónde imprimo mis documentos en la UNSAAC?"
+    ],
+    "fuente": "UNSAAC - Campus Universitario",
+    "tags": [
+      "impresion",
+      "fotocopiado",
+      "campus",
+      "carne",
+      "laboratorios",
+      "cuota"
+    ]
+  },
+  {
+    "id": "SER-008",
+    "categoria": "SER",
+    "categoria_nombre": "Servicios Universitarios",
+    "pregunta": "¿Cómo puedo obtener mi récord de notas oficial?",
+    "respuesta": "El récord de notas oficial se tramita en la DRAA presentando la solicitud correspondiente y pagando la tasa establecida en el TUPA de la universidad. En el portal del Centro de Cómputo UNSAAC puedes visualizar e imprimir un reporte de notas no oficial. El documento oficial lleva firma y sello de la Dirección de Registros.",
+    "intent": "consulta_ser_record_notas",
+    "variaciones": [
+      "¿Dónde saco el récord de notas?",
+      "¿Cómo pido mis notas certificadas?",
+      "¿Qué es el récord de notas y cómo lo tramito?"
+    ],
+    "fuente": "Dirección de Registros Académicos y Admisión (DRAA)",
+    "tags": [
+      "record",
+      "notas",
+      "oficial",
+      "draa",
+      "tupa",
+      "portal_estudiantil"
+    ]
+  },
+  {
+    "id": "SER-009",
+    "categoria": "SER",
+    "categoria_nombre": "Servicios Universitarios",
+    "pregunta": "¿Qué es el TUPA y dónde puedo consultarlo?",
+    "respuesta": "El TUPA (Texto Único de Procedimientos Administrativos) es el documento oficial que detalla todos los trámites y servicios ofrecidos por la UNSAAC, incluyendo requisitos, plazos y costos. Está disponible en la página web de la universidad en la sección 'Transparencia' y en la secretaría general.",
+    "intent": "consulta_ser_tupa",
+    "variaciones": [
+      "¿Qué significa TUPA?",
+      "¿Dónde veo los costos de los trámites?",
+      "¿Cómo sé cuánto cuesta cada trámite?"
+    ],
+    "fuente": "Secretaría General UNSAAC",
+    "tags": [
+      "tupa",
+      "tramites",
+      "costos",
+      "requisitos",
+      "transparencia",
+      "procedimientos"
+    ]
+  },
+  {
+    "id": "SER-010",
+    "categoria": "SER",
+    "categoria_nombre": "Servicios Universitarios",
+    "pregunta": "¿Cómo me comunico con la secretaría de la Escuela de Ingeniería Informática?",
+    "respuesta": "La secretaría de la EPIIS está ubicada en el pabellón de Ingeniería del Campus Universitario de Perayoc. El horario de atención es de lunes a viernes de 8:00 a 13:00 y de 15:00 a 18:00 horas. Puedes comunicarte por correo institucional o llamar a la central telefónica de la Facultad de Ingeniería.",
+    "intent": "consulta_ser_contacto_secretaria",
+    "variaciones": [
+      "¿Cuál es el correo de la secretaría de sistemas?",
+      "¿Cómo contacto a la secretaría de la EPIIS?",
+      "¿Dónde está la oficina de la escuela de informática?"
+    ],
+    "fuente": "Secretaría EPIIS",
+    "tags": [
+      "secretaria",
+      "epiis",
+      "perayoc",
+      "horario",
+      "correo",
+      "contacto"
+    ]
   }
 ]

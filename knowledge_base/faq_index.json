@@ -1,114 +1,149 @@
 {
-  "version": "1.0.0",
-  "descripcion": "Índice rápido de preguntas frecuentes para el chatbot académico EPIIS-UNSAAC. Permite recuperación directa por categoría o por intent_id sin cargar el corpus completo.",
+  "version": "1.1.0",
   "total_preguntas": 100,
   "total_categorias": 10,
   "indice": {
     "TUT": {
       "nombre": "Proceso de Tutorías",
-      "preguntas_count": 10,
-      "preguntas_top": [
-        {"id":"TUT-001","intent":"consulta_tutoria_definicion","pregunta_corta":"¿Qué es la tutoría académica?","prioridad":"alta"},
-        {"id":"TUT-002","intent":"consulta_tutoria_frecuencia","pregunta_corta":"¿Con qué frecuencia debo ir a tutoría?","prioridad":"alta"},
-        {"id":"TUT-005","intent":"consulta_tutoria_obligatoriedad","pregunta_corta":"¿Es obligatoria la asistencia a tutoría?","prioridad":"alta"},
-        {"id":"TUT-007","intent":"consulta_tutoria_cambio_tutor","pregunta_corta":"¿Puedo cambiar de tutor?","prioridad":"media"},
-        {"id":"TUT-010","intent":"consulta_tutoria_confidencialidad","pregunta_corta":"¿La tutoría es confidencial?","prioridad":"media"}
-      ]
+      "preguntas_count": 10
     },
     "TTUT": {
       "nombre": "Tipos de Tutoría",
-      "preguntas_count": 10,
-      "preguntas_top": [
-        {"id":"TTUT-001","intent":"consulta_tipos_tutoria_general","pregunta_corta":"¿Qué tipos de tutoría existen?","prioridad":"alta"},
-        {"id":"TTUT-007","intent":"consulta_tipos_tutoria_ingresantes","pregunta_corta":"¿Hay tutoría especial para ingresantes?","prioridad":"alta"},
-        {"id":"TTUT-008","intent":"consulta_tipos_tutoria_riesgo_academico","pregunta_corta":"¿Hay tutoría para bajo rendimiento?","prioridad":"alta"}
-      ]
-    },
-    "MAT": {
-      "nombre": "Matrícula",
-      "preguntas_count": 10,
-      "preguntas_top": [
-        {"id":"MAT-001","intent":"consulta_mat_fechas_matricula","pregunta_corta":"¿Cuándo es la matrícula?","prioridad":"muy_alta"},
-        {"id":"MAT-002","intent":"consulta_mat_proceso_serunsa","pregunta_corta":"¿Cómo me matriculo en SERUNSA?","prioridad":"muy_alta"},
-        {"id":"MAT-003","intent":"consulta_mat_requisitos","pregunta_corta":"¿Qué requisitos necesito para matricularme?","prioridad":"alta"},
-        {"id":"MAT-006","intent":"consulta_mat_creditos_maximo","pregunta_corta":"¿Cuántos créditos máximos puedo llevar?","prioridad":"alta"},
-        {"id":"MAT-008","intent":"consulta_mat_condicional","pregunta_corta":"¿Qué es la matrícula condicional?","prioridad":"media"}
-      ]
-    },
-    "TIT": {
-      "nombre": "Titulación",
-      "preguntas_count": 10,
-      "preguntas_top": [
-        {"id":"TIT-001","intent":"consulta_tit_modalidades","pregunta_corta":"¿Cuáles son las modalidades de titulación?","prioridad":"muy_alta"},
-        {"id":"TIT-002","intent":"consulta_tit_requisitos_inicio","pregunta_corta":"¿Qué requisitos necesito para titularme?","prioridad":"muy_alta"},
-        {"id":"TIT-003","intent":"consulta_tit_grado_bachiller","pregunta_corta":"¿Cómo obtengo el grado de bachiller?","prioridad":"alta"}
-      ]
-    },
-    "PPP": {
-      "nombre": "Prácticas Pre-Profesionales",
-      "preguntas_count": 10,
-      "preguntas_top": [
-        {"id":"PPP-001","intent":"consulta_ppp_requisitos_inicio","pregunta_corta":"¿Qué requisitos necesito para las prácticas?","prioridad":"muy_alta"},
-        {"id":"PPP-002","intent":"consulta_ppp_horas_acumuladas","pregunta_corta":"¿Cuántas horas de prácticas debo hacer?","prioridad":"alta"},
-        {"id":"PPP-006","intent":"consulta_ppp_remuneracion","pregunta_corta":"¿Las prácticas son remuneradas?","prioridad":"alta"},
-        {"id":"PPP-010","intent":"consulta_ppp_requisito_titulacion","pregunta_corta":"¿Las prácticas son requisito para titularme?","prioridad":"alta"}
-      ]
-    },
-    "BIE": {
-      "nombre": "Bienestar Universitario",
-      "preguntas_count": 10,
-      "preguntas_top": [
-        {"id":"BIE-001","intent":"consulta_bie_servicios_generales","pregunta_corta":"¿Qué servicios de bienestar ofrece la UNSAAC?","prioridad":"alta"},
-        {"id":"BIE-002","intent":"consulta_bie_atencion_psicologica","pregunta_corta":"¿Cómo accedo a psicología gratuita?","prioridad":"alta"},
-        {"id":"BIE-003","intent":"consulta_bie_beca_alimentacion","pregunta_corta":"¿Cómo solicito beca de alimentación?","prioridad":"alta"}
-      ]
-    },
-    "MOV": {
-      "nombre": "Movilidad Estudiantil",
-      "preguntas_count": 10,
-      "preguntas_top": [
-        {"id":"MOV-001","intent":"consulta_mov_programas_disponibles","pregunta_corta":"¿Qué programas de movilidad hay?","prioridad":"media"},
-        {"id":"MOV-002","intent":"consulta_mov_requisitos_intercambio","pregunta_corta":"¿Qué requisitos necesito para intercambio?","prioridad":"media"}
-      ]
+      "preguntas_count": 10
     },
     "CUR": {
       "nombre": "Cursos y Semestres",
-      "preguntas_count": 10,
-      "preguntas_top": [
-        {"id":"CUR-001","intent":"consulta_cursos_duracion_carrera","pregunta_corta":"¿Cuántos semestres tiene la carrera?","prioridad":"alta"},
-        {"id":"CUR-002","intent":"consulta_cursos_total_creditos","pregunta_corta":"¿Cuántos créditos necesito para graduarme?","prioridad":"alta"},
-        {"id":"CUR-005","intent":"consulta_cursos_desaprobacion","pregunta_corta":"¿Qué pasa si desapruebo un curso?","prioridad":"alta"}
-      ]
+      "preguntas_count": 10
     },
     "ESP": {
-      "nombre": "Especialidades de la Escuela",
-      "preguntas_count": 10,
-      "preguntas_top": [
-        {"id":"ESP-001","intent":"consulta_esp_listado_especialidades","pregunta_corta":"¿Qué especialidades ofrece la EPIIS?","prioridad":"alta"},
-        {"id":"ESP-002","intent":"consulta_esp_cuando_elegir","pregunta_corta":"¿Cuándo debo elegir mi especialidad?","prioridad":"alta"}
-      ]
+      "nombre": "Especialidades",
+      "preguntas_count": 10
+    },
+    "PPP": {
+      "nombre": "Prácticas Pre-Profesionales",
+      "preguntas_count": 10
+    },
+    "BIE": {
+      "nombre": "Bienestar Universitario",
+      "preguntas_count": 10
+    },
+    "MOV": {
+      "nombre": "Movilidad Estudiantil",
+      "preguntas_count": 10
+    },
+    "MAT": {
+      "nombre": "Matrícula",
+      "preguntas_count": 10
+    },
+    "TIT": {
+      "nombre": "Titulación",
+      "preguntas_count": 10
     },
     "SER": {
       "nombre": "Servicios Universitarios",
-      "preguntas_count": 10,
-      "preguntas_top": [
-        {"id":"SER-001","intent":"consulta_ser_biblioteca","pregunta_corta":"¿Cómo accedo a la biblioteca?","prioridad":"alta"},
-        {"id":"SER-004","intent":"consulta_ser_aula_virtual","pregunta_corta":"¿Cómo accedo al aula virtual?","prioridad":"muy_alta"},
-        {"id":"SER-009","intent":"consulta_ser_tupa","pregunta_corta":"¿Qué es el TUPA y dónde lo consulto?","prioridad":"media"}
-      ]
+      "preguntas_count": 10
     }
   },
   "busqueda_rapida": {
-    "descripcion": "Mapa directo intent_id → id de entrada para recuperación O(1)",
-    "mapa_muestra": {
-      "consulta_tutoria_definicion": "TUT-001",
-      "consulta_tutoria_frecuencia": "TUT-002",
-      "consulta_mat_fechas_matricula": "MAT-001",
-      "consulta_tit_modalidades": "TIT-001",
-      "consulta_ppp_requisitos_inicio": "PPP-001",
-      "consulta_bie_servicios_generales": "BIE-001",
-      "consulta_ser_aula_virtual": "SER-004"
-    },
-    "nota": "Mapa completo de 100 intents disponible en intents.json"
+    "consulta_tutoria_definicion": "TUT-001",
+    "consulta_tutoria_frecuencia": "TUT-002",
+    "consulta_tutoria_contacto_tutor": "TUT-003",
+    "consulta_tutoria_temas": "TUT-004",
+    "consulta_tutoria_obligatoriedad": "TUT-005",
+    "consulta_tutoria_registro_asistencia": "TUT-006",
+    "consulta_tutoria_cambio_tutor": "TUT-007",
+    "consulta_tutoria_reglamento": "TUT-008",
+    "consulta_tutoria_materiales_sesion": "TUT-009",
+    "consulta_tutoria_confidencialidad": "TUT-010",
+    "consulta_tipos_tutoria_general": "TTUT-001",
+    "consulta_tipos_tutoria_individual": "TTUT-002",
+    "consulta_tipos_tutoria_grupal": "TTUT-003",
+    "consulta_tipos_tutoria_pares": "TTUT-004",
+    "consulta_tipos_tutoria_virtual": "TTUT-005",
+    "consulta_tipos_tutoria_vs_psicologia": "TTUT-006",
+    "consulta_tipos_tutoria_ingresantes": "TTUT-007",
+    "consulta_tipos_tutoria_riesgo_academico": "TTUT-008",
+    "consulta_tipos_tutoria_vs_asesoria_tesis": "TTUT-009",
+    "consulta_tipos_tutoria_vocacional": "TTUT-010",
+    "consulta_cursos_duracion_carrera": "CUR-001",
+    "consulta_cursos_total_creditos": "CUR-002",
+    "consulta_cursos_primer_semestre": "CUR-003",
+    "consulta_cursos_adelanto_semestres": "CUR-004",
+    "consulta_cursos_desaprobacion": "CUR-005",
+    "consulta_cursos_areas_plan_estudios": "CUR-006",
+    "consulta_cursos_electivos": "CUR-007",
+    "consulta_cursos_horario_clases": "CUR-008",
+    "consulta_cursos_creditos_definicion": "CUR-009",
+    "consulta_cursos_promedio_ponderado": "CUR-010",
+    "consulta_esp_listado_especialidades": "ESP-001",
+    "consulta_esp_cuando_elegir": "ESP-002",
+    "consulta_esp_demanda_laboral": "ESP-003",
+    "consulta_esp_cursos_ingenieria_software": "ESP-004",
+    "consulta_esp_cambio_especialidad": "ESP-005",
+    "consulta_esp_cursos_redes_telecom": "ESP-006",
+    "consulta_esp_ia_ciencia_datos": "ESP-007",
+    "consulta_esp_seguridad_certificaciones": "ESP-008",
+    "consulta_esp_convenios_practicas": "ESP-009",
+    "consulta_esp_electivos_cruzados": "ESP-010",
+    "consulta_ppp_requisitos_inicio": "PPP-001",
+    "consulta_ppp_horas_acumuladas": "PPP-002",
+    "consulta_ppp_empresa_convenio": "PPP-003",
+    "consulta_ppp_carta_presentacion": "PPP-004",
+    "consulta_ppp_informe_final": "PPP-005",
+    "consulta_ppp_remuneracion": "PPP-006",
+    "consulta_ppp_sector_publico": "PPP-007",
+    "consulta_ppp_supervision_universidad": "PPP-008",
+    "consulta_ppp_trabajo_actual": "PPP-009",
+    "consulta_ppp_requisito_titulacion": "PPP-010",
+    "consulta_bie_servicios_generales": "BIE-001",
+    "consulta_bie_atencion_psicologica": "BIE-002",
+    "consulta_bie_beca_alimentacion": "BIE-003",
+    "consulta_bie_apoyo_economico": "BIE-004",
+    "consulta_bie_seguro_estudiantil": "BIE-005",
+    "consulta_bie_deportes_cultura": "BIE-006",
+    "consulta_bie_residencia_universitaria": "BIE-007",
+    "consulta_bie_certificado_socioeconomico": "BIE-008",
+    "consulta_bie_comedor_acceso": "BIE-009",
+    "consulta_bie_contacto_oficina": "BIE-010",
+    "consulta_mov_programas_disponibles": "MOV-001",
+    "consulta_mov_requisitos_intercambio": "MOV-002",
+    "consulta_mov_convalidacion_cursos": "MOV-003",
+    "consulta_mov_apoyo_economico": "MOV-004",
+    "consulta_mov_estudiantes_entrantes": "MOV-005",
+    "consulta_mov_convocatorias": "MOV-006",
+    "consulta_mov_documentos_postulacion": "MOV-007",
+    "consulta_mov_impacto_titulacion": "MOV-008",
+    "consulta_mov_requisito_idioma": "MOV-009",
+    "consulta_mov_universidades_convenio": "MOV-010",
+    "consulta_mat_fechas_matricula": "MAT-001",
+    "consulta_mat_proceso_virtual": "MAT-002",
+    "consulta_mat_requisitos": "MAT-003",
+    "consulta_mat_modalidad_presencial": "MAT-004",
+    "consulta_mat_fuera_de_plazo": "MAT-005",
+    "consulta_mat_creditos_maximo": "MAT-006",
+    "consulta_mat_retiro_curso": "MAT-007",
+    "consulta_mat_condicional": "MAT-008",
+    "consulta_mat_costo": "MAT-009",
+    "consulta_mat_seguro_activacion": "MAT-010",
+    "consulta_tit_modalidades": "TIT-001",
+    "consulta_tit_requisitos_inicio": "TIT-002",
+    "consulta_tit_grado_bachiller": "TIT-003",
+    "consulta_tit_plazo_titulacion": "TIT-004",
+    "consulta_tit_suficiencia_profesional": "TIT-005",
+    "consulta_tit_eleccion_asesor": "TIT-006",
+    "consulta_tit_duracion_proceso": "TIT-007",
+    "consulta_tit_jurado_sustentacion": "TIT-008",
+    "consulta_tit_desaprobacion_sustentacion": "TIT-009",
+    "consulta_tit_registro_sunedu": "TIT-010",
+    "consulta_ser_biblioteca": "SER-001",
+    "consulta_ser_correo_institucional": "SER-002",
+    "consulta_ser_certificados_constancias": "SER-003",
+    "consulta_ser_aula_virtual": "SER-004",
+    "consulta_ser_laboratorios_computo": "SER-005",
+    "consulta_ser_carta_presentacion": "SER-006",
+    "consulta_ser_impresion_campus": "SER-007",
+    "consulta_ser_record_notas": "SER-008",
+    "consulta_ser_tupa": "SER-009",
+    "consulta_ser_contacto_secretaria": "SER-010"
   }
 }

@@ -1,110 +1,1607 @@
 {
-  "project": "Chatbot Académico EPIIS-UNSAAC",
-  "version": "2025.1",
-  "global_config": {
-    "nlp_engine": "Compatible (Dialogflow/Rasa)",
-    "min_confidence_global": 0.70
-  },
+  "version": "1.1.0",
+  "proyecto": "Chatbot Académico EPIIS-UNSAAC",
+  "total_intents": 100,
   "intents": [
-    { "id": "TUT-001", "intent": "consulta_tutoria_definicion", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "TUT-002", "intent": "consulta_tutoria_frecuencia", "prioridad": "Alta", "confianza_minima": 0.80 },
-    { "id": "TUT-003", "intent": "consulta_tutoria_contacto_tutor", "prioridad": "Muy Alta", "confianza_minima": 0.85 },
-    { "id": "TUT-004", "intent": "consulta_tutoria_temas", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "TUT-005", "intent": "consulta_tutoria_obligatoriedad", "prioridad": "Alta", "confianza_minima": 0.80 },
-    { "id": "TUT-006", "intent": "consulta_tutoria_registro_asistencia", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "TUT-007", "intent": "consulta_tutoria_cambio_tutor", "prioridad": "Media", "confianza_minima": 0.85 },
-    { "id": "TUT-008", "intent": "consulta_tutoria_reglamento", "prioridad": "Baja", "confianza_minima": 0.70 },
-    { "id": "TUT-009", "intent": "consulta_tutoria_materiales_sesion", "prioridad": "Baja", "confianza_minima": 0.70 },
-    { "id": "TUT-010", "intent": "consulta_tutoria_confidencialidad", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "TTUT-001", "intent": "consulta_tipos_tutoria_general", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "TTUT-002", "intent": "consulta_tipos_tutoria_individual", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "TTUT-003", "intent": "consulta_tipos_tutoria_grupal", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "TTUT-004", "intent": "consulta_tipos_tutoria_pares", "prioridad": "Baja", "confianza_minima": 0.75 },
-    { "id": "TTUT-005", "intent": "consulta_tipos_tutoria_virtual", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "TTUT-006", "intent": "consulta_tipos_tutoria_vs_psicologia", "prioridad": "Media", "confianza_minima": 0.85 },
-    { "id": "TTUT-007", "intent": "consulta_tipos_tutoria_ingresantes", "prioridad": "Alta", "confianza_minima": 0.80 },
-    { "id": "TTUT-008", "intent": "consulta_tipos_tutoria_riesgo_academico", "prioridad": "Muy Alta", "confianza_minima": 0.90 },
-    { "id": "TTUT-009", "intent": "consulta_tipos_tutoria_vs_asesoria_tesis", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "TTUT-010", "intent": "consulta_tipos_tutoria_vocacional", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "CUR-001", "intent": "consulta_cursos_duracion_carrera", "prioridad": "Baja", "confianza_minima": 0.70 },
-    { "id": "CUR-002", "intent": "consulta_cursos_total_creditos", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "CUR-003", "intent": "consulta_cursos_primer_semestre", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "CUR-004", "intent": "consulta_cursos_adelanto_semestres", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "CUR-005", "intent": "consulta_cursos_desaprobacion", "prioridad": "Muy Alta", "confianza_minima": 0.90 },
-    { "id": "CUR-006", "intent": "consulta_cursos_areas_plan_estudios", "prioridad": "Baja", "confianza_minima": 0.70 },
-    { "id": "CUR-007", "intent": "consulta_cursos_electivos", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "CUR-008", "intent": "consulta_cursos_horario_clases", "prioridad": "Muy Alta", "confianza_minima": 0.90 },
-    { "id": "CUR-009", "intent": "consulta_cursos_creditos_definicion", "prioridad": "Baja", "confianza_minima": 0.70 },
-    { "id": "CUR-010", "intent": "consulta_cursos_promedio_ponderado", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "ESP-001", "intent": "consulta_esp_listado_especialidades", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "ESP-002", "intent": "consulta_esp_cuando_elegir", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "ESP-003", "intent": "consulta_esp_demanda_laboral", "prioridad": "Media", "confianza_minima": 0.70 },
-    { "id": "ESP-004", "intent": "consulta_esp_cursos_ingenieria_software", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "ESP-005", "intent": "consulta_esp_cambio_especialidad", "prioridad": "Baja", "confianza_minima": 0.85 },
-    { "id": "ESP-006", "intent": "consulta_esp_cursos_redes_telecom", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "ESP-007", "intent": "consulta_esp_ia_ciencia_datos", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "ESP-008", "intent": "consulta_esp_seguridad_certificaciones", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "ESP-009", "intent": "consulta_esp_convenios_practicas", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "ESP-010", "intent": "consulta_esp_electivos_cruzados", "prioridad": "Baja", "confianza_minima": 0.80 },
-    { "id": "PPP-001", "intent": "consulta_ppp_requisitos_inicio", "prioridad": "Muy Alta", "confianza_minima": 0.90 },
-    { "id": "PPP-002", "intent": "consulta_ppp_horas_acumuladas", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "PPP-003", "intent": "consulta_ppp_empresa_convenio", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "PPP-004", "intent": "consulta_ppp_carta_presentacion", "prioridad": "Muy Alta", "confianza_minima": 0.90 },
-    { "id": "PPP-005", "intent": "consulta_ppp_informe_final", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "PPP-006", "intent": "consulta_ppp_remuneracion", "prioridad": "Media", "confianza_minima": 0.70 },
-    { "id": "PPP-007", "intent": "consulta_ppp_sector_publico", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "PPP-008", "intent": "consulta_ppp_supervision_universidad", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "PPP-009", "intent": "consulta_ppp_trabajo_actual", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "PPP-010", "intent": "consulta_ppp_requisito_titulacion", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "BIE-001", "intent": "consulta_bie_servicios_generales", "prioridad": "Alta", "confianza_minima": 0.80 },
-    { "id": "BIE-002", "intent": "consulta_bie_atencion_psicologica", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "BIE-003", "intent": "consulta_bie_beca_alimentacion", "prioridad": "Muy Alta", "confianza_minima": 0.90 },
-    { "id": "BIE-004", "intent": "consulta_bie_apoyo_economico", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "BIE-005", "intent": "consulta_bie_seguro_estudiantil", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "BIE-006", "intent": "consulta_bie_deportes_cultura", "prioridad": "Media", "confianza_minima": 0.70 },
-    { "id": "BIE-007", "intent": "consulta_bie_residencia_universitaria", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "BIE-008", "intent": "consulta_bie_certificado_socioeconomico", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "BIE-009", "intent": "consulta_bie_comedor_acceso", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "BIE-010", "intent": "consulta_bie_contacto_oficina", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "MOV-001", "intent": "consulta_mov_programas_disponibles", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "MOV-002", "intent": "consulta_mov_requisitos_intercambio", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "MOV-003", "intent": "consulta_mov_convalidacion_cursos", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "MOV-004", "intent": "consulta_mov_apoyo_economico", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "MOV-005", "intent": "consulta_mov_estudiantes_entrantes", "prioridad": "Baja", "confianza_minima": 0.70 },
-    { "id": "MOV-006", "intent": "consulta_mov_convocatorias", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "MOV-007", "intent": "consulta_mov_documentos_postulacion", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "MOV-008", "intent": "consulta_mov_impacto_titulacion", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "MOV-009", "intent": "consulta_mov_requisito_idioma", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "MOV-010", "intent": "consulta_mov_universidades_convenio", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "MAT-001", "intent": "consulta_mat_fechas_matricula", "prioridad": "Muy Alta", "confianza_minima": 0.90 },
-    { "id": "MAT-002", "intent": "consulta_mat_proceso_serunsa", "prioridad": "Muy Alta", "confianza_minima": 0.90 },
-    { "id": "MAT-003", "intent": "consulta_mat_requisitos", "prioridad": "Muy Alta", "confianza_minima": 0.90 },
-    { "id": "MAT-004", "intent": "consulta_mat_modalidad_presencial", "prioridad": "Baja", "confianza_minima": 0.70 },
-    { "id": "MAT-005", "intent": "consulta_mat_fuera_de_plazo", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "MAT-006", "intent": "consulta_mat_creditos_maximo", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "MAT-007", "intent": "consulta_mat_retiro_curso", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "MAT-008", "intent": "consulta_mat_condicional", "prioridad": "Muy Alta", "confianza_minima": 0.90 },
-    { "id": "MAT-009", "intent": "consulta_mat_costo", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "MAT-010", "intent": "consulta_mat_seguro_activacion", "prioridad": "Media", "confianza_minima": 0.70 },
-    { "id": "TIT-001", "intent": "consulta_tit_modalidades", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "TIT-002", "intent": "consulta_tit_requisitos_inicio", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "TIT-003", "intent": "consulta_tit_grado_bachiller", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "TIT-004", "intent": "consulta_tit_plazo_titulacion", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "TIT-005", "intent": "consulta_tit_suficiencia_profesional", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "TIT-006", "intent": "consulta_tit_eleccion_asesor", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "TIT-007", "intent": "consulta_tit_duracion_proceso", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "TIT-008", "intent": "consulta_tit_jurado_sustentacion", "prioridad": "Baja", "confianza_minima": 0.70 },
-    { "id": "TIT-009", "intent": "consulta_tit_desaprobacion_sustentacion", "prioridad": "Media", "confianza_minima": 0.85 },
-    { "id": "TIT-010", "intent": "consulta_tit_registro_sunedu", "prioridad": "Baja", "confianza_minima": 0.70 },
-    { "id": "SER-001", "intent": "consulta_ser_biblioteca", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "SER-002", "intent": "consulta_ser_correo_institucional", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "SER-003", "intent": "consulta_ser_certificados_constancias", "prioridad": "Muy Alta", "confianza_minima": 0.90 },
-    { "id": "SER-004", "intent": "consulta_ser_aula_virtual", "prioridad": "Alta", "confianza_minima": 0.85 },
-    { "id": "SER-005", "intent": "consulta_ser_laboratorios_computo", "prioridad": "Media", "confianza_minima": 0.75 },
-    { "id": "SER-006", "intent": "consulta_ser_carta_presentacion", "prioridad": "Media", "confianza_minima": 0.80 },
-    { "id": "SER-007", "intent": "consulta_ser_impresion_campus", "prioridad": "Baja", "confianza_minima": 0.65 },
-    { "id": "SER-008", "intent": "consulta_ser_record_notas", "prioridad": "Muy Alta", "confianza_minima": 0.90 },
-    { "id": "SER-009", "intent": "consulta_ser_tupa", "prioridad": "Baja", "confianza_minima": 0.70 },
-    { "id": "SER-010", "intent": "consulta_ser_contacto_secretaria", "prioridad": "Media", "confianza_minima": 0.80 }
+    {
+      "intent_id": "consulta_tutoria_definicion",
+      "display_name": "Qué es la tutoría académica en la UNSAAC",
+      "categoria": "TUT",
+      "corpus_ref": "TUT-001",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.25,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.225) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tutoria_frecuencia",
+      "display_name": "Con qué frecuencia debo asistir a las sesiones de tutoría",
+      "categoria": "TUT",
+      "corpus_ref": "TUT-002",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1111,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.100) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tutoria_contacto_tutor",
+      "display_name": "Quién es mi tutor asignado y cómo puedo contactarlo",
+      "categoria": "TUT",
+      "corpus_ref": "TUT-003",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.6667,
+        "margen_aplicado": 0.1,
+        "criterio": "score_minimo_con_margen",
+        "observaciones": "Confianza calibrada desde score_min=0.667 con margen de seguridad del 10%."
+      }
+    },
+    {
+      "intent_id": "consulta_tutoria_temas",
+      "display_name": "Qué temas se tratan en las sesiones de tutoría",
+      "categoria": "TUT",
+      "corpus_ref": "TUT-004",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tutoria_obligatoriedad",
+      "display_name": "La asistencia a tutoría es obligatoria",
+      "categoria": "TUT",
+      "corpus_ref": "TUT-005",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tutoria_registro_asistencia",
+      "display_name": "Cómo se registra la asistencia a las sesiones de tutoría",
+      "categoria": "TUT",
+      "corpus_ref": "TUT-006",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tutoria_cambio_tutor",
+      "display_name": "Puedo cambiar de tutor si tengo dificultades con el asignado",
+      "categoria": "TUT",
+      "corpus_ref": "TUT-007",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5714,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tutoria_reglamento",
+      "display_name": "Existe algún reglamento que regule el proceso de tutorías",
+      "categoria": "TUT",
+      "corpus_ref": "TUT-008",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.125,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tutoria_materiales_sesion",
+      "display_name": "Qué debo llevar a una sesión de tutoría",
+      "categoria": "TUT",
+      "corpus_ref": "TUT-009",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tutoria_confidencialidad",
+      "display_name": "Las sesiones de tutoría son confidenciales",
+      "categoria": "TUT",
+      "corpus_ref": "TUT-010",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_general",
+      "display_name": "Cuáles son los tipos de tutoría que ofrece la escuela",
+      "categoria": "TTUT",
+      "corpus_ref": "TTUT-001",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5714,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_individual",
+      "display_name": "En qué consiste la tutoría individual",
+      "categoria": "TTUT",
+      "corpus_ref": "TTUT-002",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_grupal",
+      "display_name": "Qué es la tutoría grupal y cómo se organiza",
+      "categoria": "TTUT",
+      "corpus_ref": "TTUT-003",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_pares",
+      "display_name": "Qué es la tutoría entre pares",
+      "categoria": "TTUT",
+      "corpus_ref": "TTUT-004",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_virtual",
+      "display_name": "Existe tutoría en línea o virtual",
+      "categoria": "TTUT",
+      "corpus_ref": "TTUT-005",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.375,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.338) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_vs_psicologia",
+      "display_name": "Cuál es la diferencia entre tutoría académica y orientación ",
+      "categoria": "TTUT",
+      "corpus_ref": "TTUT-006",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_ingresantes",
+      "display_name": "Qué es la tutoría de ingresantes",
+      "categoria": "TTUT",
+      "corpus_ref": "TTUT-007",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.25,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.225) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_riesgo_academico",
+      "display_name": "Existe tutoría para estudiantes con bajo rendimiento",
+      "categoria": "TTUT",
+      "corpus_ref": "TTUT-008",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_vs_asesoria_tesis",
+      "display_name": "Qué diferencia hay entre tutoría y asesoría de tesis",
+      "categoria": "TTUT",
+      "corpus_ref": "TTUT-009",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5714,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tipos_tutoria_vocacional",
+      "display_name": "La tutoría cubre también orientación vocacional y de carrera",
+      "categoria": "TTUT",
+      "corpus_ref": "TTUT-010",
+      "confianza_minima": 0.6,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.60). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_cursos_duracion_carrera",
+      "display_name": "Cuántos semestres tiene la carrera de Ingeniería Informática",
+      "categoria": "CUR",
+      "corpus_ref": "CUR-001",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.25,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.225) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_cursos_total_creditos",
+      "display_name": "Cuántos créditos son necesarios para culminar la carrera",
+      "categoria": "CUR",
+      "corpus_ref": "CUR-002",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_cursos_primer_semestre",
+      "display_name": "Cuáles son los cursos del primer semestre",
+      "categoria": "CUR",
+      "corpus_ref": "CUR-003",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_cursos_adelanto_semestres",
+      "display_name": "Puedo llevar cursos de otro semestre si aprobé los prerrequi",
+      "categoria": "CUR",
+      "corpus_ref": "CUR-004",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_cursos_desaprobacion",
+      "display_name": "Qué pasa si desapruebo un curso",
+      "categoria": "CUR",
+      "corpus_ref": "CUR-005",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.125,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_cursos_areas_plan_estudios",
+      "display_name": "Cómo está organizado el plan de estudios por áreas",
+      "categoria": "CUR",
+      "corpus_ref": "CUR-006",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_cursos_electivos",
+      "display_name": "Cuántos cursos electivos debo llevar durante la carrera",
+      "categoria": "CUR",
+      "corpus_ref": "CUR-007",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.125,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_cursos_horario_clases",
+      "display_name": "Dónde puedo ver el horario de clases del semestre",
+      "categoria": "CUR",
+      "corpus_ref": "CUR-008",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.3333,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_cursos_creditos_definicion",
+      "display_name": "Qué son los créditos académicos y cómo se calculan",
+      "categoria": "CUR",
+      "corpus_ref": "CUR-009",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_cursos_promedio_ponderado",
+      "display_name": "Cómo se calcula el promedio ponderado semestral",
+      "categoria": "CUR",
+      "corpus_ref": "CUR-010",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_esp_listado_especialidades",
+      "display_name": "Cuáles son las especialidades que ofrece la Escuela de Ingen",
+      "categoria": "ESP",
+      "corpus_ref": "ESP-001",
+      "confianza_minima": 0.62,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.125,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.62). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_esp_cuando_elegir",
+      "display_name": "Cuándo debo elegir mi especialidad",
+      "categoria": "ESP",
+      "corpus_ref": "ESP-002",
+      "confianza_minima": 0.62,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.3333,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.62). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_esp_demanda_laboral",
+      "display_name": "Qué especialidad tiene más demanda laboral en la región",
+      "categoria": "ESP",
+      "corpus_ref": "ESP-003",
+      "confianza_minima": 0.62,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.125,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.62). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_esp_cursos_ingenieria_software",
+      "display_name": "Cuáles son los cursos de la especialidad de Ingeniería de So",
+      "categoria": "ESP",
+      "corpus_ref": "ESP-004",
+      "confianza_minima": 0.62,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.375,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.338) caía por debajo del piso de categoría (0.62). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_esp_cambio_especialidad",
+      "display_name": "Puedo cambiar de especialidad una vez que la elegí",
+      "categoria": "ESP",
+      "corpus_ref": "ESP-005",
+      "confianza_minima": 0.62,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1667,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.150) caía por debajo del piso de categoría (0.62). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_esp_cursos_redes_telecom",
+      "display_name": "Qué cursos incluye la especialidad de Redes y Telecomunicaci",
+      "categoria": "ESP",
+      "corpus_ref": "ESP-006",
+      "confianza_minima": 0.62,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.62). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_esp_ia_ciencia_datos",
+      "display_name": "Qué es la especialidad de Inteligencia Artificial y Ciencia ",
+      "categoria": "ESP",
+      "corpus_ref": "ESP-007",
+      "confianza_minima": 0.62,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5714,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.62). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_esp_seguridad_certificaciones",
+      "display_name": "La especialidad de Seguridad Informática tiene certificacion",
+      "categoria": "ESP",
+      "corpus_ref": "ESP-008",
+      "confianza_minima": 0.62,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.62). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_esp_convenios_practicas",
+      "display_name": "Las especialidades tienen convenios con empresas para prácti",
+      "categoria": "ESP",
+      "corpus_ref": "ESP-009",
+      "confianza_minima": 0.62,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1667,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.150) caía por debajo del piso de categoría (0.62). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_esp_electivos_cruzados",
+      "display_name": "Puedo llevar cursos de otras especialidades como electivos",
+      "categoria": "ESP",
+      "corpus_ref": "ESP-010",
+      "confianza_minima": 0.62,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.62). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ppp_requisitos_inicio",
+      "display_name": "Cuáles son los requisitos para iniciar las prácticas pre-pro",
+      "categoria": "PPP",
+      "corpus_ref": "PPP-001",
+      "confianza_minima": 0.7,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.70). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ppp_horas_acumuladas",
+      "display_name": "Cuántas horas de prácticas debo acumular",
+      "categoria": "PPP",
+      "corpus_ref": "PPP-002",
+      "confianza_minima": 0.7,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.70). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ppp_empresa_convenio",
+      "display_name": "La empresa donde hago prácticas debe tener convenio con la U",
+      "categoria": "PPP",
+      "corpus_ref": "PPP-003",
+      "confianza_minima": 0.7,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.70). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ppp_carta_presentacion",
+      "display_name": "Cómo consigo la carta de presentación para las prácticas",
+      "categoria": "PPP",
+      "corpus_ref": "PPP-004",
+      "confianza_minima": 0.7,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.70). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ppp_informe_final",
+      "display_name": "Qué es el informe de prácticas y cuándo debo presentarlo",
+      "categoria": "PPP",
+      "corpus_ref": "PPP-005",
+      "confianza_minima": 0.7,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5714,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.70). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ppp_remuneracion",
+      "display_name": "Las prácticas pre-profesionales son remuneradas",
+      "categoria": "PPP",
+      "corpus_ref": "PPP-006",
+      "confianza_minima": 0.7,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.125,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.70). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ppp_sector_publico",
+      "display_name": "Puedo hacer mis prácticas en una empresa pública o instituci",
+      "categoria": "PPP",
+      "corpus_ref": "PPP-007",
+      "confianza_minima": 0.7,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.70). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ppp_supervision_universidad",
+      "display_name": "Quién supervisa y evalúa mis prácticas desde la universidad",
+      "categoria": "PPP",
+      "corpus_ref": "PPP-008",
+      "confianza_minima": 0.7,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.70). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ppp_trabajo_actual",
+      "display_name": "Puedo hacer las prácticas en la misma empresa donde trabajo",
+      "categoria": "PPP",
+      "corpus_ref": "PPP-009",
+      "confianza_minima": 0.7,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.3333,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.70). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ppp_requisito_titulacion",
+      "display_name": "Las prácticas pre-profesionales son un requisito para titula",
+      "categoria": "PPP",
+      "corpus_ref": "PPP-010",
+      "confianza_minima": 0.7,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.180) caía por debajo del piso de categoría (0.70). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_bie_servicios_generales",
+      "display_name": "Qué servicios de bienestar ofrece la UNSAAC a sus estudiante",
+      "categoria": "BIE",
+      "corpus_ref": "BIE-001",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.25,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.225) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_bie_atencion_psicologica",
+      "display_name": "Cómo puedo acceder a la atención psicológica gratuita",
+      "categoria": "BIE",
+      "corpus_ref": "BIE-002",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_bie_beca_alimentacion",
+      "display_name": "Qué es la beca de alimentación y cómo la solicito",
+      "categoria": "BIE",
+      "corpus_ref": "BIE-003",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.360) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_bie_apoyo_economico",
+      "display_name": "Existe apoyo económico para estudiantes en situación de vuln",
+      "categoria": "BIE",
+      "corpus_ref": "BIE-004",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_bie_seguro_estudiantil",
+      "display_name": "Cómo funciona el seguro estudiantil de la UNSAAC",
+      "categoria": "BIE",
+      "corpus_ref": "BIE-005",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_bie_deportes_cultura",
+      "display_name": "Qué deportes y actividades culturales puedo practicar en la ",
+      "categoria": "BIE",
+      "corpus_ref": "BIE-006",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.25,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.225) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_bie_residencia_universitaria",
+      "display_name": "La UNSAAC tiene residencia universitaria para estudiantes de",
+      "categoria": "BIE",
+      "corpus_ref": "BIE-007",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_bie_certificado_socioeconomico",
+      "display_name": "Cómo solicito un certificado de situación socioeconómica",
+      "categoria": "BIE",
+      "corpus_ref": "BIE-008",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.180) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_bie_comedor_acceso",
+      "display_name": "El comedor universitario está disponible para todos los estu",
+      "categoria": "BIE",
+      "corpus_ref": "BIE-009",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_bie_contacto_oficina",
+      "display_name": "A qué número o correo puedo comunicarme con Bienestar Univer",
+      "categoria": "BIE",
+      "corpus_ref": "BIE-010",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mov_programas_disponibles",
+      "display_name": "Qué programas de movilidad estudiantil ofrece la UNSAAC",
+      "categoria": "MOV",
+      "corpus_ref": "MOV-001",
+      "confianza_minima": 0.55,
+      "prioridad": "media",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.55). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mov_requisitos_intercambio",
+      "display_name": "Cuáles son los requisitos mínimos para participar en un prog",
+      "categoria": "MOV",
+      "corpus_ref": "MOV-002",
+      "confianza_minima": 0.55,
+      "prioridad": "media",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.3333,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.55). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mov_convalidacion_cursos",
+      "display_name": "Los cursos llevados en el intercambio se convalidan en la UN",
+      "categoria": "MOV",
+      "corpus_ref": "MOV-003",
+      "confianza_minima": 0.55,
+      "prioridad": "media",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.55). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mov_apoyo_economico",
+      "display_name": "Hay apoyo económico para los estudiantes que van de intercam",
+      "categoria": "MOV",
+      "corpus_ref": "MOV-004",
+      "confianza_minima": 0.55,
+      "prioridad": "media",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.55). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mov_estudiantes_entrantes",
+      "display_name": "Puedo recibir estudiantes de intercambio de otras universida",
+      "categoria": "MOV",
+      "corpus_ref": "MOV-005",
+      "confianza_minima": 0.55,
+      "prioridad": "media",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.55). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mov_convocatorias",
+      "display_name": "Dónde puedo enterarme de las convocatorias de movilidad estu",
+      "categoria": "MOV",
+      "corpus_ref": "MOV-006",
+      "confianza_minima": 0.55,
+      "prioridad": "media",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1667,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.150) caía por debajo del piso de categoría (0.55). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mov_documentos_postulacion",
+      "display_name": "Qué documentos necesito para postular a la movilidad estudia",
+      "categoria": "MOV",
+      "corpus_ref": "MOV-007",
+      "confianza_minima": 0.55,
+      "prioridad": "media",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.125,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.55). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mov_impacto_titulacion",
+      "display_name": "El intercambio afecta mi proceso de titulación o retrasa mi ",
+      "categoria": "MOV",
+      "corpus_ref": "MOV-008",
+      "confianza_minima": 0.55,
+      "prioridad": "media",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1667,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.150) caía por debajo del piso de categoría (0.55). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mov_requisito_idioma",
+      "display_name": "Necesito dominar otro idioma para participar en la movilidad",
+      "categoria": "MOV",
+      "corpus_ref": "MOV-009",
+      "confianza_minima": 0.55,
+      "prioridad": "media",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2222,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.200) caía por debajo del piso de categoría (0.55). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mov_universidades_convenio",
+      "display_name": "La UNSAAC tiene convenios con universidades reconocidas inte",
+      "categoria": "MOV",
+      "corpus_ref": "MOV-010",
+      "confianza_minima": 0.55,
+      "prioridad": "media",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.55). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mat_fechas_matricula",
+      "display_name": "Cuándo se realizan las matrículas en la UNSAAC",
+      "categoria": "MAT",
+      "corpus_ref": "MAT-001",
+      "confianza_minima": 0.75,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.375,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.338) caía por debajo del piso de categoría (0.75). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mat_proceso_virtual",
+      "display_name": "Cómo me matriculo en el sistema virtual UNSAAC",
+      "categoria": "MAT",
+      "corpus_ref": "MAT-002",
+      "confianza_minima": 0.75,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.3333,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.75). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mat_requisitos",
+      "display_name": "Cuáles son los requisitos para poder matricularme",
+      "categoria": "MAT",
+      "corpus_ref": "MAT-003",
+      "confianza_minima": 0.75,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.3333,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.75). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mat_modalidad_presencial",
+      "display_name": "Puedo hacer la matrícula de forma presencial",
+      "categoria": "MAT",
+      "corpus_ref": "MAT-004",
+      "confianza_minima": 0.75,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.75). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mat_fuera_de_plazo",
+      "display_name": "Qué hago si no pude matricularme dentro del plazo establecid",
+      "categoria": "MAT",
+      "corpus_ref": "MAT-005",
+      "confianza_minima": 0.75,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.75). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mat_creditos_maximo",
+      "display_name": "Cuántos créditos máximos puedo llevar por semestre",
+      "categoria": "MAT",
+      "corpus_ref": "MAT-006",
+      "confianza_minima": 0.75,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.75). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mat_retiro_curso",
+      "display_name": "Puedo retirar un curso después de matricularme",
+      "categoria": "MAT",
+      "corpus_ref": "MAT-007",
+      "confianza_minima": 0.75,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.6667,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.600) caía por debajo del piso de categoría (0.75). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mat_condicional",
+      "display_name": "Qué es la matrícula condicional y cuándo aplica",
+      "categoria": "MAT",
+      "corpus_ref": "MAT-008",
+      "confianza_minima": 0.75,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.75). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mat_costo",
+      "display_name": "Cuánto cuesta la matrícula en la UNSAAC",
+      "categoria": "MAT",
+      "corpus_ref": "MAT-009",
+      "confianza_minima": 0.75,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.75). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_mat_seguro_activacion",
+      "display_name": "Qué es el seguro universitario y cuándo se activa con la mat",
+      "categoria": "MAT",
+      "corpus_ref": "MAT-010",
+      "confianza_minima": 0.75,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.75). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tit_modalidades",
+      "display_name": "Cuáles son las modalidades de titulación disponibles en la E",
+      "categoria": "TIT",
+      "corpus_ref": "TIT-001",
+      "confianza_minima": 0.72,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.125,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.113) caía por debajo del piso de categoría (0.72). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tit_requisitos_inicio",
+      "display_name": "Cuáles son los requisitos para iniciar el proceso de titulac",
+      "categoria": "TIT",
+      "corpus_ref": "TIT-002",
+      "confianza_minima": 0.72,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.72). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tit_grado_bachiller",
+      "display_name": "Cómo obtengo el grado de Bachiller",
+      "categoria": "TIT",
+      "corpus_ref": "TIT-003",
+      "confianza_minima": 0.72,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.72). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tit_plazo_titulacion",
+      "display_name": "Cuánto tiempo tengo para titularme después de terminar los c",
+      "categoria": "TIT",
+      "corpus_ref": "TIT-004",
+      "confianza_minima": 0.72,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.3333,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.72). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tit_suficiencia_profesional",
+      "display_name": "Qué es un trabajo de suficiencia profesional",
+      "categoria": "TIT",
+      "corpus_ref": "TIT-005",
+      "confianza_minima": 0.72,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.72). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tit_eleccion_asesor",
+      "display_name": "Cómo escojo a mi asesor de tesis",
+      "categoria": "TIT",
+      "corpus_ref": "TIT-006",
+      "confianza_minima": 0.72,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5714,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.514) caía por debajo del piso de categoría (0.72). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tit_duracion_proceso",
+      "display_name": "Cuánto tiempo toma habitualmente el proceso de titulación",
+      "categoria": "TIT",
+      "corpus_ref": "TIT-007",
+      "confianza_minima": 0.72,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.72). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tit_jurado_sustentacion",
+      "display_name": "En qué consiste el jurado de sustentación",
+      "categoria": "TIT",
+      "corpus_ref": "TIT-008",
+      "confianza_minima": 0.72,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.72). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tit_desaprobacion_sustentacion",
+      "display_name": "Qué pasa si desapruebo la sustentación",
+      "categoria": "TIT",
+      "corpus_ref": "TIT-009",
+      "confianza_minima": 0.72,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.72). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_tit_registro_sunedu",
+      "display_name": "Dónde debo registrar mi título una vez obtenido",
+      "categoria": "TIT",
+      "corpus_ref": "TIT-010",
+      "confianza_minima": 0.72,
+      "prioridad": "muy_alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.72). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ser_biblioteca",
+      "display_name": "Cómo accedo a los recursos de la biblioteca universitaria",
+      "categoria": "SER",
+      "corpus_ref": "SER-001",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.25,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.225) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ser_correo_institucional",
+      "display_name": "Cómo obtengo mi correo institucional de la UNSAAC",
+      "categoria": "SER",
+      "corpus_ref": "SER-002",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ser_certificados_constancias",
+      "display_name": "Dónde solicito mis certificados y constancias académicas",
+      "categoria": "SER",
+      "corpus_ref": "SER-003",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.3333,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.300) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ser_aula_virtual",
+      "display_name": "Cómo puedo acceder al aula virtual de la UNSAAC",
+      "categoria": "SER",
+      "corpus_ref": "SER-004",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ser_laboratorios_computo",
+      "display_name": "La UNSAAC cuenta con laboratorios de cómputo disponibles par",
+      "categoria": "SER",
+      "corpus_ref": "SER-005",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.375,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.338) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ser_carta_presentacion",
+      "display_name": "Cómo solicito una carta de presentación para eventos o concu",
+      "categoria": "SER",
+      "corpus_ref": "SER-006",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ser_impresion_campus",
+      "display_name": "Existe un servicio de impresión o fotocopiado dentro del cam",
+      "categoria": "SER",
+      "corpus_ref": "SER-007",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.1429,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.129) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ser_record_notas",
+      "display_name": "Cómo puedo obtener mi récord de notas oficial",
+      "categoria": "SER",
+      "corpus_ref": "SER-008",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.5,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.450) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ser_tupa",
+      "display_name": "Qué es el TUPA y dónde puedo consultarlo",
+      "categoria": "SER",
+      "corpus_ref": "SER-009",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.2857,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.257) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    },
+    {
+      "intent_id": "consulta_ser_contacto_secretaria",
+      "display_name": "Cómo me comunico con la secretaría de la Escuela de Ingenier",
+      "categoria": "SER",
+      "corpus_ref": "SER-010",
+      "confianza_minima": 0.65,
+      "prioridad": "alta",
+      "calibracion": {
+        "version": "1.0.0",
+        "n_validacion": 4,
+        "score_minimo_correcto": 0.4286,
+        "margen_aplicado": 0.1,
+        "criterio": "piso_categoria_aplicado",
+        "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.65). Se elevó al piso."
+      }
+    }
   ]
 }

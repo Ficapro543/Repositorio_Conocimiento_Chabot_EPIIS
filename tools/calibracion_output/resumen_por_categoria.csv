@@ -1,0 +1,11 @@
+categoria,n_intents,confianza_min,confianza_max,confianza_promedio,criterios_usados
+BIE,10,0.65,0.65,0.65,piso_categoria_aplicado
+CUR,10,0.65,0.65,0.65,piso_categoria_aplicado
+ESP,10,0.62,0.62,0.62,piso_categoria_aplicado
+MAT,10,0.75,0.75,0.75,piso_categoria_aplicado
+MOV,10,0.55,0.55,0.55,piso_categoria_aplicado
+PPP,10,0.7,0.7,0.7,piso_categoria_aplicado
+SER,10,0.65,0.65,0.65,piso_categoria_aplicado
+TIT,10,0.72,0.72,0.72,piso_categoria_aplicado
+TTUT,10,0.6,0.6,0.6,piso_categoria_aplicado
+TUT,10,0.6,0.6,0.6,piso_categoria_aplicado | score_minimo_con_margen

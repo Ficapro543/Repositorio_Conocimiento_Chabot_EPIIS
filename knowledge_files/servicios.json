@@ -2,158 +2,82 @@
   "version": "1.0.0",
   "institucion": "UNSAAC - EPIIS",
   "modulos": {
-
     "bienestar_universitario": {
       "categoria_id": "BIE",
       "dependencia": "Dirección de Bienestar y Responsabilidad Social UNSAAC",
       "ubicacion": "Campus Universitario de Perayoc",
-      "contacto": "Correo institucional publicado en unsaac.edu.pe | Anexo de Bienestar",
       "servicios": [
-        {
-          "nombre": "Atención Médica y Odontológica",
-          "descripcion": "Atención de salud básica dentro del campus para estudiantes matriculados.",
-          "acceso": "Tópico universitario con carné vigente"
-        },
-        {
-          "nombre": "Orientación Psicológica",
-          "descripcion": "Servicio gratuito de atención psicológica confidencial.",
-          "acceso": "Cita presencial en oficinas de Bienestar o por correo institucional"
-        },
-        {
-          "nombre": "Beca de Alimentación",
-          "descripcion": "Acceso gratuito al comedor universitario de lunes a viernes.",
-          "requisitos": ["Solicitud al Director de Bienestar", "Constancia de matrícula", "Declaración jurada de ingresos", "Recibos de servicios del domicilio"],
-          "renovacion": "Cada semestre, previo estudio socioeconómico"
-        },
-        {
-          "nombre": "Apoyo Económico y Becas",
-          "descripcion": "Gestión de becas, exoneraciones y apoyo extraordinario para estudiantes vulnerables.",
-          "programas_externos": ["Beca 18 MINEDU"]
-        },
-        {
-          "nombre": "Seguro Estudiantil de Accidentes",
-          "descripcion": "Seguro automático al completar la matrícula, cubre accidentes dentro y fuera del campus.",
-          "activacion": "Desde el primer día de clases hasta el fin del semestre"
-        },
-        {
-          "nombre": "Actividades Deportivas",
-          "descripcion": "Fútbol, básquet, vóley, atletismo, natación, artes marciales, ajedrez.",
-          "inscripcion": "Gratuita para estudiantes matriculados"
-        },
-        {
-          "nombre": "Actividades Culturales",
-          "descripcion": "Talleres de danza, teatro, música y artes plásticas.",
-          "inscripcion": "Gratuita para estudiantes matriculados"
-        },
-        {
-          "nombre": "Residencia Universitaria",
-          "descripcion": "Alojamiento para estudiantes de provincias y comunidades alejadas.",
-          "acceso": "Estudio socioeconómico, solicitud al inicio del año académico"
-        },
-        {
-          "nombre": "Certificado Socioeconómico",
-          "descripcion": "Documento emitido por la Unidad de Servicio Social.",
-          "requisitos": ["Solicitud", "Constancia de matrícula", "Declaración jurada de ingresos", "Documentos acreditadores"],
-          "plazo_emision": "5 a 10 días hábiles"
-        },
-        {
-          "nombre": "Comedor Universitario",
-          "descripcion": "Abierto para todos los estudiantes matriculados. Beca: gratis. Sin beca: precio subsidiado.",
-          "beneficio_beca": "Acceso sin costo para beneficiarios de beca de alimentación"
-        }
-      ],
-      "qa_entries": [
-        {
-          "id": "BIE-001", "intent": "consulta_bie_servicios_generales",
-          "pregunta": "¿Qué servicios de bienestar ofrece la UNSAAC?",
-          "respuesta": "La UNSAAC ofrece: atención médica y odontológica, orientación psicológica, servicio social y asistencia económica, comedor universitario, residencia universitaria, actividades deportivas y culturales, y seguro estudiantil."
-        }
+        "Atención médica y odontológica",
+        "Orientación psicológica",
+        "Beca de alimentación",
+        "Apoyo económico y Beca 18",
+        "Seguro estudiantil de accidentes",
+        "Actividades deportivas y culturales",
+        "Residencia universitaria",
+        "Certificado socioeconómico",
+        "Comedor universitario"
       ]
     },
-
     "movilidad_estudiantil": {
       "categoria_id": "MOV",
       "dependencia": "Oficina de Relaciones Internacionales UNSAAC",
       "programas": [
-        {
-          "nombre": "PAME-UDUAL",
-          "tipo": "Internacional latinoamericano",
-          "descripcion": "Programa de movilidad académica de la Unión de Universidades de América Latina."
-        },
-        {
-          "nombre": "Convenios Bilaterales",
-          "universidades": ["Universidad de Salamanca (España)", "Universidad Federal de Paraná (Brasil)", "UNAM (México)", "Universidad Nacional de Córdoba (Argentina)"],
-          "tipo": "Internacional"
-        },
-        {
-          "nombre": "Movilidad Nacional",
-          "tipo": "Nacional",
-          "descripcion": "Con universidades públicas del Perú."
-        },
-        {
-          "nombre": "Becas PRONABEC / Fundación Carolina",
-          "tipo": "Financiamiento externo",
-          "descripcion": "Becas de posgrado y movilidad con financiamiento."
-        }
+        "PAME-UDUAL",
+        "Convenios bilaterales (Salamanca, UNAM, Brasil, Argentina)",
+        "Movilidad Nacional",
+        "Becas PRONABEC / Fundación Carolina"
       ],
       "requisitos_generales": [
-        "Estar matriculado a partir del IV semestre",
-        "Promedio ponderado mínimo de 14 sobre 20",
-        "Acreditar nivel intermedio del idioma del país destino",
-        "No tener sanciones disciplinarias",
-        "Presentar carta de motivación y plan de estudios equivalente"
-      ],
-      "documentos_postulacion": ["Solicitud de postulación", "Currículum vitae", "Constancia de matrícula", "Certificado de notas", "Carta de motivación", "Carta de recomendación docente", "Acreditación del idioma", "Plan de estudios equivalente"],
-      "convalidacion": "Los cursos aprobados en intercambio se convalidan mediante homologación ante la Dirección de la Escuela, previa revisión de sílabos.",
-      "convocatorias": "Se publican en el portal web UNSAAC (sección Relaciones Internacionales), SERUNSA y redes sociales institucionales."
+        "Matriculado desde IV semestre",
+        "Promedio mínimo 14/20",
+        "Nivel intermedio del idioma destino",
+        "Sin sanciones disciplinarias",
+        "Carta de motivación y plan de estudios equivalente"
+      ]
     },
-
     "servicios_academicos": {
       "categoria_id": "SER",
       "servicios": [
         {
-          "nombre": "Biblioteca Central UNSAAC",
-          "acceso_presencial": "Lunes a sábado",
-          "acceso_virtual": ["repositorio.unsaac.edu.pe", "EBSCO", "Scopus", "Biblioteca Virtual Consorcio de Universidades"],
-          "requisito": "Usuario institucional"
+          "nombre": "Biblioteca Central",
+          "acceso_virtual": [
+            "repositorio.unsaac.edu.pe",
+            "EBSCO",
+            "Scopus"
+          ]
         },
         {
           "nombre": "Correo Institucional",
           "formato": "nombre.apellido@unsaac.edu.pe",
-          "tramite": "Dirección de Tecnologías de la Información (DTI) con carné universitario",
-          "acceso_a": ["Google Workspace for Education", "Microsoft 365", "Aulas virtuales"]
+          "tramite": "DTI con carné universitario"
         },
         {
-          "nombre": "Aula Virtual (Moodle)",
-          "url": "aulavirtual.unsaac.edu.pe",
-          "acceso": "Portal SERUNSA o plataforma Moodle con usuario institucional"
+          "nombre": "Aula Virtual Moodle",
+          "url": "aulavirtual.unsaac.edu.pe"
         },
         {
-          "nombre": "Portal SERUNSA",
-          "url": "serunsa.unsaac.edu.pe",
-          "funciones": ["Matrícula en línea", "Consulta de horarios", "Historial de notas", "Constancias descargables", "Historial de tutoría"]
+          "nombre": "Portal del Centro de Cómputo UNSAAC",
+          "url": "ccomputo.unsaac.edu.pe",
+          "funciones": [
+            "Matrícula",
+            "Horarios",
+            "Notas",
+            "Constancias"
+          ]
         },
         {
-          "nombre": "Laboratorios de Cómputo EPIIS",
+          "nombre": "Laboratorios EPIIS",
           "cantidad": 4,
-          "software": ["Visual Studio", "Eclipse", "NetBeans", "MATLAB", "Cisco Packet Tracer"],
-          "acceso": "Estudiantes matriculados en horario publicado"
-        },
-        {
-          "nombre": "Certificados y Constancias",
-          "dependencia": "DRAA (Dirección de Registros Académicos y Admisión)",
-          "plazo": "3 a 10 días hábiles según el tipo de documento"
-        },
-        {
-          "nombre": "Récord de Notas Oficial",
-          "tramite": "DRAA con solicitud y pago según TUPA",
-          "nota": "SERUNSA emite reporte no oficial descargable"
+          "software": [
+            "Visual Studio",
+            "Eclipse",
+            "MATLAB",
+            "Cisco Packet Tracer"
+          ]
         },
         {
           "nombre": "TUPA",
-          "nombre_completo": "Texto Único de Procedimientos Administrativos",
-          "descripcion": "Detalla todos los trámites, requisitos, plazos y costos de la UNSAAC.",
-          "ubicacion": "Portal web UNSAAC, sección Transparencia"
+          "url": "Portal UNSAAC sección Transparencia"
         }
       ]
     }
