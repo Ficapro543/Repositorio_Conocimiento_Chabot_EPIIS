@@ -1140,8 +1140,8 @@
       }
     },
     {
-      "intent_id": "consulta_mat_proceso_serunsa",
-      "display_name": "Cómo me matriculo en el portal SERUNSA",
+      "intent_id": "consulta_mat_proceso_virtual",
+      "display_name": "Cómo me matriculo en el sistema virtual UNSAAC",
       "categoria": "MAT",
       "corpus_ref": "MAT-002",
       "confianza_minima": 0.75,

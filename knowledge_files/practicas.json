@@ -3,45 +3,52 @@
   "categoria_id": "PPP",
   "nombre": "Prácticas Pre-Profesionales",
   "fuentes_normativas": [
-    "Reglamento de Prácticas Pre-Profesionales UNSAAC",
-    "Ley N° 28518 - Ley de Modalidades Formativas Laborales",
-    "Decreto Legislativo N° 1401"
+    "Reglamento Académico UNSAAC (CU-093-2017-UNSAAC), Título IV, Arts. 112°-116°"
   ],
   "requisitos_inicio": {
     "condiciones": [
-      "Haber cursado y aprobado el IX semestre",
-      "Tener un promedio ponderado mínimo de 11",
-      "Contar con carta de presentación de la Dirección de la Escuela",
-      "Tener acuerdo firmado con empresa o institución convenio",
-      "Estar matriculado en el curso de Prácticas Pre-Profesionales"
+      "Ser estudiante próximo a egresar, según Art. 112° del Reglamento Académico UNSAAC",
+      "La práctica pre-profesional es parte del Plan de Estudios de la Escuela Profesional (Art. 112°)"
     ]
   },
   "duracion": {
-    "horas_minimas": 300,
-    "equivalencia": "Aproximadamente tres meses a tiempo completo"
+    "horas_minimas": "No especificado en el Reglamento Académico UNSAAC",
+    "equivalencia": "Cada Escuela Profesional establece la duración según su especialidad (Art. 112°)"
   },
   "empresa_centro_practicas": {
-    "prioridad": "Empresas con convenio vigente UNSAAC",
-    "sin_convenio": "Posible con carta de autorización de la Dirección de Escuela",
+    "entidades_permitidas": "Públicas o privadas (Art. 112°)",
+    "convenios": "El coordinador de prácticas gestiona el establecimiento de convenios (Art. 114°)",
     "sector_publico": {
       "permitido": true,
-      "norma": "Decreto Legislativo N° 1401"
+      "norma": "Art. 112° del Reglamento Académico UNSAAC"
     }
   },
+  "supervision_universitaria": {
+    "responsable": "Docente asesor (Art. 115° del Reglamento Académico UNSAAC)",
+    "funciones_segun_reglamento": [
+      "Orientar en la preparación del plan de prácticas",
+      "Supervisar el Informe Final",
+      "Acompañar la presentación oral",
+      "Realizar visitas a la entidad donde el estudiante practica",
+      "Las que la Escuela Profesional determine"
+    ]
+  },
+  "relacion_grado_bachiller": {
+    "es_requisito": true,
+    "descripción": "Se exige como requisito para alcanzar el grado académico de Bachiller (Art. 112°)",
+    "nota": "El grado de Bachiller es requisito previo para optar al título profesional (Art. 131°)."
+  },
   "carta_presentacion": {
-    "emisor": "Dirección de la Escuela Profesional",
-    "plazo_emision": "Tres días hábiles"
+    "emisor": "No especificado en el Reglamento Académico UNSAAC",
+    "plazo_emision": "No especificado en el Reglamento Académico UNSAAC"
   },
   "remuneracion": {
-    "norma": "Ley N° 28518",
-    "subvencion_minima": "50% de la Remuneración Mínima Vital vigente",
-    "seguro_salud": true
-  },
-  "supervision_universitaria": {
-    "responsable": "Asesor de Prácticas (docente designado)"
+    "norma": "Art. 112° remite a la Ley N° 28518 y DS N° 007-2005-TR",
+    "subvencion_minima": "No especificado en el Reglamento Académico UNSAAC",
+    "seguro_salud": "No especificado en el Reglamento Académico UNSAAC"
   },
   "relacion_titulacion": {
     "es_requisito": true,
-    "descripcion": "La aprobación del curso de PPP y presentación del informe son requisitos obligatorios para iniciar el trámite de titulación."
+    "descripcion": "Se exige como requisito para alcanzar el grado académico de Bachiller (Art. 112°). El Bachillerato es requisito para el título profesional (Art. 131°)."
   }
 }

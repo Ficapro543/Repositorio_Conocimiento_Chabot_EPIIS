@@ -116,7 +116,7 @@
     "consulta_mov_requisito_idioma": "MOV-009",
     "consulta_mov_universidades_convenio": "MOV-010",
     "consulta_mat_fechas_matricula": "MAT-001",
-    "consulta_mat_proceso_serunsa": "MAT-002",
+    "consulta_mat_proceso_virtual": "MAT-002",
     "consulta_mat_requisitos": "MAT-003",
     "consulta_mat_modalidad_presencial": "MAT-004",
     "consulta_mat_fuera_de_plazo": "MAT-005",

@@ -58,7 +58,6 @@
         "quien tutor"
       ],
       "keywords_secundarios": [
-        "serunsa",
         "correo",
         "horario atencion"
       ],
@@ -229,7 +228,7 @@
     },
     {
       "intent_id": "consulta_tipos_tutoria_general",
-      "categoria": "TUT",
+      "categoria": "TTUT",
       "keywords_primarios": [
         "tipos tutoria",
         "modalidades tutoria",
@@ -251,7 +250,7 @@
     },
     {
       "intent_id": "consulta_tipos_tutoria_individual",
-      "categoria": "TUT",
+      "categoria": "TTUT",
       "keywords_primarios": [
         "individual",
         "personalizada",
@@ -273,7 +272,7 @@
     },
     {
       "intent_id": "consulta_tipos_tutoria_grupal",
-      "categoria": "TUT",
+      "categoria": "TTUT",
       "keywords_primarios": [
         "grupal",
         "grupo",
@@ -295,7 +294,7 @@
     },
     {
       "intent_id": "consulta_tipos_tutoria_pares",
-      "categoria": "TUT",
+      "categoria": "TTUT",
       "keywords_primarios": [
         "pares",
         "compañeros",
@@ -317,7 +316,7 @@
     },
     {
       "intent_id": "consulta_tipos_tutoria_virtual",
-      "categoria": "TUT",
+      "categoria": "TTUT",
       "keywords_primarios": [
         "virtual",
         "online",
@@ -340,7 +339,7 @@
     },
     {
       "intent_id": "consulta_tipos_tutoria_vs_psicologia",
-      "categoria": "TUT",
+      "categoria": "TTUT",
       "keywords_primarios": [
         "psicologo",
         "psicologia",
@@ -362,7 +361,7 @@
     },
     {
       "intent_id": "consulta_tipos_tutoria_ingresantes",
-      "categoria": "TUT",
+      "categoria": "TTUT",
       "keywords_primarios": [
         "ingresantes",
         "nuevos",
@@ -385,7 +384,7 @@
     },
     {
       "intent_id": "consulta_tipos_tutoria_riesgo_academico",
-      "categoria": "TUT",
+      "categoria": "TTUT",
       "keywords_primarios": [
         "bajo rendimiento",
         "riesgo academico",
@@ -407,7 +406,7 @@
     },
     {
       "intent_id": "consulta_tipos_tutoria_vs_asesoria_tesis",
-      "categoria": "TUT",
+      "categoria": "TTUT",
       "keywords_primarios": [
         "tesis",
         "asesoria",
@@ -429,7 +428,7 @@
     },
     {
       "intent_id": "consulta_tipos_tutoria_vocacional",
-      "categoria": "TUT",
+      "categoria": "TTUT",
       "keywords_primarios": [
         "vocacional",
         "carrera profesional",
@@ -478,7 +477,7 @@
       "keywords_primarios": [
         "creditos",
         "total creditos",
-        "220"
+        "219"
       ],
       "keywords_secundarios": [
         "plan estudios",
@@ -615,7 +614,6 @@
         "aulas"
       ],
       "keywords_secundarios": [
-        "serunsa",
         "publicado",
         "tablones"
       ],
@@ -741,7 +739,7 @@
     },
     {
       "intent_id": "consulta_esp_cursos_ingenieria_software",
-      "categoria": "CUR",
+      "categoria": "ESP",
       "keywords_primarios": [
         "ingenieria software",
         "software",
@@ -785,7 +783,7 @@
     },
     {
       "intent_id": "consulta_esp_cursos_redes_telecom",
-      "categoria": "CUR",
+      "categoria": "ESP",
       "keywords_primarios": [
         "redes",
         "telecomunicaciones",
@@ -1370,7 +1368,7 @@
     },
     {
       "intent_id": "consulta_mov_convalidacion_cursos",
-      "categoria": "CUR",
+      "categoria": "MOV",
       "keywords_primarios": [
         "convalidacion",
         "homologacion",
@@ -1443,7 +1441,6 @@
         "cuando convocatoria"
       ],
       "keywords_secundarios": [
-        "serunsa",
         "redes sociales",
         "relaciones internacionales"
       ],
@@ -1570,10 +1567,9 @@
       ]
     },
     {
-      "intent_id": "consulta_mat_proceso_serunsa",
+      "intent_id": "consulta_mat_proceso_virtual",
       "categoria": "MAT",
       "keywords_primarios": [
-        "serunsa",
         "matricula online",
         "pasos matricula"
       ],
@@ -1586,7 +1582,6 @@
         "como matricularse"
       ],
       "frases_trigger": [
-        "como matriculo serunsa",
         "pasos matricula",
         "matricula en linea"
       ]
@@ -1794,7 +1789,7 @@
         "que necesito titular"
       ],
       "keywords_secundarios": [
-        "220 creditos",
+        "219 creditos",
         "bachiller",
         "practicas",
         "expediente"
@@ -2006,7 +2001,7 @@
     },
     {
       "intent_id": "consulta_ser_correo_institucional",
-      "categoria": "TIT",
+      "categoria": "SER",
       "keywords_primarios": [
         "correo institucional",
         "email unsaac",
@@ -2036,7 +2031,6 @@
       ],
       "keywords_secundarios": [
         "draa",
-        "serunsa",
         "dias habiles"
       ],
       "sinonimos": [
@@ -2057,7 +2051,6 @@
         "campus virtual"
       ],
       "keywords_secundarios": [
-        "serunsa",
         "plataforma",
         "elearning"
       ],

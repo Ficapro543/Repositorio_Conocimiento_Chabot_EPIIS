@@ -1,0 +1,1767 @@
+PAGE 1: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+Objetivos
+Objetivos curriculares
+Diseñar procesos de formación profesional general y de especialidad para desarrollar
+competencias de acuerdo a las exigencias del mercado laboral.
+Establecer lineamientos orientadores para el desarrollo académico de la Escuela Profesional.
+Objetivo general
+Formar profesionales idóneos en el diseño, desarrollo, implementación, innovación y gestión de las
+tecnologías de la información y de las comunicaciones aplicadas a las organizaciones, orientadas a
+ser el soporte tecnológico de la emergente sociedad del conocimiento, dentro del marco de la
+dinámica moderna de los negocios, atendiendo a criterios éticos y de responsabilidad social,
+propiciando el desarrollo integral de la persona y la adquisición de competencias.
+Objetivos específicos
+Formar profesionales que cuenten con conocimientos de las Tecnologías de la Información y
+la Comunicación (TIC) e Ingeniería de Software, que le permita desarrollar y gestionar
+Tecnologías de Información.
+Desarrollar habilidades profesionales para aplicar, configurar y aprovechar las
+infraestructuras de sistemas disponibles, incluyendo entre ellas arquitecturas, medios de
+comunicación y dispositivos de hardware. con el objetivo de proponer soluciones robustas,
+paralelas, distribuidas y/o adaptables a problemas relacionados con el procesamiento de la
+información.
+Modelar, diseñar, definir la arquitectura, implantar, gestionar, operar, administrar y mantener
+aplicaciones, redes, sistemas, servicios y contenidos informáticos.
+Asegurar, gestionar, auditar y certificar la calidad de los desarrollos, procesos, sistemas,
+servicios, aplicaciones y productos informáticos.
+Aplicar métodos matemáticos, estadísticos y de inteligencia artificial para modelar, diseñar y
+desarrollar aplicaciones, servicios, sistemas inteligentes y sistemas basados en el
+conocimiento.
+Utilizar y desarrollar metodologías, métodos, técnicas algorítmicas, programas de uso
+específico, normas y estándares de computación.
+Comprender y aplicar la responsabilidad ética, la legislación y la deontología profesional de la
+actividad de la profesión de Ingeniero en Informática.
+Aplicar los principios de la economía y de la gestión de recursos humanos y proyectos, así
+como la legislación, regulación y normalización de la informática.
+Objetivos de formación básica
+Desarrollar capacidades básicas para el egresado de la Escuela Profesional de Ingeniería
+Informática y de Sistemas.
+Aplicar los conocimientos y habilidades en ciencias, matemáticas e ingeniería para resolver
+problemas de ingeniería informática.
+                             1 / 24
+PAGE 2: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+Objetivos de formación profesional
+Orientar la especialización del profesional al más alto nivel para:
+Comprender la responsabilidad profesional, ética, legal y social de la profesión que ejerce.
+Diseñar sistemas informáticos que satisfacen requerimientos y necesidades considerando
+restricciones realistas de seguridad y sustentabilidad.
+Identificar, formular y resolver problemas de ingeniería informática y de sistemas usando las
+técnicas, métodos y herramientas apropiadas.
+Planificar y administrar proyectos de ingeniería informática y de sistemas con criterios de
+eficiencia y productividad.
+Diseñar y realizar experimentos y pruebas analizando e interpretando resultados.
+                             2 / 24
+PAGE 3: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+Áreas curriculares
+ASIGNATURAS DE: NÚMERO DE PORCENTAJE PARA:
+CURSOS CRÉDITOS CURSOS CRÉDITO
+S
+ESTUDIOS GENERALES 10 35 16.33 % 15.98 %
+ESTUDIOS ESPECÍFICOS 35 124 56.45 % 56.62 %
+ESTUDIOS DE ESPECIALIDAD 13 45 20.97 % 20.55 %
+ACTIVIDADES EXTRA CURRICULARES 3 6 4.84 % 2. 74 %
+PRÁCTICAS PRE PROFESIONALES 1 9 1.61 % 4.11 %
+TOTAL 62 219 100.00 % 100.00
+%
+ 
+                             3 / 24
+PAGE 4: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+Plan de estudios
+Plan de estudios general
+ 
+ESTUDIOS GENERALES
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+1 EGT LC901 REDACCI
+ÓN DE
+TEXTOS
+4 3 2 NO
+TIENE
+2 EG ME901 MATEMA
+TICA I
+4 3 2 NO
+TIENE
+3 EG ED901 ESTRATE
+GIAS DE
+APRENDI
+ZAJE AU
+TÓNOMO
+4 3 2 NO
+TIENE
+4 EG FP901 FILOSOF
+ÍA Y
+ÉTICA
+3 2 2 NO
+TIENE
+5 EG AS901 SOCIEDA
+D Y
+CULTUR
+A
+3 2 2 NO
+TIENE
+6 EG DR901 CONSTIT
+UCIÓN
+POLITIC
+A Y DER
+ECHOS H
+UMANOS
+3 2 2 NO
+TIENE
+7 EGT ME903 CALCUL
+O I
+4 3 2 MATEMA
+TICA I
+ME901
+8 EGT FI902 FISICA I 4 3 2 NINGUN
+O
+9 EG IF902 TECNOL
+OGIA DE
+LA INFO
+RMACIO
+N Y COM
+UNICACI
+ÓN
+3 2 2 15
+créditos
+10 EG FP902 LIDERAZ
+GO Y HA
+BILIDAD
+ES SOCI
+ALES
+3 2 2 NINGUN
+O
+                             4 / 24
+PAGE 5: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+ TOTAL
+DE CRÉD
+ITOS EST
+UDIOS G
+ENERALE
+S
+35 
+Plan de estudios específico y de especialidad
+ 
+ESTUDIOS ESPECÍFICOS
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+1 OEFE ME307 MATEMA
+TICAS DI
+SCRETAS
+I
+4 3 2 NINGUN
+O
+2 OEFE ME350 CALCUL
+O II
+4 3 2 CALCUL
+O I
+ME903
+3 OEFE ME351 ALGEBR
+A LINEAL
+COMPUT
+ACIONAL
+4 3 2 MATEMÁ
+TICAS DI
+SCRETAS
+I, FUNDA
+MENTOS
+DE PROG
+RAMACI
+ON
+ME307,
+IF468
+4 OEFE ME352 PROBABI
+LIDADES
+Y ESTAD
+ISTICA
+4 3 2 CALCUL
+O I
+ME903
+5 OEFE ME354 INVESTI
+GACION
+OPERATI
+VA
+4 3 2 ALGEBR
+A LINEAL
+COMPUT
+ACIONAL
+ME351
+6 OEFE ME355 MATEMA
+TICAS DI
+SCRETAS
+II
+4 3 2 MATEMA
+TICA DIS
+CRETA I
+ME307
+7 OEFE ME356 ECUACIO
+NES DIF
+ERENCIA
+LES
+4 3 2 CALCUL
+O II
+ME350
+                             5 / 24
+PAGE 6: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+8 OEFE FI370 FISICA A
+PLICADA
+A LA INF
+ORMATI
+CA
+4 3 2 FISICA I FI902
+SUB TOTAL AREA CIENCIAS BASICAS 32 
+9 OEFE IF468 FUNDAM
+ENTOS
+DE PROG
+RAMACI
+ON
+4 3 2 NINGUN
+O
+10 OEFE IF450 ABSTRA
+CCION
+DE
+DATOS Y
+OBJETOS
+4 3 2 FUNDAM
+ENTOS
+DE PROG
+RAMACI
+ÓN
+IF468
+11 OEFE IF451 PROGRA
+MACION
+I
+2 1 2 FUNDAM
+ENTOS
+DE PROG
+RAMACI
+ÓN
+IF468
+12 OEFE IF452 ALGORIT
+MOS Y E
+STRUCT
+URA DE
+DATOS
+4 3 2 ABSTRA
+CCION
+DE
+DATOS Y
+OBJETOS
+IF452
+13 OEFE IF453 PROGRA
+MACION
+II
+2 1 2 PROGRA
+MACION
+I
+IF451
+14 OEFE IF454 TEORIA
+DE LA C
+OMPUTA
+CION
+3 2 2 ALGORIT
+MOS Y E
+STRUCT
+URA DE
+DATOS,
+MATEMA
+TICA DIS
+CRETA II
+IF452,
+IF355
+15 OEFE IF455 ALGORIT
+MOS PA
+RALELOS
+Y DISTRI
+BUIDOS
+4 3 2 ALGORIT
+MOS Y E
+STRUCT
+URAS DE
+DATOS II
+IF452
+16 OEFE IF456 ALGORIT
+MOS AV
+ANZADO
+S
+4 2 2 TEORIA
+DE LA C
+OMPUTA
+CION
+IF454
+17 OEFE IF457 METODO
+S NUME
+RICOS
+3 2 2 ECUACIO
+NES DIF
+ERENCIA
+LES
+ME356
+                             6 / 24
+PAGE 7: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+SUB TOTAL AREA CIENCIAS DE LA
+COMPUTACION
+30 
+18 OEFE IF480 ADMINIS
+TRACIÓN
+DE TECN
+OLOGIAS
+DE INFO
+RMACIO
+N
+3 2 2 PROBABI
+LIDADES
+Y ESTAD
+ISTICA
+ME352
+19 OEFE IF481 INGENIE
+RIA ECO
+NOMICA
+3 2 2 ADMINIS
+TRACION
+DE TI
+IF480
+20 OEFE IF482 PLANEA
+MIENTO
+Y DIREC
+CIÓN ES
+TRATEGI
+CA DE TE
+CNOLOGI
+A DE INF
+ORMACI
+ÓN
+4 3 2 140
+créditos
+21 OEFE IF483 FORMUL
+ACION
+DE PROY
+ECTOS
+DE TECN
+OLOGIA
+DE INFO
+RMACIÓ
+N
+3 2 2 PLANEA
+MIENTO
+Y DIREC
+CION ES
+TRATEGI
+CA DE TE
+CNOLOGI
+A DE INF
+ORMACI
+ON
+IF482
+SUB TOTAL AREA GESTION DE
+TECNOLOGIAS DE LA INFORMACION
+13 
+22 OEFE LI371 ELECTRO
+NICA Y
+DISEÑO
+DIGITAL
+3 2 2 FISICA A
+PLICADA
+A LA INF
+ORMATI
+CA
+FI370
+23 OEFE IF550 ORGANI
+ZACIÓN
+Y ARQUI
+TECTUR
+A DEL C
+OMPUTA
+DOR
+4 3 2 ELECTRÓ
+NICA Y
+DISEÑO
+DIGITAL
+LI371
+24 OEFE IF551 SISTEMA
+S OPERA
+TIVOS
+3 2 2 ORGANI
+ZACIÓN
+Y ARQUI
+TECTUR
+IF550
+                             7 / 24
+PAGE 8: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+A DEL C
+OMPUTA
+DOR
+25 OEFE IF552 REDES
+DE COM
+PUTADO
+RAS I
+4 3 2 SISTEMA
+S OPERA
+TIVOS
+IF551
+SUB TOTAL AREA DE INGENIERIA
+COMPUTACIONAL
+14 
+26 OEFE IF610 ANALISI
+S Y
+DISEÑO
+DE SISTE
+MAS DE I
+NFORMA
+CIÓN
+4 3 2 ABSTRA
+CCION
+DE
+DATOS Y
+OBJETOS
+, INFOR
+MACION
+DE TECN
+OLOGIAS
+DE
+IF450,
+IF480
+ INFORM
+ACION
+27 OEFE IF611 METODO
+LOGIA
+DE DESA
+RROLLO
+DE SOFT
+WARE
+3 3 2 ANALISI
+S Y
+DISEÑO
+DE SISTE
+MAS DE I
+NFORMA
+CIÓN
+IF610
+28 OEFE IF612 FUNDAM
+ENTOS Y
+DISEÑO
+DE
+BASES
+DE
+DATOS
+4 3 2 ANALISI
+S Y
+DISEÑO
+DE SISTE
+MAS DE I
+NFORMA
+CIÓN
+IF610
+29 OEFE IF613 DESARR
+OLLO DE
+SOFTWA
+RE I
+2 1 2 FUNDAM
+ENTOS Y
+DISEÑO
+DE
+BASES
+DE
+DATOS
+IF612
+30 OEFE IF614 INGENIE
+RIA DE S
+OFTWAR
+E I
+4 3 2 METODO
+LOGIAS
+DE DESA
+RROLLO
+DE SOFT
+WARE, D
+ESARRO
+LLO DE S
+IF611,
+IF613
+                             8 / 24
+PAGE 9: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+OFTWAR
+E I
+SUB TOTAL AREA DE INGENIERIA DE
+SOFTWARE
+17 
+31 OEFE IF650 MODELO
+S PROBA
+BILISTIC
+OS
+4 3 2 PROBABI
+LIDADES
+Y ESTAD
+ISTICA Y
+80
+créditos
+ME352
+32 OEFE IF651 INTELIGE
+NCIA AR
+TIFICIAL
+3 2 2 MODELO
+S PROBA
+BILISTIC
+OS, FUN
+DAMENT
+OS Y
+DISEÑO
+DE
+BASES
+DE
+IF650,
+IF612
+ DATOS 
+33 OEFE IF652 APRENDI
+ZAJE AU
+TOMATIC
+O
+4 3 2 INTELIGE
+NCIA AR
+TIFICIAL
+IF651
+SUB TOTAL AREA INTELIGENCIA
+ARTIFICIAL
+7 
+34 OEFE IF710 SEMINA
+RIO DE I
+NVESTIG
+ACION I
+3 2 2 150 CRE
+DITOS
+35 OEFE IF711 SEMINA
+RO DE IN
+VESTIGA
+CION II
+3 3 2 SEMINA
+RIO DE I
+NVESTIG
+ACION I
+IF710
+SUB TOTAL AREA INVESTIGACION 6 
+ TOTAL
+DE CRÉD
+ITOS EST
+UDIOS E
+SPECIFIC
+OS
+119 
+ 
+ESTUDIOS DE ESPECIALIDAD
+                             9 / 24
+PAGE 10: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+1 EEFE ME357 MATEMA
+TICAS A
+VANZAD
+AS PARA
+INGENIE
+RIA
+4 3 2 CALCUL
+O II
+ME350
+2 EEFE ME358 ESTADIS
+TICA INF
+ERENCIA
+L
+4 3 2 PROBABI
+LIDADES
+Y ESTAD
+ISTICA
+ME352
+2 EEFE ME359 ESTADIS
+TICA APL
+ICADA
+4 3 2 PROBABI
+LIDADES
+Y ESTAD
+ISTICA
+ME352
+SUB TOTAL AREA CIENCIAS BASICAS 12 
+3 EEFE IF458 COMPUT
+ACIÓN
+GRÁFICA
+I
+4 3 2 ALGORIT
+MOS Y E
+STRUCT
+URA DE
+DATOS,
+PROGRA
+MACION
+II
+IF452,
+IF453
+4 EEFE IF459 COMPUT
+ACIÓN
+GRÁFICA
+II
+4 3 2 COMPUT
+ACION
+GRAFICA
+I
+IF458
+5 EEFE IF460 COMPUT
+ACION C
+UANTICA
+4 3 2 ALGORIT
+MOS AV
+ANZADO
+S
+IF456
+6 EEFE IF464 COMPUT
+ACION SI
+MBOLIC
+A
+4 3 2 COMPILA
+DORES
+FI
+7 EEFE IF465 GEOMET
+RIA COM
+PUTACIO
+NAL
+4 3 2 COMPUT
+ACION
+GRAFICA
+I
+IF458
+8 EEFE IF466 COMPILA
+DORES
+4 3 2 TEORIA
+DE LA C
+OMPUTA
+CION
+IF454
+9 EEFE IF467 ANALISI
+S Y
+DISEÑO
+DE ALGO
+RITMOS
+4 3 2 ALGORIT
+MOS Y E
+STRUCT
+URA DE
+DATOS,
+PROGRA
+MACION
+IF452,
+IF453
+                            10 / 24
+PAGE 11: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+II
+SUB TOTAL AREA CIENCIAS DE LA
+COMPUTACION
+28 
+10 EEFE IF484 EMPREN
+DIMIENT
+O E INN
+OVACIO
+N
+3 2 2 PLANEA
+MIENTO
+Y DIREC
+CION ES
+TRATEGI
+CA DE TI
+IF482
+11 EEFE IF485 CONTRO
+L Y AUDI
+TORIA
+DE SISTE
+MAS
+3 2 2 FORMUL
+ACION
+DE PROY
+ECTOS
+DE TI
+IF483
+SUB TOTAL AREA GESTION DE
+TECNOLOGIAS DE LA INFORMACION
+6 
+12 EEFE IF553 LENGUAJ
+E ENSAM
+BLADOR
+3 ORGANI
+ZACIÓN
+Y ARQUI
+TECTUR
+A DEL C
+OMPUTA
+DOR
+IF550
+13 EEFE IF554 REDES
+DE COM
+PUTADO
+RAS II
+4 2 2 REDES
+DE COM
+PUTADO
+RAS I
+IF552
+14 EEFE IF555 TOPICOS
+AVANZA
+DOS EN
+REDES
+4 3 2 REDES
+DE COM
+PUTADO
+RAS II
+IF554
+15 EEFE IF556 SISTEMA
+S EMBEB
+IDOS
+4 3 2 SISTEMA
+S OPERA
+TIVOS
+IF551
+16 EEFE IF557 ARQUITE
+CTURAS
+DE ALTO
+RENDIMI
+ENTO
+4 3 2 REDES
+DE COM
+PUTADO
+RAS I
+IF554
+SUB
+TOTAL
+AREA DE
+INGENIE
+RIA COM
+PUTACIO
+NAL
+ 19 
+17 EEFE IF616 DESARR
+OLLO DE
+SOFTWA
+RE II
+2 1 2 INGENIE
+RIA DE S
+OFTWAR
+E I
+IF614
+                            11 / 24
+PAGE 12: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+18 EEFE IF617 INGENIE
+RIA DE S
+OFTWAR
+E II
+4 3 2 INGENIE
+RIA DE S
+OFTWAR
+E I
+IF614
+19 EEFE IF618 TOPICOS
+AVANZA
+DOS EN I
+NGENIER
+IA DE SO
+FTWARE
+4 3 2 INGENIE
+RIA DE S
+OFTWAR
+E I
+IF614
+20 EEFE IF619 ANALISI
+S DE
+DATOS E
+MPRESA
+RIALES
+4 3 2 FUNDAM
+ENTOS Y
+DISEÑO
+DE
+BASES
+DE
+DATOS,
+PROBABI
+LIDADES
+Y ESTAD
+ISTICA
+IF612,
+ME352
+SUB TOTAL AREA DE INGENIERIA DE
+SOFTWARE
+14 
+21 EEFE IF653 MINERIA
+DE
+DATOS
+4 3 2 APRENDI
+ZAJE AU
+TOMATIC
+O
+IF652
+22 EEFE IF654 ROBOTIC
+A
+4 3 2 INTELIGE
+NCIA AR
+TIFICIAL
+IF651
+23 EEFE IF655 PROCES
+AMIENT
+O
+DIGITAL
+DE
+SEÑALES
+4 3 2 INTELIGE
+NCIA AR
+TIFICIAL
+IF651
+24 EEFE IF656 PROCES
+AMIENT
+O DEL LE
+NGUAJE
+NATURA
+L
+4 3 2 INTELIGE
+NCIA AR
+TIFICIAL
+IF651
+25 EEFE IF657 VISION C
+OMPUTA
+CIONAL
+4 3 2 INTELIGE
+NCIA AR
+TIFICIAL
+IF651
+26 EEFE IF658 REDES N
+EURONA
+LES ARTI
+FICIALES
+4 3 2 APRENDI
+ZAJE AU
+TOMATIC
+O
+IF652
+27 EEFE IF659 REDES B 4 3 2 APRENDI IF652
+                            12 / 24
+PAGE 13: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+AYESIAN
+AS
+ZAJE AU
+TOMATIC
+O
+28 EEFE IF661 BUSQUE
+DA HEUR
+ISTICA Y
+METAHE
+URISTIC
+A
+4 3 2 INTELIGE
+NCIA AR
+TIFICIAL
+IF651
+29 EEFE IF662 DEEP LE
+ARNING
+4 3 2 APRENDI
+ZAJE AU
+TOMATIC
+O
+IF652
+30 EEFE IF663 INTERAC
+CION
+PERSON
+A COMP
+UTADOR
+4 3 2 INTELIGE
+NCIA AR
+TIFICIAL
+IF651
+31 EEFE IF664 BIOINFO
+RMATICA
+4 3 2 MODELO
+S PROBA
+BILISTIC
+OS
+IF650
+32 EEFE IF665 MODELA
+CION Y S
+IMULACI
+ON DE E
+STRUCT
+URAS BI
+OMOLEC
+ULARES
+4 3 2 BIOINFO
+RMATICA
+IF664
+33 EEFE IF666 ESTADIS
+TICA
+PARA BI
+OINFOR
+MATICA
+Y
+DISEÑO
+EXPERIM
+ENTAL
+4 3 2 BIOINFO
+RMATICA
+IF664
+34 EEFE IF667 ANALISI
+S DE IMÁ
+GENES B
+IOMEDIC
+AS EN
+2D Y 3D
+4 3 2 BIOINFO
+RMATICA
+IF664
+35 EEFE IF668 ANALISI
+S DE
+DATOS
+DE EXPR
+ESION
+4 3 2 BIOINFO
+RMATICA
+IF664
+                            13 / 24
+PAGE 14: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+GENICA
+36 EEFE IF669 MODELA
+DO Y SI
+MULACI
+ON
+4 3 2 MODELO
+S PROBA
+BILISTIC
+OS
+IF650
+SUB
+TOTAL
+AREA IN
+TELIGEN
+CIA ARTI
+FICIAL
+ 64 
+TOTAL DE CRÉDITOS POR SEMESTRE 137 
+ 
+ACTIVIDADES EXTRACURRICULARES
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+1 EC IF060 MUSICA 2 0 4 60
+créditos
+2 EC IF061 CORO 2 0 4 60
+créditos
+3 EC IF062 DANZA
+MODERN
+A
+2 0 4 100
+créditos
+4 EC IF063 QUECHU
+A
+2 0 4 100
+créditos
+5 EC IF064 TALLER
+DE
+DEBATE
+2 0 4 170
+créditos
+6 EC IF065 TALLER
+DE CREA
+TIVIDAD
+MUSICAL
+2 0 4 170
+créditos
+7 EC IF066 TEATRO 2 0 4 170
+créditos
+TOTAL DE CRÉDITOS POR SEMESTRE 14 
+ 
+PRACTICAS PRE-PROFESIONALES
+                            14 / 24
+PAGE 15: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+N° CAT CÓDI
+GO
+ASIGNA
+TURA
+CR HT HP REQ
+UISI
+TO
+CÓDIGO
+1 PPP IF020 PRACTIC
+AS PRE-
+PROFESI
+ONALES
+9 640 200
+créditos
+TOTAL DE CRÉDITOS POR SEMESTRE 9 
+Plan de estudios semestralizado
+ PRIMER SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+1 LC901 REDACCIÓN
+DE TEXTOS
+4 3 2 NO TIENE
+2 ME901 MATEMATIC
+A I
+4 3 2 NO TIENE
+3 ED901 ESTRATEGIA
+S DE APREN
+DIZAJE
+AUTÓNOMO
+4 3 2 NO TIENE
+4 FP901 FILOSOFÍA Y
+ÉTICA
+3 2 2 NO TIENE
+5 AS901 SOCIEDAD Y
+CULTURA
+3 2 2 NO TIENE
+6 DR901 CONSTITUCI
+ÓN
+POLITICA Y
+DERECHOS
+HUMANOS
+3 2 2 NO TIENE
+TOTAL DE
+CRÉDITOS
+POR
+SEMESTRE
+21
+TOTAL DE
+CRÉDITOS A
+CUMULADO
+S
+21
+ SEGUNDO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+№ CÓDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+1 IF468 FUNDAMEN
+TOS DE PRO
+GRAMACION
+4 4 2 NO TIENE
+                            15 / 24
+PAGE 16: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+SEGUNDO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+2 ME307 MATEMATIC
+AS
+DISCRETAS I
+4 4 2 NO TIENE
+3 ME903 CALCULO I 4 4 2 MATEMATIC
+A I
+ME901
+4 FI902 FISICA I 4 4 2 NO TIENE
+5 IF902 TECNOLOGI
+A DE LA INF
+ORMACION
+Y COMUNIC
+ACIÓN
+3 2 2 15 créditos
+6 FP902 LIDERAZGO
+Y HABILIDA
+DES
+SOCIALES
+3 2 2 NO TIENE
+TOTAL DE
+CRÉDITOS
+POR
+SEMESTRE
+22
+TOTAL DE
+CRÉDITOS A
+CUMULADO
+S
+43
+ TERCER SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+№ CÓDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+1 IF450 ABSTRACCI
+ON DE
+DATOS Y
+OBJETOS
+4 3 2 FUNDAMEN
+TOS DE PRO
+GRAMACIÓN
+IF468
+2 FI370 FISICA
+APLICADA A
+LA INFORMA
+TICA
+4 3 2 FISICA I FI902
+3 ME350 CALCULO II 4 3 2 CALCULO I ME903
+4 ME351 ALGEBRA
+LINEAL COM
+PUTACIONA
+L
+4 2 2 MATEMÁTIC
+AS
+DISCRETAS
+I, FUNDAME
+NTOS DE PR
+OGRAMACIO
+N
+ME307,
+IF468
+5 ME352 PROBABILID
+ADES Y EST
+ADISTICA
+4 2 2 CALCULO I ME903
+6 IF451 PROGRAMA 2 1 2 FUNDAMEN IF468
+                            16 / 24
+PAGE 17: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+TERCER SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+CION I TOS DE PRO
+GRAMACIÓN
+TOTAL DE
+CRÉDITOS
+POR
+SEMESTRE
+22
+TOTAL DE
+CRÉDITOS A
+CUMULADO
+S
+65
+ CUARTO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+№ CÓDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+1 IF452 ALGORITMO
+S Y ESTRUC
+TURA DE
+DATOS
+4 3 2 ABSTRACCI
+ON DE
+DATOS Y
+OBJETOS
+IF450
+2 LI371 ELECTRONI
+CA Y
+DISEÑO
+DIGITAL
+3 2 2 FISICA
+APLICADA A
+LA INFORMA
+TICA
+FI370
+3 IF480 ADMINISTRA
+CIÓN DE TE
+CNOLOGIAS
+DE INFORM
+ACION
+3 2 2 PROBABILID
+ADES Y EST
+ADISTICA
+ME352
+4 ME354 INVESTIGAC
+ION
+OPERATIVA
+4 3 2 ALGEBRA
+LINEAL COM
+PUTACIONA
+L
+ME351
+5 ME355 MATEMATIC
+AS
+DISCRETAS
+II
+4 3 2 MATEMATIC
+A DISCRETA
+I
+ME307
+6 IF453 PROGRAMA
+CION II
+2 1 2 PROGRAMA
+CION I
+IF451
+7 IF ACTIVIDADE
+S EXTRACU
+RRICULARES
+2 0 4 60
+CREDITOS
+TOTAL DE
+CRÉDITOS
+POR
+SEMESTRE
+22
+TOTAL DE
+CRÉDITOS A
+87
+                            17 / 24
+PAGE 18: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+CUARTO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+CUMULADO
+S
+ QUINTO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+№ CÓDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+1 IF650 MODELOS P
+ROBABILISTI
+COS
+4 3 2 PROBABILID
+ADES Y EST
+ADISTICA Y
+80 créditos
+ME352
+2 IF550 ORGANIZAC
+IÓN Y ARQUI
+TECTURA
+DEL COMPU
+TADOR
+4 3 2 ELECTRÓNI
+CA Y
+DISEÑO
+DIGITAL
+LI371
+3 IF454 TEORIA DE
+LA COMPUT
+ACION
+3 3 2 ALGORITMO
+S Y ESTRUC
+TURA DE
+DATOS, MAT
+EMATICA
+DISCRETA II
+IF452, IF355
+4 IF610 ANALISIS Y
+DISEÑO DE
+SISTEMAS
+DE INFORM
+ACIÓN
+4 3 2 ABSTRACCI
+ON DE
+DATOS Y
+OBJETOS, IN
+FORMACION
+DE TECNOL
+OGIAS DE IN
+FORMACION
+IF450, IF480
+5 IF481 INGENIERIA
+ECONOMICA
+3 2 2 ADMINISTRA
+CION DE TI
+IF480
+6 ME356 ECUACIONE
+S DIFERENCI
+ALES
+4 3 2 CALCULO II ME350
+TOTAL DE
+CRÉDITOS
+POR
+SEMESTRE
+22
+TOTAL DE
+CRÉDITOS A
+CUMULADO
+S
+109
+ 
+                            18 / 24
+PAGE 19: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+SEXTO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+№ CÓDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+1 IF455 ALGORITMO
+S
+PARALELOS
+Y DISTRIBUI
+DOS
+4 3 2 ALGORITMO
+S Y ESTRUC
+TURAS DE
+DATOS II
+IF452
+2 IF611 METODOLO
+GIA DE DES
+ARROLLO
+DE
+SOFTWARE
+3 3 2 ANALISIS Y
+DISEÑO DE
+SISTEMAS
+DE INFORM
+ACIÓN
+IF610
+3 IF612 FUNDAMEN
+TOS Y
+DISEÑO DE
+BASES DE
+DATOS
+4 3 2 ANALISIS Y
+DISEÑO DE
+SISTEMAS
+DE INFORM
+ACIÓN
+IF610
+4 IF551 SISTEMAS O
+PERATIVOS
+4 2 2 ORGANIZAC
+IÓN Y ARQUI
+TECTURA
+DEL COMPU
+TADOR
+IF550
+5 IF457 METODOS
+NUMERICOS
+3 2 2 ECUACIONE
+S DIFERENCI
+ALES
+ME356
+6 ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+4 3 2
+TOTAL DE
+CRÉDITOS
+POR
+SEMESTRE
+22
+TOTAL DE
+CRÉDITOS A
+CUMULADO
+S
+131
+ SÉPTIMO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+№ CÓDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+1 IF456 ALGORITMO
+S AVANZAD
+OS
+4 2 2 TEORIA DE
+LA COMPUT
+ACION
+IF454
+2 IF651 INTELIGENCI4 2 2 MODELOS P IF650, IF612
+                            19 / 24
+PAGE 20: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+SÉPTIMO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+A
+ARTIFICIAL
+ROBABILISTI
+COS, FUNDA
+MENTOS Y
+DISEÑO DE
+BASES DE
+DATOS
+3 IF613 DESARROLL
+O DE
+SOFTWARE I
+2 1 2 FUNDAMEN
+TOS Y
+DISEÑO DE
+BASES DE
+DATOS
+IF612
+4 IF552 REDES DE C
+OMPUTADO
+RAS I
+4 3 2 SISTEMAS O
+PERATIVOS
+IF551
+5 ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+3 2 2
+6 ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+3 2 2
+7 ACTIVIDADE
+S EXTRACU
+RRICULARES
+2 2 2
+TOTAL DE
+CRÉDITOS
+POR
+SEMESTRE
+22
+TOTAL DE
+CRÉDITOS A
+CUMULADO
+S
+153
+ OCTAVO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+№ CÓDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+1 IF710 SEMINARIO
+DE INVESTI
+GACION I
+3 2 2 150
+CREDITOS
+2 IF652 APRENDIZAJ 4 3 2 INTELIGENCIIF651
+                            20 / 24
+PAGE 21: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+OCTAVO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+E AUTOMATI
+CO
+A
+ARTIFICIAL
+3 IF614 INGENIERIA
+DE
+SOFTWARE I
+4 3 2 METODOLO
+GIAS DE DE
+SARROLLO
+DE
+SOFTWARE,
+DESARROLL
+O DE
+SOFTWARE I
+IF611, IF613
+4 IF482 PLANEAMIE
+NTO Y
+DIRECCIÓN
+ESTRATEGIC
+A DE TECNO
+LOGIA DE IN
+FORMACIÓN
+3 2 2 140 créditos
+5 ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+4 2 2
+6 ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+4 2 2
+TOTAL DE
+CRÉDITOS
+POR
+SEMESTRE
+22
+TOTAL DE
+CRÉDITOS A
+CUMULADO
+S
+175
+ NOVENO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+№ CÓDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+1 IF483 FORMULACI
+ON DE
+PROYECTOS
+DE TECNOL
+OGIA DE INF
+3 2 2 PLANEAMIE
+NTO Y
+DIRECCION
+ESTRATEGIC
+A DE TECNO
+IF482
+                            21 / 24
+PAGE 22: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+NOVENO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+ORMACIÓN LOGIA DE IN
+FORMACION
+2 ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+3 2 2
+ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+3 2 2
+3 ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+4 3 2
+4 ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+3 2 2
+5 ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+4 3 2
+6 ACTIVIDADE
+S EXTRACU
+RRICULARES
+2
+TOTAL DE
+CRÉDITOS
+POR
+SEMESTRE
+22
+TOTAL DE
+CRÉDITOS A
+CUMULADO
+S
+197
+ DÉCIMO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+№ CÓDIGO ASIGNATUR CR HT HP REQUISITO CÓDIGO
+                            22 / 24
+PAGE 23: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+DÉCIMO SEMESTRE
+N° CóDIGO ASIGNATUR
+A
+CR HT HP REQUISITO CÓDIGO
+A
+1 IF711 SEMINARO
+DE INVESTI
+GACION II
+3 3 2 SEMINARIO
+DE INVESTI
+GACION I
+IF710
+2 ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+4 3 2
+3 ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+3 2 2
+4 ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+3 2 2
+5 ASIGNATUR
+A DE
+ESTUDIOS
+DE ESPECIA
+LIDAD
+(ELECTIVA)
+9 640 200 créditos
+TOTAL DE
+CRÉDITOS
+POR
+SEMESTRE
+22
+TOTAL DE
+CRÉDITOS A
+CUMULADO
+S
+219
+Relación de Asignaturas Virtualizadas/h2>
+                            23 / 24
+PAGE 24: Universidad Nacional de San Antonio Abad del Cusco
+Escuela profesional de Ingeniería Informática y de Sistemas
+Plan de estudios y Malla curricular
+Malla curricular
+'
+'
+Powered by TCPDF (www.tcpdf.org)
+                            24 / 24

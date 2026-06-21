@@ -751,7 +751,7 @@
       "categoria": "CUR",
       "consultas_validacion": [
         "donde puedo ver el horario de clases del semestre",
-        "como consulto mis horarios serunsa",
+        "como consulto mis horarios virtual",
         "donde estan los horarios del semestre clases",
         "en que plataforma veo mis clases y aulas"
       ],
@@ -1935,13 +1935,13 @@
       "confianza_minima_anterior": 0.8
     },
     {
-      "intent_id": "consulta_mat_proceso_serunsa",
+      "intent_id": "consulta_mat_proceso_virtual",
       "categoria": "MAT",
       "consultas_validacion": [
-        "como me matriculo en el portal serunsa",
-        "como hago la matricula en serunsa unsaac",
-        "proceso de matricula portal serunsa paso a paso",
-        "matricula online serunsa como funciona"
+        "como me matriculo en el portal virtual",
+        "como hago la matricula en virtual unsaac",
+        "proceso de matricula portal virtual paso a paso",
+        "matricula online virtual como funciona"
       ],
       "scores_observados": [
         0.4286,
@@ -1956,7 +1956,7 @@
       "confianza_minima": 0.75,
       "criterio_calibracion": "piso_categoria_aplicado",
       "observaciones": "Score mínimo calculado (0.386) caía por debajo del piso de categoría (0.75). Se elevó al piso.",
-      "display_name": "Cómo me matriculo en el portal SERUNSA",
+      "display_name": "Cómo me matriculo en el portal virtual",
       "corpus_ref": "MAT-002",
       "prioridad": "muy_alta",
       "confianza_minima_anterior": 0.8
